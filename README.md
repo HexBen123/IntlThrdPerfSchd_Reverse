@@ -8,10 +8,10 @@ The `main` branch intentionally contains only this README. Each recovered versio
 
 | Branch | Source folder |
 | --- | --- |
-| `1.26` | `recovered_src_1.26` |
-| `2.35` | `recovered_src_2.35` |
-| `2.36` | `recovered_src_2.36` |
-| `2.51` | `recovered_src_2.51` |
+| `S1.26` | `recovered_src_1.26` |
+| `S2.35` | `recovered_src_2.35` |
+| `S2.36` | `recovered_src_2.36` |
+| `S2.51` | `recovered_src_2.51` |
 
 ## Notes
 
