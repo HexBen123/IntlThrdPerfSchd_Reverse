@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Intel 大小核线程调度器 · 逆向恢复</h1>
+  <h1 align="center">Intel 大小核线程调度器 · 逆向工程</h1>
   <p align="center">
     <strong>IntlThrdPerfSchd</strong> — 基于 Transformer 神经网络的 Intel 大小核在线调度系统
   </p>
