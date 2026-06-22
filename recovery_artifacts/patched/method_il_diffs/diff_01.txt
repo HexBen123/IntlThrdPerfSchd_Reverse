@@ -1,0 +1,47 @@
+first_mismatch_index: 10
+
+---- original ----
+local:0:System.Int32
+local:1:System.DateTime
+0000: ldc.i4.1
+0001: stloc.0
+0002: ldarg.s arg:8:System.Int64
+0003: ldc.i4.0
+0004: conv.i8
+0005: ble.s br:19
+0006: ldarg.0
+0007: ldarg.0
+0008: ldfld field:System.Int64 IntlThrdPerfSchd.Service1::tempp
+0009: ldarg.s arg:8:System.Int64
+0010: add
+0011: stfld field:System.Int64 IntlThrdPerfSchd.Service1::tempp
+0012: ldarg.0
+0013: ldarg.0
+0014: ldfld field:System.Int64 IntlThrdPerfSchd.Service1::tempk
+0015: ldc.i4.1
+0016: conv.i8
+0017: add
+0018: stfld field:System.Int64 IntlThrdPerfSchd.Service1::tempk
+
+---- recovered ----
+local:0:System.Int32
+local:1:System.DateTime
+0000: ldc.i4.1
+0001: stloc.0
+0002: ldarg.s arg:8:System.Int64
+0003: ldc.i4.0
+0004: conv.i8
+0005: ble.s br:19
+0006: ldarg.0
+0007: ldarg.0
+0008: ldfld method:System.Int64 IntlThrdPerfSchd.Service1::tempp
+0009: ldarg.s arg:8:System.Int64
+0010: add
+0011: stfld method:System.Int64 IntlThrdPerfSchd.Service1::tempp
+0012: ldarg.0
+0013: ldarg.0
+0014: ldfld method:System.Int64 IntlThrdPerfSchd.Service1::tempk
+0015: ldc.i4.1
+0016: conv.i8
+0017: add
+0018: stfld method:System.Int64 IntlThrdPerfSchd.Service1::tempk

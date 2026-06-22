@@ -1,0 +1,19 @@
+﻿OriginalExe: G:\BaiduNetdiskDownload\逆向\recovered_src_1.26\recovery_artifacts\original\IntlThrdSchd.exe
+RecoveredExe: G:\BaiduNetdiskDownload\逆向\recovered_src_1.26\recovery_artifacts\patched\IntlThrdSchd.exe
+include_compiler_generated: False
+
+stable_method_count_original: 167
+stable_method_count_recovered: 167
+stable_method_count_compared(intersection): 167
+stable_method_hash_match_count: 167
+stable_method_hash_match_percent: 100
+
+missing_in_recovered_count: 0
+extra_in_recovered_count: 0
+il_mismatch_count: 0
+
+missing_in_recovered:
+
+extra_in_recovered:
+
+il_hash_mismatch_methods:

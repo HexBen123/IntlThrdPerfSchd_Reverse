@@ -1,0 +1,53 @@
+first_mismatch_index: 101
+
+---- original ----
+0079: ldarg.s arg:9:System.Int64
+0080: ldarg.s arg:10:System.Int64
+0081: ldarg.s arg:11:System.Int64
+0082: ldarg.s arg:12:System.Int64
+0083: ldarg.s arg:13:System.Int64
+0084: newobj method:System.Void IntlThrdPerfSchd.Service1/NodeP::.ctor(System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)
+0085: stloc.3
+0086: ldloc.3
+0087: ldarg.2
+0088: ldind.ref
+0089: callvirt method:System.Void IntlThrdPerfSchd.Service1/NodeP::set_Next(IntlThrdPerfSchd.Service1/NodeP)
+0090: ldarg.2
+0091: ldloc.3
+0092: stind.ref
+0093: ldloc.0
+0094: ldc.i4.1
+0095: add
+0096: stloc.0
+0097: ldloc.0
+0098: ldarg.1
+0099: pop
+0100: pop
+0101: ldc.i4.0
+0102: ret
+
+---- recovered ----
+0079: ldarg.s arg:9:System.Int64
+0080: ldarg.s arg:10:System.Int64
+0081: ldarg.s arg:11:System.Int64
+0082: ldarg.s arg:12:System.Int64
+0083: ldarg.s arg:13:System.Int64
+0084: newobj method:System.Void IntlThrdPerfSchd.Service1/NodeP::.ctor(System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)
+0085: stloc.3
+0086: ldloc.3
+0087: ldarg.2
+0088: ldind.ref
+0089: callvirt method:System.Void IntlThrdPerfSchd.Service1/NodeP::set_Next(IntlThrdPerfSchd.Service1/NodeP)
+0090: ldarg.2
+0091: ldloc.3
+0092: stind.ref
+0093: ldloc.0
+0094: ldc.i4.1
+0095: add
+0096: stloc.0
+0097: ldc.i4.0
+0098: ret
+<eof>
+<eof>
+<eof>
+<eof>

@@ -1,0 +1,11 @@
+﻿OriginalExe: G:\BaiduNetdiskDownload\逆向\recovered_src_1.26\recovery_artifacts\original\IntlThrdSchd.exe
+RecoveredExe: G:\BaiduNetdiskDownload\逆向\recovered_src_1.26\recovery_artifacts\patched\IntlThrdSchd.exe
+
+metadata_surface_count_original: 2658
+metadata_surface_count_recovered: 2658
+metadata_surface_missing_in_recovered_count: 0
+metadata_surface_extra_in_recovered_count: 0
+
+missing_in_recovered:
+
+extra_in_recovered:

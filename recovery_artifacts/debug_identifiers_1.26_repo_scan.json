@@ -1,0 +1,994 @@
+{
+  "generated_at_utc": "2026-06-05T20:42:26.218695+00:00",
+  "executables": [
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\Intel大小核神经网络调度器N版2.34\\IntlThrdSchd\\InstallUtil.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 42072,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "a653edd7-2295-49b4-a4df-bd42f2c10d46",
+          "age": 1,
+          "pdb_path": "InstallUtil.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 28924,
+      "debug_directory_size": 28
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\Intel大小核神经网络调度器N版2.34\\IntlThrdSchd\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 252928,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "97fc90d0-82a3-4f13-a751-8c680f86024a",
+          "age": 1,
+          "pdb_path": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\obj\\Release\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 257716,
+      "debug_directory_size": 56
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\pdb_aligned_src\\IntlThrdPerfSchd\\bin\\Debug\\net48\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 270336,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "059b8ffc-7a1b-4853-91f3-74dbf96d3770",
+          "age": 1,
+          "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\pdb_aligned_src\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 275348,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\pdb_aligned_src\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 270336,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "059b8ffc-7a1b-4853-91f3-74dbf96d3770",
+          "age": 1,
+          "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\pdb_aligned_src\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 275348,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Exe\\bin\\Debug\\net48\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 270336,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "c4a1ce54-b1f3-4472-b29b-739461d4f522",
+          "age": 1,
+          "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\reverse_engineered_src\\IntlThrdSchd.Exe\\obj\\Debug\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 275352,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Exe\\obj\\Debug\\net48\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 270336,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "c4a1ce54-b1f3-4472-b29b-739461d4f522",
+          "age": 1,
+          "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\reverse_engineered_src\\IntlThrdSchd.Exe\\obj\\Debug\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 275352,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Lib\\bin\\Debug\\net8.0-windows\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 151552,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "5399a3e7-71b9-4a35-99fa-61194c996bf3",
+          "age": 1,
+          "pdb_path": "D:\\a\\_work\\1\\s\\artifacts\\obj\\win-x64.Release\\corehost\\apphost\\standalone\\apphost.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 129312,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Lib\\bin\\Debug\\netcoreapp8.0\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 151552,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "5399a3e7-71b9-4a35-99fa-61194c996bf3",
+          "age": 1,
+          "pdb_path": "D:\\a\\_work\\1\\s\\artifacts\\obj\\win-x64.Release\\corehost\\apphost\\standalone\\apphost.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 129312,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Lib\\obj\\Debug\\net8.0-windows\\apphost.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 151552,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "5399a3e7-71b9-4a35-99fa-61194c996bf3",
+          "age": 1,
+          "pdb_path": "D:\\a\\_work\\1\\s\\artifacts\\obj\\win-x64.Release\\corehost\\apphost\\standalone\\apphost.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 129312,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Lib\\obj\\Debug\\netcoreapp8.0\\apphost.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 151552,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "5399a3e7-71b9-4a35-99fa-61194c996bf3",
+          "age": 1,
+          "pdb_path": "D:\\a\\_work\\1\\s\\artifacts\\obj\\win-x64.Release\\corehost\\apphost\\standalone\\apphost.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 129312,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\Intel大小核神经网络调度器N版2.35\\IntlThrdSchd\\InstallUtil.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 42072,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "a653edd7-2295-49b4-a4df-bd42f2c10d46",
+          "age": 1,
+          "pdb_path": "InstallUtil.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 28924,
+      "debug_directory_size": 28
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\Intel大小核神经网络调度器N版2.35\\IntlThrdSchd\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 289792,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "7b78a73b-44b1-4edd-a404-47903656f37c",
+          "age": 1,
+          "pdb_path": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\obj\\Release\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 295452,
+      "debug_directory_size": 56
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\Intel大小核神经网络调度器N版2.36\\IntlThrdSchd\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 329216,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "59428dd1-f32b-48ce-b7d1-5425bb84be1b",
+          "age": 1,
+          "pdb_path": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\obj\\Release\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 334556,
+      "debug_directory_size": 56
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\Intel大小核神经网络调度器N版2.51永久权重（20分钟训练版）\\IntlThrdSchd\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 339968,
+      "codeview": [],
+      "error": null,
+      "debug_directory_rva": 345496,
+      "debug_directory_size": 28
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\intel大小核调度器S版1.26 for 12代及以上\\IntlThrdSchd\\InstallUtil.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 42072,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "a653edd7-2295-49b4-a4df-bd42f2c10d46",
+          "age": 1,
+          "pdb_path": "InstallUtil.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 28924,
+      "debug_directory_size": 28
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\intel大小核调度器S版1.26 for 12代及以上\\IntlThrdSchd\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 73216,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "9b0b3b48-ce6a-4e38-aa44-af9c9c507fc7",
+          "age": 1,
+          "pdb_path": "C:\\Users\\king\\source\\repos\\IntlThrdPerfSchd1.11\\IntlThrdPerfSchd\\obj\\Release\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 78452,
+      "debug_directory_size": 56
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.35\\IntlThrdPerfSchd\\bin\\Debug\\net48\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 310784,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "a2d2b305-5e18-4bd8-a259-659bd3c857ac",
+          "age": 1,
+          "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.35\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 316340,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.35\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 310784,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "a2d2b305-5e18-4bd8-a259-659bd3c857ac",
+          "age": 1,
+          "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.35\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 316340,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\bin\\Debug\\net48\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 356864,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "31fb4d83-adc9-41a6-be8d-df765e5f4367",
+          "age": 1,
+          "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 362212,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\bin\\Release\\net48\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 328704,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "40eb01c2-f4f5-4536-ae7f-500f0c6d8f6c",
+          "age": 1,
+          "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Release\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 334392,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 356864,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "31fb4d83-adc9-41a6-be8d-df765e5f4367",
+          "age": 1,
+          "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 362212,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Release\\net48\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 328704,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "40eb01c2-f4f5-4536-ae7f-500f0c6d8f6c",
+          "age": 1,
+          "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Release\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 334392,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.51\\IntlThrdPerfSchd\\bin\\Debug\\net48\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 369152,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "c4c27961-a229-407b-ac24-fff0f5705f3a",
+          "age": 1,
+          "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.51\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 374572,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.51\\IntlThrdPerfSchd\\bin\\Release\\net48\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 338432,
+      "codeview": [],
+      "error": null,
+      "debug_directory_rva": 0,
+      "debug_directory_size": 0
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.51\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 369152,
+      "codeview": [
+        {
+          "format": "RSDS",
+          "guid": "c4c27961-a229-407b-ac24-fff0f5705f3a",
+          "age": 1,
+          "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.51\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb"
+        }
+      ],
+      "error": null,
+      "debug_directory_rva": 374572,
+      "debug_directory_size": 84
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.51\\IntlThrdPerfSchd\\obj\\Release\\net48\\IntlThrdSchd.exe",
+      "kind": "pe",
+      "exists": true,
+      "size": 339456,
+      "codeview": [],
+      "error": null,
+      "debug_directory_rva": 345260,
+      "debug_directory_size": 28
+    }
+  ],
+  "pdbs": [
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\Intel大小核神经网络调度器N版2.34\\IntlThrdSchd\\CoreScheduler.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 21148,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\Intel大小核神经网络调度器N版2.34\\IntlThrdSchd\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 665088,
+      "format": "classic-msf",
+      "guid": "97fc90d0-82a3-4f13-a751-8c680f86024a",
+      "age": 1,
+      "error": null,
+      "version": 20000404,
+      "signature": 2875450203
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\Intel大小核神经网络调度器N版2.34\\IntlThrdSchd\\SimdLibrary.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 44544,
+      "format": "classic-msf",
+      "guid": "80c5b74a-66d4-48bc-b7e8-902e4657f553",
+      "age": 1,
+      "error": null,
+      "version": 20000404,
+      "signature": 3220058464
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\pdb_aligned_src\\CoreScheduler\\bin\\Debug\\netstandard2.0\\CoreScheduler.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 25264,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\pdb_aligned_src\\CoreScheduler\\bin\\Debug\\netstandard2.0\\SimdLibrary.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 16552,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\pdb_aligned_src\\CoreScheduler\\obj\\Debug\\netstandard2.0\\CoreScheduler.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 25264,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\pdb_aligned_src\\CoreScheduler\\SimdLibrary\\bin\\Debug\\netstandard2.0\\SimdLibrary.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 16552,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\pdb_aligned_src\\CoreScheduler\\SimdLibrary\\obj\\Debug\\netstandard2.0\\SimdLibrary.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 16552,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\pdb_aligned_src\\IntlThrdPerfSchd\\bin\\Debug\\net48\\CoreScheduler.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 25264,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\pdb_aligned_src\\IntlThrdPerfSchd\\bin\\Debug\\net48\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 117536,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\pdb_aligned_src\\IntlThrdPerfSchd\\bin\\Debug\\net48\\SimdLibrary.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 16552,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\pdb_aligned_src\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 117536,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\CoreScheduler\\bin\\Debug\\netstandard2.0\\CoreScheduler.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 25992,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\CoreScheduler\\bin\\Debug\\netstandard2.0\\SimdLibrary.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 44544,
+      "format": "classic-msf",
+      "guid": "80c5b74a-66d4-48bc-b7e8-902e4657f553",
+      "age": 1,
+      "error": null,
+      "version": 20000404,
+      "signature": 3220058464
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\CoreScheduler\\obj\\Debug\\netstandard2.0\\CoreScheduler.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 25992,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Exe\\bin\\Debug\\net48\\CoreScheduler.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 21148,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Exe\\bin\\Debug\\net48\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 117488,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Exe\\bin\\Debug\\net48\\SimdLibrary.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 44544,
+      "format": "classic-msf",
+      "guid": "80c5b74a-66d4-48bc-b7e8-902e4657f553",
+      "age": 1,
+      "error": null,
+      "version": 20000404,
+      "signature": 3220058464
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Exe\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 117488,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Lib\\bin\\Debug\\net8.0-windows\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 128172,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Lib\\bin\\Debug\\netcoreapp8.0\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 127304,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Lib\\obj\\Debug\\net8.0-windows\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 128172,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Lib\\obj\\Debug\\netcoreapp8.0\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 127304,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\SimdLibrary\\bin\\Debug\\netstandard2.0\\SimdLibrary.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 16536,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\SimdLibrary\\obj\\Debug\\netstandard2.0\\SimdLibrary.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 16536,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\Intel大小核神经网络调度器N版2.35\\IntlThrdSchd\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 771584,
+      "format": "classic-msf",
+      "guid": "7b78a73b-44b1-4edd-a404-47903656f37c",
+      "age": 1,
+      "error": null,
+      "version": 20000404,
+      "signature": 3692930208
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\Intel大小核神经网络调度器N版2.36\\IntlThrdSchd\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 902656,
+      "format": "classic-msf",
+      "guid": "59428dd1-f32b-48ce-b7d1-5425bb84be1b",
+      "age": 1,
+      "error": null,
+      "version": 20000404,
+      "signature": 2579761055
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\intel大小核调度器S版1.26 for 12代及以上\\IntlThrdSchd\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 89600,
+      "format": "classic-msf",
+      "guid": "5b52adeb-2014-4350-aa0f-f67d25580bd8",
+      "age": 1,
+      "error": null,
+      "version": 20000404,
+      "signature": 4101991568
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.35\\IntlThrdPerfSchd\\bin\\Debug\\net48\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 151832,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.35\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 151832,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\bin\\Debug\\net48\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 191112,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\bin\\Release\\net48\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 145908,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 191112,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Release\\net48\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 145908,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.51\\IntlThrdPerfSchd\\bin\\Debug\\net48\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 206136,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    },
+    {
+      "path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.51\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "kind": "pdb",
+      "exists": true,
+      "size": 206136,
+      "format": "unsupported",
+      "guid": null,
+      "age": null,
+      "error": "not classic MSF 7.00 PDB"
+    }
+  ],
+  "matches": [
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\Intel大小核神经网络调度器N版2.34\\IntlThrdSchd\\InstallUtil.exe",
+      "codeview_guid": "a653edd7-2295-49b4-a4df-bd42f2c10d46",
+      "codeview_age": 1,
+      "codeview_pdb_path": "InstallUtil.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\Intel大小核神经网络调度器N版2.34\\IntlThrdSchd\\IntlThrdSchd.exe",
+      "codeview_guid": "97fc90d0-82a3-4f13-a751-8c680f86024a",
+      "codeview_age": 1,
+      "codeview_pdb_path": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\obj\\Release\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [
+        "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\Intel大小核神经网络调度器N版2.34\\IntlThrdSchd\\IntlThrdSchd.pdb"
+      ],
+      "matching_pdb_count": 1
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\pdb_aligned_src\\IntlThrdPerfSchd\\bin\\Debug\\net48\\IntlThrdSchd.exe",
+      "codeview_guid": "059b8ffc-7a1b-4853-91f3-74dbf96d3770",
+      "codeview_age": 1,
+      "codeview_pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\pdb_aligned_src\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\pdb_aligned_src\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.exe",
+      "codeview_guid": "059b8ffc-7a1b-4853-91f3-74dbf96d3770",
+      "codeview_age": 1,
+      "codeview_pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\pdb_aligned_src\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Exe\\bin\\Debug\\net48\\IntlThrdSchd.exe",
+      "codeview_guid": "c4a1ce54-b1f3-4472-b29b-739461d4f522",
+      "codeview_age": 1,
+      "codeview_pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\reverse_engineered_src\\IntlThrdSchd.Exe\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Exe\\obj\\Debug\\net48\\IntlThrdSchd.exe",
+      "codeview_guid": "c4a1ce54-b1f3-4472-b29b-739461d4f522",
+      "codeview_age": 1,
+      "codeview_pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\reverse_engineered_src\\IntlThrdSchd.Exe\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Lib\\bin\\Debug\\net8.0-windows\\IntlThrdSchd.exe",
+      "codeview_guid": "5399a3e7-71b9-4a35-99fa-61194c996bf3",
+      "codeview_age": 1,
+      "codeview_pdb_path": "D:\\a\\_work\\1\\s\\artifacts\\obj\\win-x64.Release\\corehost\\apphost\\standalone\\apphost.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Lib\\bin\\Debug\\netcoreapp8.0\\IntlThrdSchd.exe",
+      "codeview_guid": "5399a3e7-71b9-4a35-99fa-61194c996bf3",
+      "codeview_age": 1,
+      "codeview_pdb_path": "D:\\a\\_work\\1\\s\\artifacts\\obj\\win-x64.Release\\corehost\\apphost\\standalone\\apphost.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Lib\\obj\\Debug\\net8.0-windows\\apphost.exe",
+      "codeview_guid": "5399a3e7-71b9-4a35-99fa-61194c996bf3",
+      "codeview_age": 1,
+      "codeview_pdb_path": "D:\\a\\_work\\1\\s\\artifacts\\obj\\win-x64.Release\\corehost\\apphost\\standalone\\apphost.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\2.34版逆向理论资料\\reverse_engineered_src\\IntlThrdSchd.Lib\\obj\\Debug\\netcoreapp8.0\\apphost.exe",
+      "codeview_guid": "5399a3e7-71b9-4a35-99fa-61194c996bf3",
+      "codeview_age": 1,
+      "codeview_pdb_path": "D:\\a\\_work\\1\\s\\artifacts\\obj\\win-x64.Release\\corehost\\apphost\\standalone\\apphost.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\Intel大小核神经网络调度器N版2.35\\IntlThrdSchd\\InstallUtil.exe",
+      "codeview_guid": "a653edd7-2295-49b4-a4df-bd42f2c10d46",
+      "codeview_age": 1,
+      "codeview_pdb_path": "InstallUtil.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\Intel大小核神经网络调度器N版2.35\\IntlThrdSchd\\IntlThrdSchd.exe",
+      "codeview_guid": "7b78a73b-44b1-4edd-a404-47903656f37c",
+      "codeview_age": 1,
+      "codeview_pdb_path": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\obj\\Release\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [
+        "G:\\BaiduNetdiskDownload\\逆向\\Intel大小核神经网络调度器N版2.35\\IntlThrdSchd\\IntlThrdSchd.pdb"
+      ],
+      "matching_pdb_count": 1
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\Intel大小核神经网络调度器N版2.36\\IntlThrdSchd\\IntlThrdSchd.exe",
+      "codeview_guid": "59428dd1-f32b-48ce-b7d1-5425bb84be1b",
+      "codeview_age": 1,
+      "codeview_pdb_path": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\obj\\Release\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [
+        "G:\\BaiduNetdiskDownload\\逆向\\Intel大小核神经网络调度器N版2.36\\IntlThrdSchd\\IntlThrdSchd.pdb"
+      ],
+      "matching_pdb_count": 1
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\intel大小核调度器S版1.26 for 12代及以上\\IntlThrdSchd\\InstallUtil.exe",
+      "codeview_guid": "a653edd7-2295-49b4-a4df-bd42f2c10d46",
+      "codeview_age": 1,
+      "codeview_pdb_path": "InstallUtil.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\intel大小核调度器S版1.26 for 12代及以上\\IntlThrdSchd\\IntlThrdSchd.exe",
+      "codeview_guid": "9b0b3b48-ce6a-4e38-aa44-af9c9c507fc7",
+      "codeview_age": 1,
+      "codeview_pdb_path": "C:\\Users\\king\\source\\repos\\IntlThrdPerfSchd1.11\\IntlThrdPerfSchd\\obj\\Release\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.35\\IntlThrdPerfSchd\\bin\\Debug\\net48\\IntlThrdSchd.exe",
+      "codeview_guid": "a2d2b305-5e18-4bd8-a259-659bd3c857ac",
+      "codeview_age": 1,
+      "codeview_pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.35\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.35\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.exe",
+      "codeview_guid": "a2d2b305-5e18-4bd8-a259-659bd3c857ac",
+      "codeview_age": 1,
+      "codeview_pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.35\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\bin\\Debug\\net48\\IntlThrdSchd.exe",
+      "codeview_guid": "31fb4d83-adc9-41a6-be8d-df765e5f4367",
+      "codeview_age": 1,
+      "codeview_pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\bin\\Release\\net48\\IntlThrdSchd.exe",
+      "codeview_guid": "40eb01c2-f4f5-4536-ae7f-500f0c6d8f6c",
+      "codeview_age": 1,
+      "codeview_pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Release\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.exe",
+      "codeview_guid": "31fb4d83-adc9-41a6-be8d-df765e5f4367",
+      "codeview_age": 1,
+      "codeview_pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Release\\net48\\IntlThrdSchd.exe",
+      "codeview_guid": "40eb01c2-f4f5-4536-ae7f-500f0c6d8f6c",
+      "codeview_age": 1,
+      "codeview_pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Release\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.51\\IntlThrdPerfSchd\\bin\\Debug\\net48\\IntlThrdSchd.exe",
+      "codeview_guid": "c4c27961-a229-407b-ac24-fff0f5705f3a",
+      "codeview_age": 1,
+      "codeview_pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.51\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    },
+    {
+      "exe_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.51\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.exe",
+      "codeview_guid": "c4c27961-a229-407b-ac24-fff0f5705f3a",
+      "codeview_age": 1,
+      "codeview_pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.51\\IntlThrdPerfSchd\\obj\\Debug\\net48\\IntlThrdSchd.pdb",
+      "matching_pdb_paths": [],
+      "matching_pdb_count": 0
+    }
+  ]
+}

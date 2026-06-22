@@ -1,0 +1,43 @@
+first_mismatch_index: 0
+
+---- original ----
+local:0:System.String
+0000: ldarg.0
+0001: ldsfld method:System.IntPtr System.IntPtr::Zero
+0002: stfld field:System.IntPtr OpenLibSys.Ols::module
+0003: ldarg.0
+0004: call method:System.Void System.Object::.ctor()
+0005: call method:System.Int32 System.IntPtr::get_Size()
+0006: ldc.i4.8
+0007: bne.un.s br:11
+0008: ldstr str:WinRing0x64.dll
+0009: stloc.0
+0010: br.s br:13
+0011: ldstr str:WinRing0.dll
+0012: stloc.0
+0013: ldarg.0
+0014: ldloc.0
+0015: call method:System.IntPtr OpenLibSys.Ols::LoadLibrary(System.String)
+0016: stfld field:System.IntPtr OpenLibSys.Ols::module
+0017: ldarg.0
+
+---- recovered ----
+0000: ldarg.0
+0001: ldsfld method:System.IntPtr System.IntPtr::Zero
+0002: stfld field:System.IntPtr OpenLibSys.Ols::module
+0003: ldarg.0
+0004: call method:System.Void System.Object::.ctor()
+0005: ldarg.0
+0006: call method:System.Int32 System.IntPtr::get_Size()
+0007: ldc.i4.8
+0008: bne.un.s br:11
+0009: ldstr str:WinRing0x64.dll
+0010: br.s br:12
+0011: ldstr str:WinRing0.dll
+0012: call method:System.IntPtr OpenLibSys.Ols::LoadLibrary(System.String)
+0013: stfld field:System.IntPtr OpenLibSys.Ols::module
+0014: ldarg.0
+0015: ldfld field:System.IntPtr OpenLibSys.Ols::module
+0016: ldsfld method:System.IntPtr System.IntPtr::Zero
+0017: call method:System.Boolean System.IntPtr::op_Equality(System.IntPtr,System.IntPtr)
+0018: brfalse.s br:23

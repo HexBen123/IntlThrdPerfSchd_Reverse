@@ -1,0 +1,33 @@
+first_mismatch_index: 3
+
+---- original ----
+local:0:System.String
+0000: ldarg.0
+0001: ldsfld method:System.IntPtr System.IntPtr::Zero
+0002: stfld field:System.IntPtr OpenLibSys.Ols::module
+0003: ldarg.0
+0004: call method:System.Void System.Object::.ctor()
+0005: call method:System.Int32 System.IntPtr::get_Size()
+0006: ldc.i4.8
+0007: bne.un.s br:11
+0008: ldstr str:WinRing0x64.dll
+0009: stloc.0
+0010: br.s br:13
+0011: ldstr str:WinRing0.dll
+0012: stloc.0
+
+---- recovered ----
+local:0:System.String
+0000: ldarg.0
+0001: ldsfld method:System.IntPtr System.IntPtr::Zero
+0002: stfld method:System.IntPtr OpenLibSys.Ols::module
+0003: ldarg.0
+0004: call method:System.Void System.Object::.ctor()
+0005: call method:System.Int32 System.IntPtr::get_Size()
+0006: ldc.i4.8
+0007: bne.un.s br:11
+0008: ldstr str:WinRing0x64.dll
+0009: stloc.0
+0010: br.s br:13
+0011: ldstr str:WinRing0.dll
+0012: stloc.0

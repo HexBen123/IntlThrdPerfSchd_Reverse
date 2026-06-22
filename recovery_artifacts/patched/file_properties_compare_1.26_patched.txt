@@ -1,0 +1,14 @@
+﻿OriginalExe: G:\BaiduNetdiskDownload\逆向\recovered_src_1.26\recovery_artifacts\original\IntlThrdSchd.exe
+RecoveredExe: G:\BaiduNetdiskDownload\逆向\recovered_src_1.26\recovery_artifacts\patched\IntlThrdSchd.exe
+
+original_size: 73216
+recovered_size: 73216
+size_equal: True
+original_file_version: 1.0.0.0
+recovered_file_version: 1.0.0.0
+original_product_version: 1.0.0.0
+recovered_product_version: 1.0.0.0
+original_file_description: IntlThrdSchd
+recovered_file_description: IntlThrdSchd
+original_product_name: IntlThrdSchd
+recovered_product_name: IntlThrdSchd

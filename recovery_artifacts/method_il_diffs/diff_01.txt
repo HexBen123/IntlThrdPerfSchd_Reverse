@@ -1,0 +1,79 @@
+first_mismatch_index: 91
+
+---- original ----
+0071: conv.i8
+0072: mul
+0073: cgt
+0074: and
+0075: ldarg.s arg:17:System.Int64&
+0076: ldind.i8
+0077: ldc.i4 op:500000
+0078: conv.i8
+0079: cgt
+0080: or
+0081: brfalse.s br:90
+0082: ldarg.0
+0083: ldarg.0
+0084: ldfld field:System.Int64 IntlThrdPerfSchd.Service1::_6_to_8
+0085: ldc.i4.1
+0086: conv.i8
+0087: add
+0088: stfld field:System.Int64 IntlThrdPerfSchd.Service1::_6_to_8
+0089: br br:195
+0090: ldc.i4.1
+0091: ldarg.s arg:7:System.Int32
+0092: ldc.i4.s op:31
+0093: and
+0094: shl
+0095: ldarg.0
+0096: ldfld field:System.UInt32 IntlThrdPerfSchd.Service1::affinitymask_big
+0097: and
+0098: ldc.i4.0
+0099: ble br:193
+0100: ldarg.s arg:12:System.Int64&
+0101: ldind.i8
+0102: ldc.i4.6
+0103: conv.i8
+0104: bne.un br:195
+0105: ldarg.s arg:8:System.Int64
+0106: ldc.i4.0
+0107: conv.i8
+
+---- recovered ----
+0071: conv.i8
+0072: mul
+0073: cgt
+0074: and
+0075: ldarg.s arg:17:System.Int64&
+0076: ldind.i8
+0077: ldc.i4 op:500000
+0078: conv.i8
+0079: cgt
+0080: or
+0081: brfalse.s br:90
+0082: ldarg.0
+0083: ldarg.0
+0084: ldfld field:System.Int64 IntlThrdPerfSchd.Service1::_6_to_8
+0085: ldc.i4.1
+0086: conv.i8
+0087: add
+0088: stfld field:System.Int64 IntlThrdPerfSchd.Service1::_6_to_8
+0089: br br:193
+0090: ldc.i4.1
+0091: ldarg.s arg:7:System.Int32
+0092: ldc.i4.s op:31
+0093: and
+0094: shl
+0095: ldarg.0
+0096: ldfld field:System.UInt32 IntlThrdPerfSchd.Service1::affinitymask_big
+0097: and
+0098: ldc.i4.0
+0099: ble br:191
+0100: ldarg.s arg:12:System.Int64&
+0101: ldind.i8
+0102: ldc.i4.6
+0103: conv.i8
+0104: bne.un br:193
+0105: ldarg.s arg:8:System.Int64
+0106: ldc.i4.0
+0107: conv.i8

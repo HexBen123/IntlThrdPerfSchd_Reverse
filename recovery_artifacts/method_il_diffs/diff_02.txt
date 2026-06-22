@@ -1,0 +1,53 @@
+first_mismatch_index: 65
+
+---- original ----
+0043: stloc.0
+0044: ldloc.1
+0045: brtrue.s br:8
+0046: ldarg.3
+0047: ldarg.s arg:4:System.Int32
+0048: newobj method:System.Void IntlThrdPerfSchd.Service1/Node::.ctor(System.Int32,System.Int32)
+0049: stloc.3
+0050: ldloc.3
+0051: ldarg.2
+0052: ldind.ref
+0053: callvirt method:System.Void IntlThrdPerfSchd.Service1/Node::set_Next(IntlThrdPerfSchd.Service1/Node)
+0054: ldarg.2
+0055: ldloc.3
+0056: stind.ref
+0057: ldloc.0
+0058: ldc.i4.1
+0059: add
+0060: stloc.0
+0061: ldloc.0
+0062: ldarg.1
+0063: pop
+0064: pop
+0065: ldc.i4.0
+0066: ret
+
+---- recovered ----
+0043: stloc.0
+0044: ldloc.1
+0045: brtrue.s br:8
+0046: ldarg.3
+0047: ldarg.s arg:4:System.Int32
+0048: newobj method:System.Void IntlThrdPerfSchd.Service1/Node::.ctor(System.Int32,System.Int32)
+0049: stloc.3
+0050: ldloc.3
+0051: ldarg.2
+0052: ldind.ref
+0053: callvirt method:System.Void IntlThrdPerfSchd.Service1/Node::set_Next(IntlThrdPerfSchd.Service1/Node)
+0054: ldarg.2
+0055: ldloc.3
+0056: stind.ref
+0057: ldloc.0
+0058: ldc.i4.1
+0059: add
+0060: stloc.0
+0061: ldc.i4.0
+0062: ret
+<eof>
+<eof>
+<eof>
+<eof>

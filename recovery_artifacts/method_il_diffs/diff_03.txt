@@ -1,0 +1,53 @@
+first_mismatch_index: 229
+
+---- original ----
+0207: ldarg.s arg:41:System.Int64
+0208: ldarg.s arg:42:System.Int64
+0209: ldarg.s arg:43:System.Int64
+0210: ldarg.s arg:44:System.UInt32
+0211: ldarg.s arg:45:System.Int64
+0212: newobj method:System.Void IntlThrdPerfSchd.Service1/Node1::.ctor(System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.UInt32,System.Int64)
+0213: stloc.3
+0214: ldloc.3
+0215: ldarg.2
+0216: ldind.ref
+0217: callvirt method:System.Void IntlThrdPerfSchd.Service1/Node1::set_Next(IntlThrdPerfSchd.Service1/Node1)
+0218: ldarg.2
+0219: ldloc.3
+0220: stind.ref
+0221: ldloc.0
+0222: ldc.i4.1
+0223: add
+0224: stloc.0
+0225: ldloc.0
+0226: ldarg.1
+0227: pop
+0228: pop
+0229: ldc.i4.0
+0230: ret
+
+---- recovered ----
+0207: ldarg.s arg:41:System.Int64
+0208: ldarg.s arg:42:System.Int64
+0209: ldarg.s arg:43:System.Int64
+0210: ldarg.s arg:44:System.UInt32
+0211: ldarg.s arg:45:System.Int64
+0212: newobj method:System.Void IntlThrdPerfSchd.Service1/Node1::.ctor(System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.UInt32,System.Int64)
+0213: stloc.3
+0214: ldloc.3
+0215: ldarg.2
+0216: ldind.ref
+0217: callvirt method:System.Void IntlThrdPerfSchd.Service1/Node1::set_Next(IntlThrdPerfSchd.Service1/Node1)
+0218: ldarg.2
+0219: ldloc.3
+0220: stind.ref
+0221: ldloc.0
+0222: ldc.i4.1
+0223: add
+0224: stloc.0
+0225: ldc.i4.0
+0226: ret
+<eof>
+<eof>
+<eof>
+<eof>

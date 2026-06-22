@@ -1,0 +1,47 @@
+first_mismatch_index: 975
+
+---- original ----
+0948: callvirt method:System.Void IntlThrdPerfSchd.Service1/Node2::set_Value1(System.Int64)
+0949: ldarg.0
+0950: ldfld field:IntlThrdPerfSchd.Service1/Node2 IntlThrdPerfSchd.Service1::schd_queue_s2b
+0951: ldc.i4.0
+0952: callvirt method:System.Void IntlThrdPerfSchd.Service1/Node2::set_Value2(System.Int32)
+0953: ldarg.0
+0954: ldfld field:IntlThrdPerfSchd.Service1/Node2 IntlThrdPerfSchd.Service1::schd_queue_s2b
+0955: ldnull
+0956: callvirt method:System.Void IntlThrdPerfSchd.Service1/Node2::set_Next(IntlThrdPerfSchd.Service1/Node2)
+0957: ldloc.0
+0958: ldftn method:System.Void IntlThrdPerfSchd.Service1/<>c__DisplayClass484_0::<OnStart>g__thread1|0()
+0959: newobj field:System.Void System.Threading.ThreadStart::.ctor(System.Object,System.IntPtr)
+0960: newobj field:System.Void System.Threading.Thread::.ctor(System.Threading.ThreadStart)
+0961: callvirt field:System.Void System.Threading.Thread::Start()
+0962: ldloc.0
+0963: ldftn method:System.Void IntlThrdPerfSchd.Service1/<>c__DisplayClass484_0::<OnStart>g__thread2|1()
+0964: newobj field:System.Void System.Threading.ThreadStart::.ctor(System.Object,System.IntPtr)
+0965: newobj field:System.Void System.Threading.Thread::.ctor(System.Threading.ThreadStart)
+0966: callvirt field:System.Void System.Threading.Thread::Start()
+0967: ret
+eh:Finally try:77-100 handler:100-105 catch:
+
+---- recovered ----
+0948: callvirt method:System.Void IntlThrdPerfSchd.Service1/Node2::set_Value1(System.Int64)
+0949: ldarg.0
+0950: ldfld field:IntlThrdPerfSchd.Service1/Node2 IntlThrdPerfSchd.Service1::schd_queue_s2b
+0951: ldc.i4.0
+0952: callvirt method:System.Void IntlThrdPerfSchd.Service1/Node2::set_Value2(System.Int32)
+0953: ldarg.0
+0954: ldfld field:IntlThrdPerfSchd.Service1/Node2 IntlThrdPerfSchd.Service1::schd_queue_s2b
+0955: ldnull
+0956: callvirt method:System.Void IntlThrdPerfSchd.Service1/Node2::set_Next(IntlThrdPerfSchd.Service1/Node2)
+0957: ldloc.0
+0958: ldftn field:System.Void IntlThrdPerfSchd.Service1/<>c__DisplayClass484_0::<OnStart>g__thread1|0()
+0959: newobj field:System.Void System.Threading.ThreadStart::.ctor(System.Object,System.IntPtr)
+0960: newobj field:System.Void System.Threading.Thread::.ctor(System.Threading.ThreadStart)
+0961: callvirt field:System.Void System.Threading.Thread::Start()
+0962: ldloc.0
+0963: ldftn method:System.Void IntlThrdPerfSchd.Service1/<>c__DisplayClass484_0::<OnStart>g__thread2|1()
+0964: newobj field:System.Void System.Threading.ThreadStart::.ctor(System.Object,System.IntPtr)
+0965: newobj field:System.Void System.Threading.Thread::.ctor(System.Threading.ThreadStart)
+0966: callvirt field:System.Void System.Threading.Thread::Start()
+0967: ret
+eh:Finally try:77-100 handler:100-105 catch:

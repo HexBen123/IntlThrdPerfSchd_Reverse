@@ -1,0 +1,47 @@
+first_mismatch_index: 21
+
+---- original ----
+local:11:System.Int32
+local:12:System.UIntPtr
+local:13:System.Int32
+local:14:System.Int32
+local:15:System.Int32
+local:16:System.Int32
+0000: newobj method:System.Void IntlThrdPerfSchd.Service1/<>c__DisplayClass484_0::.ctor()
+0001: stloc.0
+0002: ldloc.0
+0003: ldarg.0
+0004: stfld field:IntlThrdPerfSchd.Service1 IntlThrdPerfSchd.Service1/<>c__DisplayClass484_0::<>4__this
+0005: ldc.i4.s op:32
+0006: newarr type:System.Int32
+0007: stloc.1
+0008: ldc.i4.s op:32
+0009: newarr type:System.Int32
+0010: pop
+0011: ldloc.0
+0012: ldc.i4.s op:32
+0013: newarr type:System.Int32
+0014: stfld field:System.Int32[] IntlThrdPerfSchd.Service1/<>c__DisplayClass484_0::takeaction
+
+---- recovered ----
+local:11:System.Int32
+local:12:System.UIntPtr
+local:13:System.Int32
+local:14:System.Int32
+local:15:System.Int32
+local:16:System.Int32
+0000: newobj method:System.Void IntlThrdPerfSchd.Service1/<>c__DisplayClass484_0::.ctor()
+0001: stloc.0
+0002: ldloc.0
+0003: ldarg.0
+0004: stfld method:IntlThrdPerfSchd.Service1 IntlThrdPerfSchd.Service1/<>c__DisplayClass484_0::<>4__this
+0005: ldc.i4.s op:32
+0006: newarr type:System.Int32
+0007: stloc.1
+0008: ldc.i4.s op:32
+0009: newarr type:System.Int32
+0010: pop
+0011: ldloc.0
+0012: ldc.i4.s op:32
+0013: newarr type:System.Int32
+0014: stfld method:System.Int32[] IntlThrdPerfSchd.Service1/<>c__DisplayClass484_0::takeaction

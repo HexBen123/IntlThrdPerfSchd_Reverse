@@ -1,0 +1,25 @@
+﻿OriginalExe: G:\BaiduNetdiskDownload\逆向\intel大小核调度器S版1.26 for 12代及以上\IntlThrdSchd\IntlThrdSchd.exe
+RecoveredExe: G:\BaiduNetdiskDownload\逆向\recovered_src_1.26\IntlThrdPerfSchd\bin\Release\net48\IntlThrdSchd.exe
+
+stable_method_count_original: 167
+stable_method_count_recovered: 167
+stable_method_count_compared(intersection): 167
+stable_method_hash_match_count: 160
+stable_method_hash_match_percent: 95.8084
+
+missing_in_recovered_count: 0
+extra_in_recovered_count: 0
+il_mismatch_count: 7
+
+missing_in_recovered:
+
+extra_in_recovered:
+
+il_hash_mismatch_methods:
+  System.Int32 IntlThrdPerfSchd.Service1::Intval2Limit(System.Int32,System.Int64,System.Int64,System.Int64,System.Int64&,System.Int64&,System.Int32,System.Int64,System.Int64&,System.Int64&,System.Int64,System.Int64&,System.UInt32,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&)
+  System.Int32 IntlThrdPerfSchd.Service1::UpdateNode(System.Int32,IntlThrdPerfSchd.Service1/Node&,System.Int32,System.Int32)
+  System.Int32 IntlThrdPerfSchd.Service1::UpdateNode1(System.Int32,IntlThrdPerfSchd.Service1/Node1&,System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.UInt32,System.Int64)
+  System.Int32 IntlThrdPerfSchd.Service1::UpdateNodeP(System.Int32,IntlThrdPerfSchd.Service1/NodeP&,System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)
+  System.Void IntlThrdPerfSchd.Service1::OnStart(System.String[])
+  System.Void IntlThrdPerfSchd.Service1::OnTimedEvent(System.Object,System.Timers.ElapsedEventArgs)
+  System.Void OpenLibSys.Ols::.ctor()

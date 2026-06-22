@@ -1,0 +1,498 @@
+{
+  "generated_at_utc": "2026-06-05T20:39:44.790877+00:00",
+  "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\intel大小核调度器S版1.26 for 12代及以上\\IntlThrdSchd\\IntlThrdSchd.pdb",
+  "recovered_root": null,
+  "global_scope_name": "IntlThrdSchd",
+  "table_counts": {
+    "SourceFiles": 8,
+    "LineNumbers": 1346,
+    "Sections": null,
+    "SegmentMap": null,
+    "InjectedSource": 8,
+    "FrameData": null,
+    "InputAssemblyFiles": 0,
+    "Symbols": 605
+  },
+  "all_compiland_count": 10,
+  "special_compilands": [
+    "* CompilerInfo *",
+    "<DanglingDocuments*223343bd-a859-41a3-90c0-9dfa101f1a95>"
+  ],
+  "marshal_observation": {
+    "comtypes_wrapper_issue": "IDiaInjectedSource.get_source() 被 comtypes 生成为 (pcbData, pbData)；其中 pbData 仅被自动解组为单个 BYTE，不能直接拿到完整缓冲区。",
+    "raw_vtable_slot_used": 9
+  },
+  "payload_observations": {
+    "row_count": 8,
+    "unique_payload_sha256_count": 8,
+    "unique_first_32_hex_count": 1,
+    "all_first_32_hex_identical": true,
+    "recovered_sha256_match_count": 0
+  },
+  "injected_sources": [
+    {
+      "file_name": "C:\\Users\\king\\source\\repos\\IntlThrdPerfSchd-integrated5.7\\IntlThrdPerfSchd\\ProjectInstaller.cs",
+      "virtual_filename": "c:\\users\\king\\source\\repos\\intlthrdperfschd-integrated5.7\\intlthrdperfschd\\projectinstaller.cs",
+      "object_file_name": "",
+      "crc": 1324828579,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000006ff19693a5aacc1a46df674f13a8db4d0ad7f69f2ba2e27e7c2d044d32f7e107",
+      "payload_sha256": "710bf7448862cb11867ff21808209f79c1ae2283c4a228b52e32a5c03c408f37",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "6ff19693a5aacc1a46df674f13a8db4d0ad7f69f2ba2e27e7c2d044d32f7e107",
+      "suffix_hex_from_offset_64": "20000000000000006ff19693a5aacc1a46df674f13a8db4d0ad7f69f2ba2e27e7c2d044d32f7e107"
+    },
+    {
+      "file_name": "C:\\Users\\king\\source\\repos\\IntlThrdPerfSchd-integrated5.7\\IntlThrdPerfSchd\\ProjectInstaller.Designer.cs",
+      "virtual_filename": "c:\\users\\king\\source\\repos\\intlthrdperfschd-integrated5.7\\intlthrdperfschd\\projectinstaller.designer.cs",
+      "object_file_name": "",
+      "crc": 3090703337,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000003ee5e744eb0e70f2346797ae12ca5e1982bd7761a959422c6b661504f52c8aec",
+      "payload_sha256": "2a91f4bc9e16ac4026650cf4c84b449554a65792f298d4b5c863f5c6ef4666e1",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "3ee5e744eb0e70f2346797ae12ca5e1982bd7761a959422c6b661504f52c8aec",
+      "suffix_hex_from_offset_64": "20000000000000003ee5e744eb0e70f2346797ae12ca5e1982bd7761a959422c6b661504f52c8aec"
+    },
+    {
+      "file_name": "C:\\Users\\king\\source\\repos\\IntlThrdPerfSchd-integrated5.7\\IntlThrdPerfSchd\\OpenLibSys.cs",
+      "virtual_filename": "c:\\users\\king\\source\\repos\\intlthrdperfschd-integrated5.7\\intlthrdperfschd\\openlibsys.cs",
+      "object_file_name": "",
+      "crc": 378765567,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000007eb01210ef0b868c179f4e5fa8aa529eabfd4755d5369258adbfe698b5cf9ade",
+      "payload_sha256": "e67ea51b36fa8ae5a8521cbf0c5a387fd86106ed864e0e4f0d9106820167375b",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "7eb01210ef0b868c179f4e5fa8aa529eabfd4755d5369258adbfe698b5cf9ade",
+      "suffix_hex_from_offset_64": "20000000000000007eb01210ef0b868c179f4e5fa8aa529eabfd4755d5369258adbfe698b5cf9ade"
+    },
+    {
+      "file_name": "C:\\Users\\king\\source\\repos\\IntlThrdPerfSchd-integrated5.7\\IntlThrdPerfSchd\\obj\\Release\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+      "virtual_filename": "c:\\users\\king\\source\\repos\\intlthrdperfschd-integrated5.7\\intlthrdperfschd\\obj\\release\\.netframework,version=v4.8.assemblyattributes.cs",
+      "object_file_name": "",
+      "crc": 2481309425,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000af4c24efdd16c0cb3946e8e148fb6df4fc9c501c71cc718738b4728808737373",
+      "payload_sha256": "be7abf6f0f31896093de9c8361e1b4d8f8ce9275eb64691a8649ae80ace28e43",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "af4c24efdd16c0cb3946e8e148fb6df4fc9c501c71cc718738b4728808737373",
+      "suffix_hex_from_offset_64": "2000000000000000af4c24efdd16c0cb3946e8e148fb6df4fc9c501c71cc718738b4728808737373"
+    },
+    {
+      "file_name": "C:\\Users\\king\\source\\repos\\IntlThrdPerfSchd-integrated5.7\\IntlThrdPerfSchd\\Properties\\AssemblyInfo.cs",
+      "virtual_filename": "c:\\users\\king\\source\\repos\\intlthrdperfschd-integrated5.7\\intlthrdperfschd\\properties\\assemblyinfo.cs",
+      "object_file_name": "",
+      "crc": 3166795217,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000487964fa7a3dbe5a61511d04ccd3501fe830cbfe7a1f90588833d2f593069612",
+      "payload_sha256": "ae0e7019507ed278e959d9dca3ac73f65547561c75a940e116bec387fd8c7002",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "487964fa7a3dbe5a61511d04ccd3501fe830cbfe7a1f90588833d2f593069612",
+      "suffix_hex_from_offset_64": "2000000000000000487964fa7a3dbe5a61511d04ccd3501fe830cbfe7a1f90588833d2f593069612"
+    },
+    {
+      "file_name": "C:\\Users\\king\\source\\repos\\IntlThrdPerfSchd-integrated5.7\\IntlThrdPerfSchd\\Service1.cs",
+      "virtual_filename": "c:\\users\\king\\source\\repos\\intlthrdperfschd-integrated5.7\\intlthrdperfschd\\service1.cs",
+      "object_file_name": "",
+      "crc": 923110805,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16200000000000000041bb29811a1e548eefe098b3408e0b98dd5fc5080623972f68d4c7065d02863d",
+      "payload_sha256": "d356a27ce84ffe1ce190af8bafac2fbc1dc5859bab7ffab182c7172be3f0cc6b",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "41bb29811a1e548eefe098b3408e0b98dd5fc5080623972f68d4c7065d02863d",
+      "suffix_hex_from_offset_64": "200000000000000041bb29811a1e548eefe098b3408e0b98dd5fc5080623972f68d4c7065d02863d"
+    },
+    {
+      "file_name": "C:\\Users\\king\\source\\repos\\IntlThrdPerfSchd-integrated5.7\\IntlThrdPerfSchd\\Service1.Designer.cs",
+      "virtual_filename": "c:\\users\\king\\source\\repos\\intlthrdperfschd-integrated5.7\\intlthrdperfschd\\service1.designer.cs",
+      "object_file_name": "",
+      "crc": 824501624,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16200000000000000055ebaa1a84f3b504cbb7d938d18cceca024495279e7904d47ee17c1a20e30b6b",
+      "payload_sha256": "525be0ad32204b99a186e79f66c9b9c657baae3982f59b1b2461da7ca04479df",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "55ebaa1a84f3b504cbb7d938d18cceca024495279e7904d47ee17c1a20e30b6b",
+      "suffix_hex_from_offset_64": "200000000000000055ebaa1a84f3b504cbb7d938d18cceca024495279e7904d47ee17c1a20e30b6b"
+    },
+    {
+      "file_name": "C:\\Users\\king\\source\\repos\\IntlThrdPerfSchd-integrated5.7\\IntlThrdPerfSchd\\Program.cs",
+      "virtual_filename": "c:\\users\\king\\source\\repos\\intlthrdperfschd-integrated5.7\\intlthrdperfschd\\program.cs",
+      "object_file_name": "",
+      "crc": 3560914474,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000150e8b212eb7869cfc594975820bb3efcd9beeef6e39551c0dad4da75c23483e",
+      "payload_sha256": "7e6e854278bc6efd3bd18464a28f62664851aa2c5bed1d04495114037d09bd3f",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "150e8b212eb7869cfc594975820bb3efcd9beeef6e39551c0dad4da75c23483e",
+      "suffix_hex_from_offset_64": "2000000000000000150e8b212eb7869cfc594975820bb3efcd9beeef6e39551c0dad4da75c23483e"
+    }
+  ]
+}
