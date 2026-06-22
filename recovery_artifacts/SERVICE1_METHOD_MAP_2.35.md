@@ -1,0 +1,1465 @@
+# Service1 Method Map
+
+This document is generated from the shipped classic PDB plus dnlib token resolution.
+
+## Inputs
+- PDB: `G:\BaiduNetdiskDownload\逆向\Intel大小核神经网络调度器N版2.35\IntlThrdSchd\IntlThrdSchd.pdb`
+- EXE: `G:\BaiduNetdiskDownload\逆向\Intel大小核神经网络调度器N版2.35\IntlThrdSchd\IntlThrdSchd.exe`
+- Generated: `2026-04-05 07:21:15Z`
+
+## Summary
+- Compilands matched by prefix IntlThrdPerfSchd.Service1*: `63`
+- Method entries with line spans: `1315`
+- Output JSON: `G:\BaiduNetdiskDownload\逆向\recovered_src_2.35\recovery_artifacts\SERVICE1_METHOD_MAP_2.35.json`
+
+## Service1.cs
+
+- Mapped methods: `1313`
+
+### IntlThrdPerfSchd.Service1
+- `38-46` `0x06000131` `System.Void IntlThrdPerfSchd.Service1::.cctor()`
+- `1968-1978` `0x060000EC` `System.UInt32 IntlThrdPerfSchd.Service1::GetLevel(System.Int32,System.Int32)`
+- `2616-2629` `0x060000ED` `IntlThrdPerfSchd.Service1/GroupInfo[] IntlThrdPerfSchd.Service1::CreateGroup(System.Collections.Generic.List`1<System.Int32>,System.Int32)`
+- `4566-4580` `0x060000EE` `System.Int32 IntlThrdPerfSchd.Service1::ScheduleCore(IntlThrdPerfSchd.Service1/ThreadMetrics)`
+- `6314-6314` `0x060000EF` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1::test1112(System.Int32,IntlThrdPerfSchd.Service1/ThreadInfoSimp,IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+- `6321-6364` `0x060000F0` `System.UInt32 IntlThrdPerfSchd.Service1::GetAffinity(System.Int64)`
+- `6370-6395` `0x060000F1` `System.UInt32 IntlThrdPerfSchd.Service1::GetAffinity4BP(System.Int64)`
+- `6401-6418` `0x060000F2` `System.UInt32 IntlThrdPerfSchd.Service1::GetAffinity4BS(System.Int64)`
+- `6425-6455` `0x060000F3` `System.Int32 IntlThrdPerfSchd.Service1::TestAffinity(System.UInt32)`
+- `6461-6491` `0x060000F4` `System.Int32 IntlThrdPerfSchd.Service1::TestAffinity4BP(System.UInt32)`
+- `6497-6527` `0x060000F5` `System.Int32 IntlThrdPerfSchd.Service1::TestAffinity4BS(System.UInt32)`
+- `6535-6565` `0x060000F6` `System.Int32 IntlThrdPerfSchd.Service1::TestAffinity4perf(System.UInt32)`
+- `6571-6601` `0x060000F7` `System.Int32 IntlThrdPerfSchd.Service1::TestAffinity4eff(System.UInt32)`
+- `6608-6638` `0x060000F8` `System.Int32 IntlThrdPerfSchd.Service1::TestAffinity4smt(System.UInt32)`
+- `6644-6678` `0x060000F9` `System.ValueTuple`2<System.Int32,System.Int32> IntlThrdPerfSchd.Service1::TestAffinity4all(System.UInt32,System.UInt32)`
+- `6683-6708` `0x060000FA` `System.ValueTuple`2<System.Int32,System.Int32> IntlThrdPerfSchd.Service1::TestAffinity4allnosmt(System.UInt32)`
+- `6734-6790` `0x060000FB` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1::UpdateThreadInfoSimp_ascend(System.Int32,IntlThrdPerfSchd.Service1/ThreadInfoSimp&,IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+- `6801-6857` `0x060000FC` `IntlThrdPerfSchd.Service1/GroupInfo IntlThrdPerfSchd.Service1::UpdateGroupInfo(System.Int32,IntlThrdPerfSchd.Service1/GroupInfo&,IntlThrdPerfSchd.Service1/GroupInfo)`
+- `6869-6925` `0x060000FD` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1::UpdateThreadInfoSimp(System.Int32,IntlThrdPerfSchd.Service1/ThreadInfoSimp&,IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+- `6937-6993` `0x060000FE` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1::UpdateThreadInfoSimp1(System.Int32,IntlThrdPerfSchd.Service1/ThreadInfoSimp&,IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+- `7005-7061` `0x060000FF` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1::UpdateThreadInfoSimp2(System.Int32,IntlThrdPerfSchd.Service1/ThreadInfoSimp&,IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+- `7073-7129` `0x06000100` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1::UpdateThreadInfoSimp3(System.Int32,IntlThrdPerfSchd.Service1/ThreadInfoSimp&,IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+- `7148-7295` `0x06000101` `IntlThrdPerfSchd.Service1/ThreadInfo IntlThrdPerfSchd.Service1::UpdateThreadInfo(System.Int32,IntlThrdPerfSchd.Service1/ThreadInfo&,IntlThrdPerfSchd.Service1/ThreadInfo)`
+- `7310-7437` `0x06000102` `IntlThrdPerfSchd.Service1/ProcessInfo IntlThrdPerfSchd.Service1::UpdateProcessInfo(System.Int32,IntlThrdPerfSchd.Service1/ProcessInfo&,IntlThrdPerfSchd.Service1/ProcessInfo)`
+- `7889-7989` `0x06000103` `System.Int32 IntlThrdPerfSchd.Service1::UpdateNodeP(System.Int32,IntlThrdPerfSchd.Service1/NodeP&,System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,IntlThrdPerfSchd.Service1/Node2,IntlThrdPerfSchd.Service1/Node2)`
+- `8023-8045` `0x06000104` `System.Int32 IntlThrdPerfSchd.Service1::FindNodeValueP(IntlThrdPerfSchd.Service1/NodeP&,System.Int32,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,IntlThrdPerfSchd.Service1/Node2&,IntlThrdPerfSchd.Service1/Node2&)`
+- `8064-12926` `0x0600012B` `System.Void IntlThrdPerfSchd.Service1::.ctor()`
+- `8104-8188` `0x06000105` `System.Int32 IntlThrdPerfSchd.Service1::UpdateNode(System.Int32,IntlThrdPerfSchd.Service1/Node&,System.Int32,System.Int32)`
+- `8206-8321` `0x06000106` `System.Int32 IntlThrdPerfSchd.Service1::UpdateNode2(IntlThrdPerfSchd.Service1/Node2&,System.Int32,System.Int64,System.Int32,System.Int64&)`
+- `8340-8504` `0x06000107` `System.Int32 IntlThrdPerfSchd.Service1::UpdateNode2_little(IntlThrdPerfSchd.Service1/Node2&,System.Int32,System.Int64,System.Int32,System.Int64&)`
+- `8524-8684` `0x06000108` `System.Int32 IntlThrdPerfSchd.Service1::UpdateNodeP(IntlThrdPerfSchd.Service1/Node2&,System.Int32,System.Int64,System.Int32)`
+- `8695-8787` `0x06000109` `System.Int32 IntlThrdPerfSchd.Service1::ProcessSysinfo(IntlThrdPerfSchd.Service1/GroupInfo,IntlThrdPerfSchd.Service1/SysInfo&)`
+- `8800-9541` `0x0600010A` `System.Int32 IntlThrdPerfSchd.Service1::ProcessCompare(IntlThrdPerfSchd.Service1/ThreadInfoSimp,System.Int64&)`
+- `9591-9701` `0x0600010B` `System.Int32 IntlThrdPerfSchd.Service1::ProcessCompare1(IntlThrdPerfSchd.Service1/ThreadInfoSimp,System.Int64&)`
+- `9714-9824` `0x0600010C` `System.Int32 IntlThrdPerfSchd.Service1::ProcessCompare2(IntlThrdPerfSchd.Service1/ThreadInfoSimp,System.Int64&)`
+- `9837-9946` `0x0600010D` `System.Int32 IntlThrdPerfSchd.Service1::ProcessCompare3(IntlThrdPerfSchd.Service1/ThreadInfoSimp,System.Int64&)`
+- `10038-10232` `0x0600010E` `System.Int32 IntlThrdPerfSchd.Service1::UpdateNode1(System.Int32,IntlThrdPerfSchd.Service1/Node1&,System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.UInt32,System.Int64)`
+- `10247-10326` `0x0600010F` `System.Int32 IntlThrdPerfSchd.Service1::DeleteNode(IntlThrdPerfSchd.Service1/Node2&,System.Int32)`
+- `10341-10383` `0x06000110` `System.Int32 IntlThrdPerfSchd.Service1::GetNodeValue(IntlThrdPerfSchd.Service1/Node2&,System.Int64&)`
+- `10411-10508` `0x06000111` `System.Int32 IntlThrdPerfSchd.Service1::FindNodeValue2(IntlThrdPerfSchd.Service1/Node2&,System.Int64&)`
+- `10521-10550` `0x06000112` `System.Int32 IntlThrdPerfSchd.Service1::FindCompareValue(IntlThrdPerfSchd.Service1/Node2&,System.Int32)`
+- `10585-10598` `0x06000113` `System.Int32 IntlThrdPerfSchd.Service1::FindNodeValue(IntlThrdPerfSchd.Service1/Node,System.Int32)`
+- `10615-10623` `0x06000114` `System.Int32 IntlThrdPerfSchd.Service1::FindMaxIpc(IntlThrdPerfSchd.Service1/Node,System.Int32&,System.Int32&)`
+- `10636-10655` `0x06000115` `IntlThrdPerfSchd.Service1/ThreadInfo IntlThrdPerfSchd.Service1::FindThread(IntlThrdPerfSchd.Service1/ThreadInfo&,System.Int32)`
+- `10666-10685` `0x06000116` `IntlThrdPerfSchd.Service1/ProcessInfo IntlThrdPerfSchd.Service1::FindProcess(IntlThrdPerfSchd.Service1/ProcessInfo&,System.Int32)`
+- `10795-10854` `0x06000117` `System.Int32 IntlThrdPerfSchd.Service1::FindNodeValue1(IntlThrdPerfSchd.Service1/Node1&,System.Int32,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.UInt32&)`
+- `10875-10875` `0x06000118` `System.Single IntlThrdPerfSchd.Service1::GetFactor(System.Int64)`
+- `10937-11283` `0x06000119` `System.Int32 IntlThrdPerfSchd.Service1::Intval2Limit(System.Int32,System.Int64,System.Int64,System.Int64,System.Int64&,System.Int64&,System.Int32,System.Int64,System.Int64&,System.Int64&,System.Int64,System.Int64&,System.UInt32,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&,System.Int64&)`
+- `11307-11372` `0x0600011A` `System.Int64 IntlThrdPerfSchd.Service1::GetLevel(System.Int32,System.Int64,System.Int64)`
+- `12863-12863` `0x0600011B` `IntlThrdPerfSchd.OnlineLearningManager IntlThrdPerfSchd.Service1::get_learner()`
+- `12863-12863` `0x0600011C` `System.Void IntlThrdPerfSchd.Service1::set_learner(IntlThrdPerfSchd.OnlineLearningManager)`
+- `12932-18198` `0x0600012C` `System.Void IntlThrdPerfSchd.Service1::OnStart(System.String[])`
+- `12962-17309` `0x06000132` `System.Void IntlThrdPerfSchd.Service1::<OnStart>g__thread1|704_0()`
+- `12980-17282` `0x06000133` `System.Void IntlThrdPerfSchd.Service1::<OnStart>b__704_2(Microsoft.Diagnostics.Tracing.Parsers.Kernel.CSwitchTraceData)`
+- `18175-18183` `0x06000134` `System.Void IntlThrdPerfSchd.Service1::<OnStart>g__thread2|704_1()`
+- `18206-18208` `0x0600012D` `System.Void IntlThrdPerfSchd.Service1::OnStop()`
+- `18214-18715` `0x0600012E` `System.Void IntlThrdPerfSchd.Service1::OnTimedEvent(System.Object,System.Timers.ElapsedEventArgs)`
+
+### IntlThrdPerfSchd.Service1/CausalityAnalyzer
+- `1539-1551` `0x06000300` `System.Void IntlThrdPerfSchd.Service1/CausalityAnalyzer::.ctor(System.Int32)`
+- `1561-1582` `0x06000301` `System.Boolean IntlThrdPerfSchd.Service1/CausalityAnalyzer::AddDataPoint(System.Int32,System.Double[])`
+- `1593-1603` `0x06000302` `System.Double IntlThrdPerfSchd.Service1/CausalityAnalyzer::GetPartialCorrelation()`
+- `1612-1622` `0x06000303` `System.Double IntlThrdPerfSchd.Service1/CausalityAnalyzer::GetElasticity()`
+- `1630-1633` `0x06000304` `System.Void IntlThrdPerfSchd.Service1/CausalityAnalyzer::Clear()`
+- `1638-1638` `0x06000305` `System.Int32 IntlThrdPerfSchd.Service1/CausalityAnalyzer::get_DataPointCount()`
+- `1643-1643` `0x06000306` `System.Int32 IntlThrdPerfSchd.Service1/CausalityAnalyzer::get_Dimension()`
+- `1649-1652` `0x06000307` `System.Void IntlThrdPerfSchd.Service1/CausalityAnalyzer::UpdateCache()`
+- `1656-1681` `0x06000308` `System.Double IntlThrdPerfSchd.Service1/CausalityAnalyzer::CalculatePartialCorrelation()`
+- `1686-1734` `0x06000309` `System.Double IntlThrdPerfSchd.Service1/CausalityAnalyzer::CalculatePartialElasticity()`
+- `1739-1778` `0x0600030A` `System.Double[] IntlThrdPerfSchd.Service1/CausalityAnalyzer::GetResiduals(System.Double[],System.Double[0...,0...])`
+- `1783-1837` `0x0600030B` `System.Double[] IntlThrdPerfSchd.Service1/CausalityAnalyzer::SolveLinearSystem(System.Double[0...,0...],System.Double[],System.Int32)`
+- `1842-1861` `0x0600030C` `System.Double IntlThrdPerfSchd.Service1/CausalityAnalyzer::CalculateCorrelationFromResiduals(System.Double[],System.Double[])`
+- `1866-1888` `0x0600030D` `System.Double IntlThrdPerfSchd.Service1/CausalityAnalyzer::CalculatePearsonCorrelation(System.Int32,System.Int32)`
+
+### IntlThrdPerfSchd.Service1/CoreEntry
+- `2519-2519` `0x06000346` `System.Double IntlThrdPerfSchd.Service1/CoreEntry::get_Uti()`
+- `2520-2520` `0x06000347` `System.Int32 IntlThrdPerfSchd.Service1/CoreEntry::get_Cid()`
+- `2522-2526` `0x06000348` `System.Void IntlThrdPerfSchd.Service1/CoreEntry::.ctor(System.Double,System.Int32)`
+
+### IntlThrdPerfSchd.Service1/CoreEntryComparer
+- `2534-2538` `0x06000349` `System.Int32 IntlThrdPerfSchd.Service1/CoreEntryComparer::Compare(IntlThrdPerfSchd.Service1/CoreEntry,IntlThrdPerfSchd.Service1/CoreEntry)`
+
+### IntlThrdPerfSchd.Service1/CoreInfo
+- `5934-6034` `0x060005D4` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::.ctor()`
+- `5938-6034` `0x060005D5` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::.ctor(System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.UInt32,System.UInt32,System.Int64,System.Int64)`
+- `6029-6029` `0x060005D6` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_accRewardPerQ()`
+- `6029-6029` `0x060005D7` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_accRewardPerQ(System.Int64)`
+- `6031-6031` `0x060005D8` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_accRuntimePerQ()`
+- `6031-6031` `0x060005D9` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_accRuntimePerQ(System.Int64)`
+- `6051-6051` `0x060005DA` `System.Single IntlThrdPerfSchd.Service1/CoreInfo::get_perf4c()`
+- `6051-6051` `0x060005DB` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_perf4c(System.Single)`
+- `6054-6054` `0x060005DC` `System.Single IntlThrdPerfSchd.Service1/CoreInfo::get_missrateratio4c()`
+- `6054-6054` `0x060005DD` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_missrateratio4c(System.Single)`
+- `6055-6055` `0x060005DE` `System.Single IntlThrdPerfSchd.Service1/CoreInfo::get_ipc4c()`
+- `6055-6055` `0x060005DF` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_ipc4c(System.Single)`
+- `6056-6056` `0x060005E0` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_missrate4c()`
+- `6056-6056` `0x060005E1` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_missrate4c(System.Int64)`
+- `6058-6058` `0x060005E2` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_missrate4c_e()`
+- `6058-6058` `0x060005E3` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_missrate4c_e(System.Int64)`
+- `6061-6061` `0x060005E4` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_missrate4c_l()`
+- `6061-6061` `0x060005E5` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_missrate4c_l(System.Int64)`
+- `6066-6066` `0x060005E6` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_cycles4sys()`
+- `6066-6066` `0x060005E7` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_cycles4sys(System.Int64)`
+- `6068-6068` `0x060005E8` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_cycles4sys_e()`
+- `6068-6068` `0x060005E9` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_cycles4sys_e(System.Int64)`
+- `6071-6071` `0x060005EA` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_cycles4sys_l()`
+- `6071-6071` `0x060005EB` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_cycles4sys_l(System.Int64)`
+- `6073-6073` `0x060005EC` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_instructions4sys()`
+- `6073-6073` `0x060005ED` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_instructions4sys(System.Int64)`
+- `6075-6075` `0x060005EE` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_instructions4sys_e()`
+- `6075-6075` `0x060005EF` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_instructions4sys_e(System.Int64)`
+- `6078-6078` `0x060005F0` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_instructions4sys_l()`
+- `6078-6078` `0x060005F1` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_instructions4sys_l(System.Int64)`
+- `6081-6081` `0x060005F2` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_total_energy()`
+- `6081-6081` `0x060005F3` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_total_energy(System.Int64)`
+- `6083-6083` `0x060005F4` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_total_energy_e()`
+- `6083-6083` `0x060005F5` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_total_energy_e(System.Int64)`
+- `6086-6086` `0x060005F6` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_total_energy_l()`
+- `6086-6086` `0x060005F7` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_total_energy_l(System.Int64)`
+- `6090-6090` `0x060005F8` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_AccMaxTime()`
+- `6090-6090` `0x060005F9` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_AccMaxTime(System.Int64)`
+- `6092-6092` `0x060005FA` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_AvgMaxTime()`
+- `6092-6092` `0x060005FB` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_AvgMaxTime(System.Int64)`
+- `6094-6094` `0x060005FC` `IntlThrdPerfSchd.Service1/NumberProcessor IntlThrdPerfSchd.Service1/CoreInfo::get_numberProcessor()`
+- `6094-6094` `0x060005FD` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_numberProcessor(IntlThrdPerfSchd.Service1/NumberProcessor)`
+- `6097-6097` `0x060005FE` `System.Int32 IntlThrdPerfSchd.Service1/CoreInfo::get_Cid()`
+- `6097-6097` `0x060005FF` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Cid(System.Int32)`
+- `6098-6098` `0x06000600` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_DateTime()`
+- `6098-6098` `0x06000601` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_DateTime(System.Int64)`
+- `6104-6104` `0x06000602` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_DateTime4sched()`
+- `6104-6104` `0x06000603` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_DateTime4sched(System.Int64)`
+- `6106-6106` `0x06000604` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_DateTime4q()`
+- `6106-6106` `0x06000605` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_DateTime4q(System.Int64)`
+- `6109-6109` `0x06000606` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_IntVal()`
+- `6109-6109` `0x06000607` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_IntVal(System.Int64)`
+- `6111-6111` `0x06000608` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Count()`
+- `6111-6111` `0x06000609` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Count(System.Int64)`
+- `6113-6113` `0x0600060A` `System.Int32 IntlThrdPerfSchd.Service1/CoreInfo::get_CounterEnabled()`
+- `6113-6113` `0x0600060B` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_CounterEnabled(System.Int32)`
+- `6115-6115` `0x0600060C` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Idletime()`
+- `6115-6115` `0x0600060D` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Idletime(System.Int64)`
+- `6117-6117` `0x0600060E` `System.UInt32 IntlThrdPerfSchd.Service1/CoreInfo::get_Affinity()`
+- `6117-6117` `0x0600060F` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Affinity(System.UInt32)`
+- `6119-6119` `0x06000610` `System.UInt32 IntlThrdPerfSchd.Service1/CoreInfo::get_Affinity_origin()`
+- `6119-6119` `0x06000611` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Affinity_origin(System.UInt32)`
+- `6120-6120` `0x06000612` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_RunTime()`
+- `6120-6120` `0x06000613` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_RunTime(System.Int64)`
+- `6122-6122` `0x06000614` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_RunTime4queque()`
+- `6122-6122` `0x06000615` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_RunTime4queque(System.Int64)`
+- `6124-6124` `0x06000616` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_RunTime4queque4sched()`
+- `6124-6124` `0x06000617` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_RunTime4queque4sched(System.Int64)`
+- `6126-6126` `0x06000618` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_RunTime4usage()`
+- `6126-6126` `0x06000619` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_RunTime4usage(System.Int64)`
+- `6128-6128` `0x0600061A` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_accRunTime4usage()`
+- `6128-6128` `0x0600061B` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_accRunTime4usage(System.Int64)`
+- `6131-6131` `0x0600061C` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Threadcount()`
+- `6131-6131` `0x0600061D` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Threadcount(System.Int64)`
+- `6134-6134` `0x0600061E` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_SustainedThreadcount()`
+- `6134-6134` `0x0600061F` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_SustainedThreadcount(System.Int64)`
+- `6136-6136` `0x06000620` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_SustainedThreadcount4sched()`
+- `6136-6136` `0x06000621` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_SustainedThreadcount4sched(System.Int64)`
+- `6139-6139` `0x06000622` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_WaitTime()`
+- `6139-6139` `0x06000623` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_WaitTime(System.Int64)`
+- `6142-6142` `0x06000624` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Duration()`
+- `6142-6142` `0x06000625` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Duration(System.Int64)`
+- `6144-6144` `0x06000626` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Intvaltime()`
+- `6144-6144` `0x06000627` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Intvaltime(System.Int64)`
+- `6147-6147` `0x06000628` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Utilization()`
+- `6147-6147` `0x06000629` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Utilization(System.Int64)`
+- `6149-6149` `0x0600062A` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Utilization4sched()`
+- `6149-6149` `0x0600062B` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Utilization4sched(System.Int64)`
+- `6151-6151` `0x0600062C` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Utilization4q()`
+- `6151-6151` `0x0600062D` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Utilization4q(System.Int64)`
+- `6153-6153` `0x0600062E` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Utilization4q4sched()`
+- `6153-6153` `0x0600062F` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Utilization4q4sched(System.Int64)`
+- `6156-6156` `0x06000630` `System.Int32 IntlThrdPerfSchd.Service1/CoreInfo::get_P_state()`
+- `6156-6156` `0x06000631` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_P_state(System.Int32)`
+- `6158-6158` `0x06000632` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Instruction_e()`
+- `6158-6158` `0x06000633` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Instruction_e(System.Int64)`
+- `6160-6160` `0x06000634` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Cycle_e()`
+- `6160-6160` `0x06000635` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Cycle_e(System.Int64)`
+- `6162-6162` `0x06000636` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Instruction_l()`
+- `6162-6162` `0x06000637` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Instruction_l(System.Int64)`
+- `6164-6164` `0x06000638` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Cycle_l()`
+- `6164-6164` `0x06000639` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Cycle_l(System.Int64)`
+- `6166-6166` `0x0600063A` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Instruction()`
+- `6166-6166` `0x0600063B` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Instruction(System.Int64)`
+- `6168-6168` `0x0600063C` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Cycle()`
+- `6168-6168` `0x0600063D` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Cycle(System.Int64)`
+- `6170-6170` `0x0600063E` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Ipc()`
+- `6170-6170` `0x0600063F` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Ipc(System.Int64)`
+- `6173-6173` `0x06000640` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register1()`
+- `6173-6173` `0x06000641` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register1(System.Int64)`
+- `6175-6175` `0x06000642` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register2()`
+- `6175-6175` `0x06000643` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register2(System.Int64)`
+- `6177-6177` `0x06000644` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register3()`
+- `6177-6177` `0x06000645` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register3(System.Int64)`
+- `6179-6179` `0x06000646` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register4()`
+- `6179-6179` `0x06000647` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register4(System.Int64)`
+- `6181-6181` `0x06000648` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register5()`
+- `6181-6181` `0x06000649` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register5(System.Int64)`
+- `6183-6183` `0x0600064A` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register6()`
+- `6183-6183` `0x0600064B` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register6(System.Int64)`
+- `6185-6185` `0x0600064C` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register1_e()`
+- `6185-6185` `0x0600064D` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register1_e(System.Int64)`
+- `6187-6187` `0x0600064E` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register2_e()`
+- `6187-6187` `0x0600064F` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register2_e(System.Int64)`
+- `6189-6189` `0x06000650` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register3_e()`
+- `6189-6189` `0x06000651` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register3_e(System.Int64)`
+- `6191-6191` `0x06000652` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register4_e()`
+- `6191-6191` `0x06000653` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register4_e(System.Int64)`
+- `6193-6193` `0x06000654` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register5_e()`
+- `6193-6193` `0x06000655` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register5_e(System.Int64)`
+- `6195-6195` `0x06000656` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register6_e()`
+- `6195-6195` `0x06000657` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register6_e(System.Int64)`
+- `6197-6197` `0x06000658` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register1_l()`
+- `6197-6197` `0x06000659` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register1_l(System.Int64)`
+- `6199-6199` `0x0600065A` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register2_l()`
+- `6199-6199` `0x0600065B` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register2_l(System.Int64)`
+- `6201-6201` `0x0600065C` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register3_l()`
+- `6201-6201` `0x0600065D` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register3_l(System.Int64)`
+- `6203-6203` `0x0600065E` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register4_l()`
+- `6203-6203` `0x0600065F` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register4_l(System.Int64)`
+- `6205-6205` `0x06000660` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register5_l()`
+- `6205-6205` `0x06000661` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register5_l(System.Int64)`
+- `6207-6207` `0x06000662` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Register6_l()`
+- `6207-6207` `0x06000663` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Register6_l(System.Int64)`
+- `6210-6210` `0x06000664` `IntlThrdPerfSchd.Service1/ThreadExecutionRegistry IntlThrdPerfSchd.Service1/CoreInfo::get_threadexecinfo()`
+- `6210-6210` `0x06000665` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_threadexecinfo(IntlThrdPerfSchd.Service1/ThreadExecutionRegistry)`
+- `6212-6212` `0x06000666` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Accthreadcount()`
+- `6212-6212` `0x06000667` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Accthreadcount(System.Int64)`
+- `6214-6214` `0x06000668` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Avgthreadcount()`
+- `6214-6214` `0x06000669` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Avgthreadcount(System.Int64)`
+- `6216-6216` `0x0600066A` `System.Int64 IntlThrdPerfSchd.Service1/CoreInfo::get_Avgthreadtime()`
+- `6216-6216` `0x0600066B` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Avgthreadtime(System.Int64)`
+- `6221-6221` `0x0600066C` `IntlThrdPerfSchd.Service1/Node2 IntlThrdPerfSchd.Service1/CoreInfo::get_ThreadSet()`
+- `6221-6221` `0x0600066D` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_ThreadSet(IntlThrdPerfSchd.Service1/Node2)`
+- `6223-6223` `0x0600066E` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1/CoreInfo::get_Threadinfosimp()`
+- `6223-6223` `0x0600066F` `System.Void IntlThrdPerfSchd.Service1/CoreInfo::set_Threadinfosimp(IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+- `6230-6241` `0x06000670` `System.Single IntlThrdPerfSchd.Service1/CoreInfo::CalcRatio1(System.Int64,System.Int64,System.Single)`
+
+### IntlThrdPerfSchd.Service1/CoreManager
+- `2546-2561` `0x0600034B` `System.Void IntlThrdPerfSchd.Service1/CoreManager::.ctor(System.Int32)`
+- `2566-2576` `0x0600034C` `System.Void IntlThrdPerfSchd.Service1/CoreManager::UpdateUtilization(System.Int32,System.Double)`
+- `2581-2582` `0x0600034D` `System.Int32 IntlThrdPerfSchd.Service1/CoreManager::GetMinUtilCore()`
+- `2588-2594` `0x0600034E` `System.Void IntlThrdPerfSchd.Service1/CoreManager::PrintAllCores()`
+
+### IntlThrdPerfSchd.Service1/CoreQueue
+- `6258-6260` `0x06000671` `System.Void IntlThrdPerfSchd.Service1/CoreQueue::.ctor()`
+- `6262-6276` `0x06000672` `System.Void IntlThrdPerfSchd.Service1/CoreQueue::.ctor(System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)`
+- `6278-6278` `0x06000673` `System.Int32 IntlThrdPerfSchd.Service1/CoreQueue::get_Cid()`
+- `6278-6278` `0x06000674` `System.Void IntlThrdPerfSchd.Service1/CoreQueue::set_Cid(System.Int32)`
+- `6279-6279` `0x06000675` `System.Int64 IntlThrdPerfSchd.Service1/CoreQueue::get_DateTime()`
+- `6279-6279` `0x06000676` `System.Void IntlThrdPerfSchd.Service1/CoreQueue::set_DateTime(System.Int64)`
+- `6281-6281` `0x06000677` `System.Int64 IntlThrdPerfSchd.Service1/CoreQueue::get_IntVal()`
+- `6281-6281` `0x06000678` `System.Void IntlThrdPerfSchd.Service1/CoreQueue::set_IntVal(System.Int64)`
+- `6284-6284` `0x06000679` `System.Int64 IntlThrdPerfSchd.Service1/CoreQueue::get_RunTime()`
+- `6284-6284` `0x0600067A` `System.Void IntlThrdPerfSchd.Service1/CoreQueue::set_RunTime(System.Int64)`
+- `6287-6287` `0x0600067B` `System.Int64 IntlThrdPerfSchd.Service1/CoreQueue::get_WaitTime()`
+- `6287-6287` `0x0600067C` `System.Void IntlThrdPerfSchd.Service1/CoreQueue::set_WaitTime(System.Int64)`
+- `6290-6290` `0x0600067D` `System.Int64 IntlThrdPerfSchd.Service1/CoreQueue::get_Duration()`
+- `6290-6290` `0x0600067E` `System.Void IntlThrdPerfSchd.Service1/CoreQueue::set_Duration(System.Int64)`
+- `6297-6297` `0x0600067F` `IntlThrdPerfSchd.Service1/Node2 IntlThrdPerfSchd.Service1/CoreQueue::get_Next()`
+- `6297-6297` `0x06000680` `System.Void IntlThrdPerfSchd.Service1/CoreQueue::set_Next(IntlThrdPerfSchd.Service1/Node2)`
+
+### IntlThrdPerfSchd.Service1/CrossAttentionScheduler
+- `186-253` `0x060002B4` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::.ctor()`
+- `257-262` `0x060002B5` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::SetNormalization(System.Single[],System.Single[])`
+- `266-269` `0x060002B6` `System.Single[] IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Normalize(System.Single[])`
+- `278-358` `0x060002B7` `System.ValueTuple`2<System.Int32,System.Single[]> IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Forward(System.Single[])`
+- `366-441` `0x060002B8` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Train(IntlThrdPerfSchd.Service1/SchedulerDataset,System.Int32,System.Single)`
+- `448-465` `0x060002B9` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::PrintCoreTypeTemplates()`
+- `472-523` `0x060002BA` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::TrainOnline(System.Single[],System.Int32,System.Single)`
+- `531-566` `0x060002BB` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::TrainOnlineRaw(System.Single[],System.Int32,System.Single)`
+- `573-590` `0x060002BC` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Evaluate(IntlThrdPerfSchd.Service1/SchedulerDataset)`
+- `597-607` `0x060002BD` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Predict(IntlThrdPerfSchd.Service1/SchedulerThreadData)`
+- `614-624` `0x060002BE` `System.Int32 IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Schedule(IntlThrdPerfSchd.Service1/SchedulerThreadData)`
+- `629-630` `0x060002BF` `System.ValueTuple`2<System.Int32,System.Single[]> IntlThrdPerfSchd.Service1/CrossAttentionScheduler::PredictRaw(System.Single[])`
+- `638-649` `0x060002C0` `System.Boolean IntlThrdPerfSchd.Service1/CrossAttentionScheduler::IsModelReady(System.Single,System.Int32)`
+- `655-655` `0x060002C1` `System.Single[] IntlThrdPerfSchd.Service1/CrossAttentionScheduler::GetAttention()`
+- `674-676` `0x060002C2` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Learn(System.Single,System.Single,System.Single,System.Single,System.Single,System.Int32,System.Single)`
+- `685-687` `0x060002C3` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Learn(IntlThrdPerfSchd.Service1/SchedulerThreadData,System.Single)`
+- `701-703` `0x060002C4` `System.Int32 IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Schedule(System.Single,System.Single,System.Single,System.Single,System.Single)`
+- `719-721` `0x060002C5` `System.ValueTuple`3<System.Int32,System.Single,System.Single[]> IntlThrdPerfSchd.Service1/CrossAttentionScheduler::ScheduleWithDetails(System.Single,System.Single,System.Single,System.Single,System.Single)`
+- `731-732` `0x060002C6` `System.ValueTuple`3<System.Int32,System.Single,System.Single[]> IntlThrdPerfSchd.Service1/CrossAttentionScheduler::ScheduleWithDetails(IntlThrdPerfSchd.Service1/SchedulerThreadData)`
+- `742-746` `0x060002C7` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::EnableEnergyLearning()`
+- `753-755` `0x060002C8` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::DisableEnergyLearning()`
+- `764-820` `0x060002C9` `System.Int32 IntlThrdPerfSchd.Service1/CrossAttentionScheduler::ScheduleAndRecord(System.Single,System.Single,System.Single,System.Single,System.Single)`
+- `828-829` `0x060002CA` `System.Int32 IntlThrdPerfSchd.Service1/CrossAttentionScheduler::ScheduleAndRecord(IntlThrdPerfSchd.Service1/SchedulerThreadData)`
+- `840-877` `0x060002CB` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::ReceiveEnergyFeedback(System.Single)`
+- `885-894` `0x060002CC` `System.Single IntlThrdPerfSchd.Service1/CrossAttentionScheduler::ComputeReward(System.Single)`
+- `903-965` `0x060002CD` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::DistributeReward(System.Single)`
+- `973-987` `0x060002CE` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::UpdateBaseline(System.Single)`
+- `994-1023` `0x060002CF` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::ReplayLearning()`
+- `1030-1030` `0x060002D0` `System.ValueTuple`3<System.Int32,System.Single,System.Single> IntlThrdPerfSchd.Service1/CrossAttentionScheduler::GetEnergyLearningStats()`
+- `1039-1055` `0x060002D1` `System.String IntlThrdPerfSchd.Service1/CrossAttentionScheduler::GetStatistics()`
+
+### IntlThrdPerfSchd.Service1/CrossAttentionScheduler/<>c
+- `1045-1045` `0x06000779` `System.Single IntlThrdPerfSchd.Service1/CrossAttentionScheduler/<>c::<GetStatistics>b__65_0(System.ValueTuple`2<System.Int64,System.Single>)`
+- `1046-1046` `0x0600077A` `System.Single IntlThrdPerfSchd.Service1/CrossAttentionScheduler/<>c::<GetStatistics>b__65_1(System.ValueTuple`2<System.Int64,System.Single>)`
+- `1047-1047` `0x0600077B` `System.Single IntlThrdPerfSchd.Service1/CrossAttentionScheduler/<>c::<GetStatistics>b__65_2(System.ValueTuple`2<System.Int64,System.Single>)`
+
+### IntlThrdPerfSchd.Service1/CrossAttentionScheduler/<>c__DisplayClass40_0
+- `378-378` `0x0600077D` `System.Int32 IntlThrdPerfSchd.Service1/CrossAttentionScheduler/<>c__DisplayClass40_0::<Train>b__0(System.Int32)`
+
+### IntlThrdPerfSchd.Service1/CrossAttentionScheduler/<>c__DisplayClass59_0
+- `852-852` `0x0600077F` `System.Boolean IntlThrdPerfSchd.Service1/CrossAttentionScheduler/<>c__DisplayClass59_0::<ReceiveEnergyFeedback>b__0(System.ValueTuple`2<System.Int64,System.Single>)`
+
+### IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord
+- `206-206` `0x06000766` `System.Single[] IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::get_Features()`
+- `206-206` `0x06000767` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::set_Features(System.Single[])`
+- `206-210` `0x06000776` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::.ctor()`
+- `207-207` `0x06000768` `System.Single[] IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::get_RawFeatures()`
+- `207-207` `0x06000769` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::set_RawFeatures(System.Single[])`
+- `208-208` `0x0600076A` `System.Int32 IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::get_Decision()`
+- `208-208` `0x0600076B` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::set_Decision(System.Int32)`
+- `209-209` `0x0600076C` `System.Single[] IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::get_Attention()`
+- `209-209` `0x0600076D` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::set_Attention(System.Single[])`
+- `210-210` `0x0600076E` `System.Single[] IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::get_Probabilities()`
+- `210-210` `0x0600076F` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::set_Probabilities(System.Single[])`
+- `211-211` `0x06000770` `System.Int64 IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::get_Timestamp()`
+- `211-211` `0x06000771` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::set_Timestamp(System.Int64)`
+- `212-212` `0x06000772` `System.Single IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::get_Reward()`
+- `212-212` `0x06000773` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::set_Reward(System.Single)`
+- `213-213` `0x06000774` `System.Boolean IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::get_HasReward()`
+- `213-213` `0x06000775` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::set_HasReward(System.Boolean)`
+
+### IntlThrdPerfSchd.Service1/DataLinkageAnalyzer
+- `2156-2156` `0x06000314` `System.Int32 IntlThrdPerfSchd.Service1/DataLinkageAnalyzer::get_DataCount()`
+- `2161-2161` `0x06000315` `System.Boolean IntlThrdPerfSchd.Service1/DataLinkageAnalyzer::get_CanAnalyze()`
+- `2167-2175` `0x06000316` `System.Void IntlThrdPerfSchd.Service1/DataLinkageAnalyzer::.ctor(System.Int32)`
+- `2185-2194` `0x06000317` `System.Void IntlThrdPerfSchd.Service1/DataLinkageAnalyzer::AddData(System.Double,System.Double)`
+- `2202-2218` `0x06000318` `IntlThrdPerfSchd.Service1/LinkageAnalysisResult IntlThrdPerfSchd.Service1/DataLinkageAnalyzer::Analyze()`
+- `2226-2249` `0x06000319` `System.Double IntlThrdPerfSchd.Service1/DataLinkageAnalyzer::CalculatePearsonCorrelation(System.Double[],System.Double[])`
+- `2257-2269` `0x0600031A` `System.Double IntlThrdPerfSchd.Service1/DataLinkageAnalyzer::CalculateCovariance(System.Double[],System.Double[])`
+- `2277-2279` `0x0600031B` `System.Double IntlThrdPerfSchd.Service1/DataLinkageAnalyzer::CalculateStandardDeviation(System.Double[])`
+- `2287-2289` `0x0600031C` `System.Void IntlThrdPerfSchd.Service1/DataLinkageAnalyzer::Clear()`
+- `2296-2296` `0x0600031D` `System.ValueTuple`2<System.Double[],System.Double[]> IntlThrdPerfSchd.Service1/DataLinkageAnalyzer::GetCurrentWindowData()`
+- `2305-2311` `0x0600031E` `System.Int32 IntlThrdPerfSchd.Service1/DataLinkageAnalyzer::GetLinkageStrengthValue()`
+- `2322-2343` `0x0600031F` `System.Double IntlThrdPerfSchd.Service1/DataLinkageAnalyzer::GetElasticity()`
+- `2352-2355` `0x06000320` `System.String IntlThrdPerfSchd.Service1/DataLinkageAnalyzer::GetElasticityDescription()`
+
+### IntlThrdPerfSchd.Service1/DataLinkageAnalyzer/<>c__DisplayClass12_0
+- `2278-2278` `0x06000793` `System.Double IntlThrdPerfSchd.Service1/DataLinkageAnalyzer/<>c__DisplayClass12_0::<CalculateStandardDeviation>b__0(System.Double)`
+
+### IntlThrdPerfSchd.Service1/ElasticityResult
+- `2448-2448` `0x06000335` `System.Double IntlThrdPerfSchd.Service1/ElasticityResult::get_Elasticity()`
+- `2448-2448` `0x06000336` `System.Void IntlThrdPerfSchd.Service1/ElasticityResult::set_Elasticity(System.Double)`
+- `2453-2453` `0x06000337` `System.Double IntlThrdPerfSchd.Service1/ElasticityResult::get_PercentageChange()`
+- `2453-2453` `0x06000338` `System.Void IntlThrdPerfSchd.Service1/ElasticityResult::set_PercentageChange(System.Double)`
+- `2458-2458` `0x06000339` `System.String IntlThrdPerfSchd.Service1/ElasticityResult::get_Direction()`
+- `2458-2458` `0x0600033A` `System.Void IntlThrdPerfSchd.Service1/ElasticityResult::set_Direction(System.String)`
+- `2463-2463` `0x0600033B` `System.String IntlThrdPerfSchd.Service1/ElasticityResult::get_Description()`
+- `2463-2463` `0x0600033C` `System.Void IntlThrdPerfSchd.Service1/ElasticityResult::set_Description(System.String)`
+- `2468-2468` `0x0600033D` `System.DateTime IntlThrdPerfSchd.Service1/ElasticityResult::get_Timestamp()`
+- `2468-2468` `0x0600033E` `System.Void IntlThrdPerfSchd.Service1/ElasticityResult::set_Timestamp(System.DateTime)`
+- `2472-2476` `0x0600033F` `System.String IntlThrdPerfSchd.Service1/ElasticityResult::ToString()`
+
+### IntlThrdPerfSchd.Service1/GaussianRandom
+- `2638-2641` `0x0600034F` `System.Void IntlThrdPerfSchd.Service1/GaussianRandom::.ctor(System.Nullable`1<System.Int32>)`
+- `2650-2667` `0x06000350` `System.Double IntlThrdPerfSchd.Service1/GaussianRandom::NextGaussian(System.Double,System.Double)`
+
+### IntlThrdPerfSchd.Service1/GroupInfo
+- `4729-4731` `0x060003C8` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::.ctor()`
+- `4733-4787` `0x060003C9` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::.ctor(System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)`
+- `4792-4792` `0x060003CA` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_B_runtime()`
+- `4792-4792` `0x060003CB` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_B_runtime(System.Int64)`
+- `4794-4794` `0x060003CC` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_B_waittime()`
+- `4794-4794` `0x060003CD` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_B_waittime(System.Int64)`
+- `4796-4796` `0x060003CE` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_B_affinity()`
+- `4796-4796` `0x060003CF` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_B_affinity(System.Int64)`
+- `4799-4799` `0x060003D0` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_B_available()`
+- `4799-4799` `0x060003D1` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_B_available(System.Int64)`
+- `4802-4802` `0x060003D2` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_B_utilization()`
+- `4802-4802` `0x060003D3` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_B_utilization(System.Int64)`
+- `4804-4804` `0x060003D4` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_L_runtime()`
+- `4804-4804` `0x060003D5` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_L_runtime(System.Int64)`
+- `4806-4806` `0x060003D6` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_L_waittime()`
+- `4806-4806` `0x060003D7` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_L_waittime(System.Int64)`
+- `4808-4808` `0x060003D8` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_L_affinity()`
+- `4808-4808` `0x060003D9` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_L_affinity(System.Int64)`
+- `4810-4810` `0x060003DA` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_L_available()`
+- `4810-4810` `0x060003DB` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_L_available(System.Int64)`
+- `4812-4812` `0x060003DC` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_L_utilization()`
+- `4812-4812` `0x060003DD` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_L_utilization(System.Int64)`
+- `4814-4814` `0x060003DE` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_G_runtime()`
+- `4814-4814` `0x060003DF` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_G_runtime(System.Int64)`
+- `4816-4816` `0x060003E0` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_G_waittime()`
+- `4816-4816` `0x060003E1` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_G_waittime(System.Int64)`
+- `4818-4818` `0x060003E2` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_G_available()`
+- `4818-4818` `0x060003E3` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_G_available(System.Int64)`
+- `4819-4819` `0x060003E4` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_G_affinity()`
+- `4819-4819` `0x060003E5` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_G_affinity(System.Int64)`
+- `4821-4821` `0x060003E6` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_G_utilization()`
+- `4821-4821` `0x060003E7` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_G_utilization(System.Int64)`
+- `4822-4822` `0x060003E8` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_Datetime()`
+- `4822-4822` `0x060003E9` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_Datetime(System.Int64)`
+- `4824-4824` `0x060003EA` `System.Int64 IntlThrdPerfSchd.Service1/GroupInfo::get_Intval()`
+- `4824-4824` `0x060003EB` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_Intval(System.Int64)`
+- `4828-4828` `0x060003EC` `IntlThrdPerfSchd.Service1/GroupInfo IntlThrdPerfSchd.Service1/GroupInfo::get_Next()`
+- `4828-4828` `0x060003ED` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_Next(IntlThrdPerfSchd.Service1/GroupInfo)`
+- `4830-4830` `0x060003EE` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1/GroupInfo::get_ThreadSet1()`
+- `4830-4830` `0x060003EF` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_ThreadSet1(IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+- `4832-4832` `0x060003F0` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1/GroupInfo::get_ThreadSet2()`
+- `4832-4832` `0x060003F1` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_ThreadSet2(IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+- `4836-4836` `0x060003F2` `System.Int32 IntlThrdPerfSchd.Service1/GroupInfo::get_OnlyBcore()`
+- `4836-4836` `0x060003F3` `System.Void IntlThrdPerfSchd.Service1/GroupInfo::set_OnlyBcore(System.Int32)`
+
+### IntlThrdPerfSchd.Service1/LinkageAnalysisResult
+- `2367-2367` `0x06000321` `System.Double IntlThrdPerfSchd.Service1/LinkageAnalysisResult::get_CorrelationCoefficient()`
+- `2367-2367` `0x06000322` `System.Void IntlThrdPerfSchd.Service1/LinkageAnalysisResult::set_CorrelationCoefficient(System.Double)`
+- `2372-2372` `0x06000323` `System.Double IntlThrdPerfSchd.Service1/LinkageAnalysisResult::get_Covariance()`
+- `2372-2372` `0x06000324` `System.Void IntlThrdPerfSchd.Service1/LinkageAnalysisResult::set_Covariance(System.Double)`
+- `2377-2377` `0x06000325` `System.Double IntlThrdPerfSchd.Service1/LinkageAnalysisResult::get_Data1Mean()`
+- `2377-2377` `0x06000326` `System.Void IntlThrdPerfSchd.Service1/LinkageAnalysisResult::set_Data1Mean(System.Double)`
+- `2382-2382` `0x06000327` `System.Double IntlThrdPerfSchd.Service1/LinkageAnalysisResult::get_Data2Mean()`
+- `2382-2382` `0x06000328` `System.Void IntlThrdPerfSchd.Service1/LinkageAnalysisResult::set_Data2Mean(System.Double)`
+- `2387-2387` `0x06000329` `System.Double IntlThrdPerfSchd.Service1/LinkageAnalysisResult::get_Data1StdDev()`
+- `2387-2387` `0x0600032A` `System.Void IntlThrdPerfSchd.Service1/LinkageAnalysisResult::set_Data1StdDev(System.Double)`
+- `2392-2392` `0x0600032B` `System.Double IntlThrdPerfSchd.Service1/LinkageAnalysisResult::get_Data2StdDev()`
+- `2392-2392` `0x0600032C` `System.Void IntlThrdPerfSchd.Service1/LinkageAnalysisResult::set_Data2StdDev(System.Double)`
+- `2397-2397` `0x0600032D` `System.Int32 IntlThrdPerfSchd.Service1/LinkageAnalysisResult::get_AnalysisWindowSize()`
+- `2397-2397` `0x0600032E` `System.Void IntlThrdPerfSchd.Service1/LinkageAnalysisResult::set_AnalysisWindowSize(System.Int32)`
+- `2402-2402` `0x0600032F` `System.DateTime IntlThrdPerfSchd.Service1/LinkageAnalysisResult::get_Timestamp()`
+- `2402-2402` `0x06000330` `System.Void IntlThrdPerfSchd.Service1/LinkageAnalysisResult::set_Timestamp(System.DateTime)`
+- `2409-2414` `0x06000331` `System.String IntlThrdPerfSchd.Service1/LinkageAnalysisResult::GetLinkageStrength()`
+- `2422-2424` `0x06000332` `System.String IntlThrdPerfSchd.Service1/LinkageAnalysisResult::GetLinkageDirection()`
+- `2429-2436` `0x06000333` `System.String IntlThrdPerfSchd.Service1/LinkageAnalysisResult::ToString()`
+
+### IntlThrdPerfSchd.Service1/LSTMCell
+- `4386-4398` `0x06000380` `System.Void IntlThrdPerfSchd.Service1/LSTMCell::.ctor(System.Int32,System.Int32)`
+- `4402-4413` `0x06000381` `System.Void IntlThrdPerfSchd.Service1/LSTMCell::InitializeWeights()`
+- `4417-4427` `0x06000382` `System.Double[0...,0...] IntlThrdPerfSchd.Service1/LSTMCell::InitializeWeightMatrix(System.Int32,System.Int32,System.Random)`
+- `4432-4437` `0x06000383` `System.Double[] IntlThrdPerfSchd.Service1/LSTMCell::InitializeBiasVector(System.Int32,System.Random)`
+- `4443-4477` `0x06000384` `System.Double[] IntlThrdPerfSchd.Service1/LSTMCell::Forward(System.Double[])`
+- `4483-4490` `0x06000385` `System.Void IntlThrdPerfSchd.Service1/LSTMCell::Backward(System.Double,System.Double[])`
+- `4494-4501` `0x06000386` `System.Void IntlThrdPerfSchd.Service1/LSTMCell::AdjustWeights(System.Double[0...,0...],System.Double)`
+- `4503-4503` `0x06000387` `System.Double[] IntlThrdPerfSchd.Service1/LSTMCell::GetPreviousHiddenState()`
+- `4507-4520` `0x06000388` `System.Double[] IntlThrdPerfSchd.Service1/LSTMCell::MatrixVectorMultiply(System.Double[0...,0...],System.Double[],System.Double[])`
+- `4525-4530` `0x06000389` `System.Double[] IntlThrdPerfSchd.Service1/LSTMCell::Sigmoid(System.Double[])`
+- `4535-4540` `0x0600038A` `System.Double[] IntlThrdPerfSchd.Service1/LSTMCell::Tanh(System.Double[])`
+- `4543-4543` `0x0600038B` `System.Double IntlThrdPerfSchd.Service1/LSTMCell::Tanh(System.Double)`
+
+### IntlThrdPerfSchd.Service1/Mat
+- `138-143` `0x060002B3` `System.Single[0...,0...] IntlThrdPerfSchd.Service1/Mat::Rand(System.Int32,System.Int32,System.Single)`
+
+### IntlThrdPerfSchd.Service1/NeuralNetwork
+- `3203-3311` `0x06000354` `System.Void IntlThrdPerfSchd.Service1/NeuralNetwork::.ctor()`
+- `3240-3255` `0x06000351` `System.Void IntlThrdPerfSchd.Service1/NeuralNetwork::InitializeWeights_calc_gauss(System.Int32[0...,0...]&,System.Int32,System.Int32)`
+- `3259-3273` `0x06000352` `System.Void IntlThrdPerfSchd.Service1/NeuralNetwork::InitializeWeights_calc(System.Int32[0...,0...]&,System.Int32,System.Int32)`
+- `3282-3300` `0x06000353` `System.Void IntlThrdPerfSchd.Service1/NeuralNetwork::InitializeWeights()`
+- `3319-3369` `0x06000355` `System.Int32 IntlThrdPerfSchd.Service1/NeuralNetwork::Predict(System.Int32[])`
+- `3375-3375` `0x06000356` `System.Int32 IntlThrdPerfSchd.Service1/NeuralNetwork::ClampIndex(System.Int32)`
+- `3382-3485` `0x06000357` `System.Void IntlThrdPerfSchd.Service1/NeuralNetwork::Update(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32)`
+- `3490-3498` `0x06000358` `System.Int32[] IntlThrdPerfSchd.Service1/NeuralNetwork::ComputeLayer(System.Int32[],System.Int32[0...,0...])`
+- `3507-3527` `0x06000359` `System.Void IntlThrdPerfSchd.Service1/NeuralNetwork::BackwardBranch1(System.Int32,System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[0...,0...]&,System.Int32[0...,0...]&,System.Int32[0...,0...]&,System.Int32,System.Int32[]&)`
+- `3536-3539` `0x0600035A` `System.Int32[] IntlThrdPerfSchd.Service1/NeuralNetwork::BackwardBranch_single(System.Int32[],System.Int32[],System.Int32[0...,0...]&,System.Int32,System.Int32)`
+- `3551-3575` `0x0600035B` `System.Int32[] IntlThrdPerfSchd.Service1/NeuralNetwork::BackwardBranch_merge(System.Int32[],System.Int32[],System.Int32[],System.Int32[0...,0...]&,System.Int32[0...,0...]&,System.Int32,System.Int32)`
+- `3587-3615` `0x0600035C` `System.Int32[] IntlThrdPerfSchd.Service1/NeuralNetwork::BackwardBranch_merge3(System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[0...,0...]&,System.Int32[0...,0...]&,System.Int32[0...,0...]&,System.Int32,System.Int32,System.Int32)`
+- `3634-3655` `0x0600035D` `System.Void IntlThrdPerfSchd.Service1/NeuralNetwork::BackwardBranch2(System.Int32,System.Int32[],System.Int32[],System.Int32[],System.Int32[],System.Int32[0...,0...]&,System.Int32[0...,0...]&,System.Int32[0...,0...]&,System.Int32[0...,0...]&,System.Int32[]&,System.Int32)`
+- `3663-3682` `0x0600035E` `System.Void IntlThrdPerfSchd.Service1/NeuralNetwork::UpdateWeights(System.Int32[0...,0...]&,System.Int32,System.Int32[],System.Int32,System.Int32)`
+- `3689-3713` `0x0600035F` `System.Void IntlThrdPerfSchd.Service1/NeuralNetwork::UpdateWeights(System.Int32[0...,0...]&,System.Int32[],System.Int32[],System.Int32,System.Int32)`
+- `3720-3722` `0x06000360` `System.Int32 IntlThrdPerfSchd.Service1/NeuralNetwork::SigmoidDerivative(System.Int32)`
+- `3728-3743` `0x06000361` `System.Int32[] IntlThrdPerfSchd.Service1/NeuralNetwork::ComputeHiddenDelta(System.Int32[],System.Int32[0...,0...],System.Int32[])`
+- `3749-3759` `0x06000362` `System.Int32 IntlThrdPerfSchd.Service1/NeuralNetwork::ComputeFinalOutput(System.Int32[],System.Int32[],System.Int32[])`
+- `3765-3770` `0x06000363` `System.Int32[] IntlThrdPerfSchd.Service1/NeuralNetwork::CombineLayers(System.Int32[],System.Int32[])`
+
+### IntlThrdPerfSchd.Service1/Node
+- `7472-7474` `0x0600068B` `System.Void IntlThrdPerfSchd.Service1/Node::.ctor()`
+- `7476-7481` `0x0600068C` `System.Void IntlThrdPerfSchd.Service1/Node::.ctor(System.Int32,System.Int32)`
+- `7483-7483` `0x0600068D` `System.Int32 IntlThrdPerfSchd.Service1/Node::get_Id()`
+- `7483-7483` `0x0600068E` `System.Void IntlThrdPerfSchd.Service1/Node::set_Id(System.Int32)`
+- `7484-7484` `0x0600068F` `System.Int32 IntlThrdPerfSchd.Service1/Node::get_Value()`
+- `7484-7484` `0x06000690` `System.Void IntlThrdPerfSchd.Service1/Node::set_Value(System.Int32)`
+- `7485-7485` `0x06000691` `IntlThrdPerfSchd.Service1/Node IntlThrdPerfSchd.Service1/Node::get_Next()`
+- `7485-7485` `0x06000692` `System.Void IntlThrdPerfSchd.Service1/Node::set_Next(IntlThrdPerfSchd.Service1/Node)`
+
+### IntlThrdPerfSchd.Service1/Node1
+- `7489-7491` `0x06000693` `System.Void IntlThrdPerfSchd.Service1/Node1::.ctor()`
+- `7493-7623` `0x06000694` `System.Void IntlThrdPerfSchd.Service1/Node1::.ctor(System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.UInt32,System.Int64)`
+- `7626-7626` `0x06000695` `System.Int32 IntlThrdPerfSchd.Service1/Node1::get_Id()`
+- `7626-7626` `0x06000696` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Id(System.Int32)`
+- `7629-7629` `0x06000697` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_instruction_b()`
+- `7629-7629` `0x06000698` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_instruction_b(System.Int64)`
+- `7633-7633` `0x06000699` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_aclk_b()`
+- `7633-7633` `0x0600069A` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_aclk_b(System.Int64)`
+- `7635-7635` `0x0600069B` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_load_b()`
+- `7635-7635` `0x0600069C` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_load_b(System.Int64)`
+- `7637-7637` `0x0600069D` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_store_b()`
+- `7637-7637` `0x0600069E` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_store_b(System.Int64)`
+- `7639-7639` `0x0600069F` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_load_miss_b()`
+- `7639-7639` `0x060006A0` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_load_miss_b(System.Int64)`
+- `7641-7641` `0x060006A1` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_br_b()`
+- `7641-7641` `0x060006A2` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_br_b(System.Int64)`
+- `7643-7643` `0x060006A3` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_runtime_b()`
+- `7643-7643` `0x060006A4` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_runtime_b(System.Int64)`
+- `7645-7645` `0x060006A5` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Cnt_b()`
+- `7645-7645` `0x060006A6` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Cnt_b(System.Int64)`
+- `7649-7649` `0x060006A7` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_instruction_l()`
+- `7649-7649` `0x060006A8` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_instruction_l(System.Int64)`
+- `7653-7653` `0x060006A9` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_aclk_l()`
+- `7653-7653` `0x060006AA` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_aclk_l(System.Int64)`
+- `7655-7655` `0x060006AB` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_load_l()`
+- `7655-7655` `0x060006AC` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_load_l(System.Int64)`
+- `7657-7657` `0x060006AD` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_load_l_perm()`
+- `7657-7657` `0x060006AE` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_load_l_perm(System.Int64)`
+- `7659-7659` `0x060006AF` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Last_duration()`
+- `7659-7659` `0x060006B0` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Last_duration(System.Int64)`
+- `7661-7661` `0x060006B1` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Now_duration()`
+- `7661-7661` `0x060006B2` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Now_duration(System.Int64)`
+- `7663-7663` `0x060006B3` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_store_l()`
+- `7663-7663` `0x060006B4` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_store_l(System.Int64)`
+- `7665-7665` `0x060006B5` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_store_l_perm()`
+- `7665-7665` `0x060006B6` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_store_l_perm(System.Int64)`
+- `7667-7667` `0x060006B7` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_load_miss_l()`
+- `7667-7667` `0x060006B8` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_load_miss_l(System.Int64)`
+- `7669-7669` `0x060006B9` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_br_l()`
+- `7669-7669` `0x060006BA` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_br_l(System.Int64)`
+- `7671-7671` `0x060006BB` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Acc_runtime_l()`
+- `7671-7671` `0x060006BC` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Acc_runtime_l(System.Int64)`
+- `7673-7673` `0x060006BD` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Cnt_l()`
+- `7673-7673` `0x060006BE` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Cnt_l(System.Int64)`
+- `7677-7677` `0x060006BF` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Ipc_b()`
+- `7677-7677` `0x060006C0` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Ipc_b(System.Int64)`
+- `7679-7679` `0x060006C1` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Max_ipc_b()`
+- `7679-7679` `0x060006C2` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Max_ipc_b(System.Int64)`
+- `7681-7681` `0x060006C3` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Ipc_l()`
+- `7681-7681` `0x060006C4` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Ipc_l(System.Int64)`
+- `7683-7683` `0x060006C5` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Ipc_l_perm()`
+- `7683-7683` `0x060006C6` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Ipc_l_perm(System.Int64)`
+- `7685-7685` `0x060006C7` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Max_ipc_l()`
+- `7685-7685` `0x060006C8` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Max_ipc_l(System.Int64)`
+- `7687-7687` `0x060006C9` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Ipc_ratio()`
+- `7687-7687` `0x060006CA` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Ipc_ratio(System.Int64)`
+- `7689-7689` `0x060006CB` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Br_ratio()`
+- `7689-7689` `0x060006CC` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Br_ratio(System.Int64)`
+- `7691-7691` `0x060006CD` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Br_load_ratio()`
+- `7691-7691` `0x060006CE` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Br_load_ratio(System.Int64)`
+- `7693-7693` `0x060006CF` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Load_miss_ratio_b()`
+- `7693-7693` `0x060006D0` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Load_miss_ratio_b(System.Int64)`
+- `7695-7695` `0x060006D1` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Min_load_miss_ratio_b()`
+- `7695-7695` `0x060006D2` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Min_load_miss_ratio_b(System.Int64)`
+- `7697-7697` `0x060006D3` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Load_miss_ratio_l()`
+- `7697-7697` `0x060006D4` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Load_miss_ratio_l(System.Int64)`
+- `7699-7699` `0x060006D5` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Avg_runtime_b()`
+- `7699-7699` `0x060006D6` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Avg_runtime_b(System.Int64)`
+- `7701-7701` `0x060006D7` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Avg_runtime_l()`
+- `7701-7701` `0x060006D8` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Avg_runtime_l(System.Int64)`
+- `7703-7703` `0x060006D9` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Avg_freq_b()`
+- `7703-7703` `0x060006DA` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Avg_freq_b(System.Int64)`
+- `7705-7705` `0x060006DB` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Avg_freq_l()`
+- `7705-7705` `0x060006DC` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Avg_freq_l(System.Int64)`
+- `7707-7707` `0x060006DD` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Max_ins()`
+- `7707-7707` `0x060006DE` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Max_ins(System.Int64)`
+- `7711-7711` `0x060006DF` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Lock_data()`
+- `7711-7711` `0x060006E0` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Lock_data(System.Int64)`
+- `7713-7713` `0x060006E1` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Tag()`
+- `7713-7713` `0x060006E2` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Tag(System.Int64)`
+- `7715-7715` `0x060006E3` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Duration()`
+- `7715-7715` `0x060006E4` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Duration(System.Int64)`
+- `7717-7717` `0x060006E5` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Reset_count()`
+- `7717-7717` `0x060006E6` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Reset_count(System.Int64)`
+- `7719-7719` `0x060006E7` `System.UInt32 IntlThrdPerfSchd.Service1/Node1::get_Affinity()`
+- `7719-7719` `0x060006E8` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Affinity(System.UInt32)`
+- `7721-7721` `0x060006E9` `System.Int64 IntlThrdPerfSchd.Service1/Node1::get_Residence()`
+- `7721-7721` `0x060006EA` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Residence(System.Int64)`
+- `7724-7724` `0x060006EB` `IntlThrdPerfSchd.Service1/Node1 IntlThrdPerfSchd.Service1/Node1::get_Next()`
+- `7724-7724` `0x060006EC` `System.Void IntlThrdPerfSchd.Service1/Node1::set_Next(IntlThrdPerfSchd.Service1/Node1)`
+
+### IntlThrdPerfSchd.Service1/Node2
+- `7450-7452` `0x06000681` `System.Void IntlThrdPerfSchd.Service1/Node2::.ctor()`
+- `7454-7460` `0x06000682` `System.Void IntlThrdPerfSchd.Service1/Node2::.ctor(System.Int32,System.Int64,System.Int32)`
+- `7462-7462` `0x06000683` `System.Int32 IntlThrdPerfSchd.Service1/Node2::get_Id()`
+- `7462-7462` `0x06000684` `System.Void IntlThrdPerfSchd.Service1/Node2::set_Id(System.Int32)`
+- `7463-7463` `0x06000685` `System.Int64 IntlThrdPerfSchd.Service1/Node2::get_Value1()`
+- `7463-7463` `0x06000686` `System.Void IntlThrdPerfSchd.Service1/Node2::set_Value1(System.Int64)`
+- `7465-7465` `0x06000687` `System.Int32 IntlThrdPerfSchd.Service1/Node2::get_Value2()`
+- `7465-7465` `0x06000688` `System.Void IntlThrdPerfSchd.Service1/Node2::set_Value2(System.Int32)`
+- `7466-7466` `0x06000689` `IntlThrdPerfSchd.Service1/Node2 IntlThrdPerfSchd.Service1/Node2::get_Next()`
+- `7466-7466` `0x0600068A` `System.Void IntlThrdPerfSchd.Service1/Node2::set_Next(IntlThrdPerfSchd.Service1/Node2)`
+
+### IntlThrdPerfSchd.Service1/NodeP
+- `7774-7776` `0x060006F5` `System.Void IntlThrdPerfSchd.Service1/NodeP::.ctor()`
+- `7778-7816` `0x060006F6` `System.Void IntlThrdPerfSchd.Service1/NodeP::.ctor(System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,IntlThrdPerfSchd.Service1/Node2,IntlThrdPerfSchd.Service1/Node2)`
+- `7819-7819` `0x060006F7` `System.Int32 IntlThrdPerfSchd.Service1/NodeP::get_PId()`
+- `7819-7819` `0x060006F8` `System.Void IntlThrdPerfSchd.Service1/NodeP::set_PId(System.Int32)`
+- `7829-7829` `0x060006F9` `System.Int64 IntlThrdPerfSchd.Service1/NodeP::get_Ins_total()`
+- `7829-7829` `0x060006FA` `System.Void IntlThrdPerfSchd.Service1/NodeP::set_Ins_total(System.Int64)`
+- `7833-7833` `0x060006FB` `System.Int64 IntlThrdPerfSchd.Service1/NodeP::get_Store_total()`
+- `7833-7833` `0x060006FC` `System.Void IntlThrdPerfSchd.Service1/NodeP::set_Store_total(System.Int64)`
+- `7835-7835` `0x060006FD` `System.Int64 IntlThrdPerfSchd.Service1/NodeP::get_Count_total()`
+- `7835-7835` `0x060006FE` `System.Void IntlThrdPerfSchd.Service1/NodeP::set_Count_total(System.Int64)`
+- `7837-7837` `0x060006FF` `System.Int64 IntlThrdPerfSchd.Service1/NodeP::get_Intval()`
+- `7837-7837` `0x06000700` `System.Void IntlThrdPerfSchd.Service1/NodeP::set_Intval(System.Int64)`
+- `7839-7839` `0x06000701` `System.Int64 IntlThrdPerfSchd.Service1/NodeP::get_Nonstore_store_ratio()`
+- `7839-7839` `0x06000702` `System.Void IntlThrdPerfSchd.Service1/NodeP::set_Nonstore_store_ratio(System.Int64)`
+- `7841-7841` `0x06000703` `System.Int64 IntlThrdPerfSchd.Service1/NodeP::get_Usr_sum()`
+- `7841-7841` `0x06000704` `System.Void IntlThrdPerfSchd.Service1/NodeP::set_Usr_sum(System.Int64)`
+- `7844-7844` `0x06000705` `System.Int64 IntlThrdPerfSchd.Service1/NodeP::get_Usr_count()`
+- `7844-7844` `0x06000706` `System.Void IntlThrdPerfSchd.Service1/NodeP::set_Usr_count(System.Int64)`
+- `7846-7846` `0x06000707` `System.Int64 IntlThrdPerfSchd.Service1/NodeP::get_Usr_ratio()`
+- `7846-7846` `0x06000708` `System.Void IntlThrdPerfSchd.Service1/NodeP::set_Usr_ratio(System.Int64)`
+- `7848-7848` `0x06000709` `System.Int64 IntlThrdPerfSchd.Service1/NodeP::get_Residence()`
+- `7848-7848` `0x0600070A` `System.Void IntlThrdPerfSchd.Service1/NodeP::set_Residence(System.Int64)`
+- `7850-7850` `0x0600070B` `System.Int64 IntlThrdPerfSchd.Service1/NodeP::get_Residence1()`
+- `7850-7850` `0x0600070C` `System.Void IntlThrdPerfSchd.Service1/NodeP::set_Residence1(System.Int64)`
+- `7853-7853` `0x0600070D` `IntlThrdPerfSchd.Service1/Node2 IntlThrdPerfSchd.Service1/NodeP::get_Compare()`
+- `7853-7853` `0x0600070E` `System.Void IntlThrdPerfSchd.Service1/NodeP::set_Compare(IntlThrdPerfSchd.Service1/Node2)`
+- `7855-7855` `0x0600070F` `IntlThrdPerfSchd.Service1/Node2 IntlThrdPerfSchd.Service1/NodeP::get_Compare_final()`
+- `7855-7855` `0x06000710` `System.Void IntlThrdPerfSchd.Service1/NodeP::set_Compare_final(IntlThrdPerfSchd.Service1/Node2)`
+- `7858-7858` `0x06000711` `IntlThrdPerfSchd.Service1/NodeP IntlThrdPerfSchd.Service1/NodeP::get_Next()`
+- `7858-7858` `0x06000712` `System.Void IntlThrdPerfSchd.Service1/NodeP::set_Next(IntlThrdPerfSchd.Service1/NodeP)`
+
+### IntlThrdPerfSchd.Service1/NodeT
+- `7729-7731` `0x060006ED` `System.Void IntlThrdPerfSchd.Service1/NodeT::.ctor()`
+- `7733-7756` `0x060006EE` `System.Void IntlThrdPerfSchd.Service1/NodeT::.ctor(System.Int32,System.Int64,IntlThrdPerfSchd.Service1/NodeT)`
+- `7759-7759` `0x060006EF` `System.Int32 IntlThrdPerfSchd.Service1/NodeT::get_PId()`
+- `7759-7759` `0x060006F0` `System.Void IntlThrdPerfSchd.Service1/NodeT::set_PId(System.Int32)`
+- `7763-7763` `0x060006F1` `System.Int64 IntlThrdPerfSchd.Service1/NodeT::get_Data()`
+- `7763-7763` `0x060006F2` `System.Void IntlThrdPerfSchd.Service1/NodeT::set_Data(System.Int64)`
+- `7765-7765` `0x060006F3` `IntlThrdPerfSchd.Service1/NodeT IntlThrdPerfSchd.Service1/NodeT::get_Next()`
+- `7765-7765` `0x060006F4` `System.Void IntlThrdPerfSchd.Service1/NodeT::set_Next(IntlThrdPerfSchd.Service1/NodeT)`
+
+### IntlThrdPerfSchd.Service1/NumberProcessor
+- `1907-1910` `0x0600030E` `System.Void IntlThrdPerfSchd.Service1/NumberProcessor::.ctor()`
+- `1918-1919` `0x0600030F` `System.Void IntlThrdPerfSchd.Service1/NumberProcessor::AddData(System.Int64)`
+- `1927-1928` `0x06000310` `System.Void IntlThrdPerfSchd.Service1/NumberProcessor::AddDataRange(System.Collections.Generic.IEnumerable`1<System.Int64>)`
+- `1936-1941` `0x06000311` `System.Int64 IntlThrdPerfSchd.Service1/NumberProcessor::GetMax()`
+- `1949-1950` `0x06000312` `System.Void IntlThrdPerfSchd.Service1/NumberProcessor::Clear()`
+- `1955-1955` `0x06000313` `System.Int32 IntlThrdPerfSchd.Service1/NumberProcessor::get_Count()`
+
+### IntlThrdPerfSchd.Service1/PrevSchedInfo
+- `5584-5584` `0x06000521` `System.Int64 IntlThrdPerfSchd.Service1/PrevSchedInfo::get_PrevCoreType()`
+- `5584-5584` `0x06000522` `System.Void IntlThrdPerfSchd.Service1/PrevSchedInfo::set_PrevCoreType(System.Int64)`
+- `5586-5586` `0x06000523` `System.Int64 IntlThrdPerfSchd.Service1/PrevSchedInfo::get_Ipc()`
+- `5586-5586` `0x06000524` `System.Void IntlThrdPerfSchd.Service1/PrevSchedInfo::set_Ipc(System.Int64)`
+- `5588-5588` `0x06000525` `System.Int64 IntlThrdPerfSchd.Service1/PrevSchedInfo::get_Ins_per_count()`
+- `5588-5588` `0x06000526` `System.Void IntlThrdPerfSchd.Service1/PrevSchedInfo::set_Ins_per_count(System.Int64)`
+- `5590-5590` `0x06000527` `System.Int64 IntlThrdPerfSchd.Service1/PrevSchedInfo::get_InsPressure()`
+- `5590-5590` `0x06000528` `System.Void IntlThrdPerfSchd.Service1/PrevSchedInfo::set_InsPressure(System.Int64)`
+- `5593-5593` `0x06000529` `System.Int64 IntlThrdPerfSchd.Service1/PrevSchedInfo::get_Clock()`
+- `5593-5593` `0x0600052A` `System.Void IntlThrdPerfSchd.Service1/PrevSchedInfo::set_Clock(System.Int64)`
+- `5595-5595` `0x0600052B` `System.Int64 IntlThrdPerfSchd.Service1/PrevSchedInfo::get_Ins_big()`
+- `5595-5595` `0x0600052C` `System.Void IntlThrdPerfSchd.Service1/PrevSchedInfo::set_Ins_big(System.Int64)`
+- `5597-5597` `0x0600052D` `System.Int64 IntlThrdPerfSchd.Service1/PrevSchedInfo::get_Clock_litte()`
+- `5597-5597` `0x0600052E` `System.Void IntlThrdPerfSchd.Service1/PrevSchedInfo::set_Clock_litte(System.Int64)`
+- `5599-5599` `0x0600052F` `System.Int64 IntlThrdPerfSchd.Service1/PrevSchedInfo::get_Ipc_reset_count()`
+- `5599-5599` `0x06000530` `System.Void IntlThrdPerfSchd.Service1/PrevSchedInfo::set_Ipc_reset_count(System.Int64)`
+
+### IntlThrdPerfSchd.Service1/ProcessInfo
+- `5611-5613` `0x06000532` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::.ctor()`
+- `5615-5741` `0x06000533` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::.ctor(System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int32,System.Int32,System.Int64,System.Int64,System.Int64,System.Int32,System.Int32,System.Int64,System.Int64)`
+- `5744-5744` `0x06000534` `System.Boolean IntlThrdPerfSchd.Service1/ProcessInfo::get_UpdateMaxThread()`
+- `5744-5744` `0x06000535` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_UpdateMaxThread(System.Boolean)`
+- `5746-5746` `0x06000536` `IntlThrdPerfSchd.Service1/ThreadClassifier IntlThrdPerfSchd.Service1/ProcessInfo::get_classifier()`
+- `5746-5746` `0x06000537` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_classifier(IntlThrdPerfSchd.Service1/ThreadClassifier)`
+- `5748-5748` `0x06000538` `System.String IntlThrdPerfSchd.Service1/ProcessInfo::get_MaxThreadType()`
+- `5748-5748` `0x06000539` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_MaxThreadType(System.String)`
+- `5753-5753` `0x0600053A` `System.Int32 IntlThrdPerfSchd.Service1/ProcessInfo::get_MaxThreadId()`
+- `5753-5753` `0x0600053B` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_MaxThreadId(System.Int32)`
+- `5755-5755` `0x0600053C` `System.Int32 IntlThrdPerfSchd.Service1/ProcessInfo::get_MaxThreadId4lat()`
+- `5755-5755` `0x0600053D` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_MaxThreadId4lat(System.Int32)`
+- `5770-5770` `0x0600053E` `System.Int32 IntlThrdPerfSchd.Service1/ProcessInfo::get_Initial_state()`
+- `5770-5770` `0x0600053F` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Initial_state(System.Int32)`
+- `5772-5772` `0x06000540` `IntlThrdPerfSchd.Service1/ThreadLoadManager4b IntlThrdPerfSchd.Service1/ProcessInfo::get_Threadinfo4b()`
+- `5772-5772` `0x06000541` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Threadinfo4b(IntlThrdPerfSchd.Service1/ThreadLoadManager4b)`
+- `5774-5774` `0x06000542` `IntlThrdPerfSchd.Service1/ThreadLoadManager4l IntlThrdPerfSchd.Service1/ProcessInfo::get_Threadinfo4l()`
+- `5774-5774` `0x06000543` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Threadinfo4l(IntlThrdPerfSchd.Service1/ThreadLoadManager4l)`
+- `5776-5776` `0x06000544` `IntlThrdPerfSchd.Service1/ThreadLoadManager4b IntlThrdPerfSchd.Service1/ProcessInfo::get_Threadinfo4b_bak()`
+- `5776-5776` `0x06000545` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Threadinfo4b_bak(IntlThrdPerfSchd.Service1/ThreadLoadManager4b)`
+- `5778-5778` `0x06000546` `IntlThrdPerfSchd.Service1/ThreadLoadManager4l IntlThrdPerfSchd.Service1/ProcessInfo::get_Threadinfo4l_bak()`
+- `5778-5778` `0x06000547` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Threadinfo4l_bak(IntlThrdPerfSchd.Service1/ThreadLoadManager4l)`
+- `5779-5779` `0x06000548` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_Maxins()`
+- `5779-5779` `0x06000549` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Maxins(System.Int64)`
+- `5781-5781` `0x0600054A` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_MaxinsOption1()`
+- `5781-5781` `0x0600054B` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_MaxinsOption1(System.Int64)`
+- `5783-5783` `0x0600054C` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_MaxinsOption2()`
+- `5783-5783` `0x0600054D` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_MaxinsOption2(System.Int64)`
+- `5785-5785` `0x0600054E` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_MaxinsCount()`
+- `5785-5785` `0x0600054F` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_MaxinsCount(System.Int64)`
+- `5787-5787` `0x06000550` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_MaxinsDatetime()`
+- `5787-5787` `0x06000551` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_MaxinsDatetime(System.Int64)`
+- `5789-5789` `0x06000552` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_MaxinsLock()`
+- `5789-5789` `0x06000553` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_MaxinsLock(System.Int64)`
+- `5792-5792` `0x06000554` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_Observation_count()`
+- `5792-5792` `0x06000555` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Observation_count(System.Int64)`
+- `5793-5793` `0x06000556` `System.Int32 IntlThrdPerfSchd.Service1/ProcessInfo::get_Neuro_on()`
+- `5793-5793` `0x06000557` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Neuro_on(System.Int32)`
+- `5795-5795` `0x06000558` `System.Int32 IntlThrdPerfSchd.Service1/ProcessInfo::get_Neuro_count()`
+- `5795-5795` `0x06000559` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Neuro_count(System.Int32)`
+- `5796-5796` `0x0600055A` `System.Int32 IntlThrdPerfSchd.Service1/ProcessInfo::get_Pid()`
+- `5796-5796` `0x0600055B` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Pid(System.Int32)`
+- `5797-5797` `0x0600055C` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_DateTime()`
+- `5797-5797` `0x0600055D` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_DateTime(System.Int64)`
+- `5799-5799` `0x0600055E` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_IntVal()`
+- `5799-5799` `0x0600055F` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_IntVal(System.Int64)`
+- `5803-5803` `0x06000560` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_Count()`
+- `5803-5803` `0x06000561` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Count(System.Int64)`
+- `5806-5806` `0x06000562` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_RunTime()`
+- `5806-5806` `0x06000563` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_RunTime(System.Int64)`
+- `5809-5809` `0x06000564` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_WaitTime()`
+- `5809-5809` `0x06000565` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_WaitTime(System.Int64)`
+- `5812-5812` `0x06000566` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_Duration()`
+- `5812-5812` `0x06000567` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Duration(System.Int64)`
+- `5814-5814` `0x06000568` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_Instruction()`
+- `5814-5814` `0x06000569` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Instruction(System.Int64)`
+- `5816-5816` `0x0600056A` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_Instruction_little()`
+- `5816-5816` `0x0600056B` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Instruction_little(System.Int64)`
+- `5818-5818` `0x0600056C` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_Instruction_ratio()`
+- `5818-5818` `0x0600056D` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Instruction_ratio(System.Int64)`
+- `5820-5820` `0x0600056E` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_Avg_Inspressure()`
+- `5820-5820` `0x0600056F` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Avg_Inspressure(System.Int64)`
+- `5822-5822` `0x06000570` `System.Int32 IntlThrdPerfSchd.Service1/ProcessInfo::get_CoreType()`
+- `5822-5822` `0x06000571` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_CoreType(System.Int32)`
+- `5824-5824` `0x06000572` `System.Int32 IntlThrdPerfSchd.Service1/ProcessInfo::get_Lock1()`
+- `5824-5824` `0x06000573` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Lock1(System.Int32)`
+- `5826-5826` `0x06000574` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_sched_correct()`
+- `5826-5826` `0x06000575` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_sched_correct(System.Int64)`
+- `5829-5829` `0x06000576` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_sched_wrong()`
+- `5829-5829` `0x06000577` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_sched_wrong(System.Int64)`
+- `5831-5831` `0x06000578` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_sched_corr_ratio()`
+- `5831-5831` `0x06000579` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_sched_corr_ratio(System.Int64)`
+- `5834-5834` `0x0600057A` `System.Int32 IntlThrdPerfSchd.Service1/ProcessInfo::get_sched_revert()`
+- `5834-5834` `0x0600057B` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_sched_revert(System.Int32)`
+- `5837-5837` `0x0600057C` `System.Int32 IntlThrdPerfSchd.Service1/ProcessInfo::get_Index()`
+- `5837-5837` `0x0600057D` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Index(System.Int32)`
+- `5839-5839` `0x0600057E` `System.Int32 IntlThrdPerfSchd.Service1/ProcessInfo::get_Perflvl()`
+- `5839-5839` `0x0600057F` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Perflvl(System.Int32)`
+- `5841-5841` `0x06000580` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_rfo_counters()`
+- `5841-5841` `0x06000581` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_rfo_counters(System.Int64)`
+- `5843-5843` `0x06000582` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_l2ref_counters()`
+- `5843-5843` `0x06000583` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_l2ref_counters(System.Int64)`
+- `5845-5845` `0x06000584` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_rfo_counters1()`
+- `5845-5845` `0x06000585` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_rfo_counters1(System.Int64)`
+- `5847-5847` `0x06000586` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_rfo_counters2()`
+- `5847-5847` `0x06000587` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_rfo_counters2(System.Int64)`
+- `5849-5849` `0x06000588` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_rfo_counters3()`
+- `5849-5849` `0x06000589` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_rfo_counters3(System.Int64)`
+- `5850-5850` `0x0600058A` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_l2ref_counters1()`
+- `5850-5850` `0x0600058B` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_l2ref_counters1(System.Int64)`
+- `5852-5852` `0x0600058C` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_l2ref_counters2()`
+- `5852-5852` `0x0600058D` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_l2ref_counters2(System.Int64)`
+- `5854-5854` `0x0600058E` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_l2ref_counters3()`
+- `5854-5854` `0x0600058F` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_l2ref_counters3(System.Int64)`
+- `5856-5856` `0x06000590` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_avg_ins()`
+- `5856-5856` `0x06000591` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_avg_ins(System.Int64)`
+- `5858-5858` `0x06000592` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_avg_ins1()`
+- `5858-5858` `0x06000593` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_avg_ins1(System.Int64)`
+- `5860-5860` `0x06000594` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_avg_ins2()`
+- `5860-5860` `0x06000595` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_avg_ins2(System.Int64)`
+- `5862-5862` `0x06000596` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_avg_ins3()`
+- `5862-5862` `0x06000597` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_avg_ins3(System.Int64)`
+- `5864-5864` `0x06000598` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_l2cr_counters()`
+- `5864-5864` `0x06000599` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_l2cr_counters(System.Int64)`
+- `5866-5866` `0x0600059A` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_rfo_ratio()`
+- `5866-5866` `0x0600059B` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_rfo_ratio(System.Int64)`
+- `5868-5868` `0x0600059C` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_maxtime()`
+- `5868-5868` `0x0600059D` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_maxtime(System.Int64)`
+- `5870-5870` `0x0600059E` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_maxtime1()`
+- `5870-5870` `0x0600059F` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_maxtime1(System.Int64)`
+- `5872-5872` `0x060005A0` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_maxtime2()`
+- `5872-5872` `0x060005A1` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_maxtime2(System.Int64)`
+- `5874-5874` `0x060005A2` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_runtime_counter()`
+- `5874-5874` `0x060005A3` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_runtime_counter(System.Int64)`
+- `5876-5876` `0x060005A4` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_runtime()`
+- `5876-5876` `0x060005A5` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_runtime(System.Int64)`
+- `5878-5878` `0x060005A6` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_runtime_counter1()`
+- `5878-5878` `0x060005A7` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_runtime_counter1(System.Int64)`
+- `5880-5880` `0x060005A8` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_runtime1()`
+- `5880-5880` `0x060005A9` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_runtime1(System.Int64)`
+- `5882-5882` `0x060005AA` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_datetime_elapse()`
+- `5882-5882` `0x060005AB` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_datetime_elapse(System.Int64)`
+- `5884-5884` `0x060005AC` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_update_signal()`
+- `5884-5884` `0x060005AD` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_update_signal(System.Int64)`
+- `5886-5886` `0x060005AE` `System.Int32 IntlThrdPerfSchd.Service1/ProcessInfo::get_option()`
+- `5886-5886` `0x060005AF` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_option(System.Int32)`
+- `5888-5888` `0x060005B0` `IntlThrdPerfSchd.Service1/ProcessInfo IntlThrdPerfSchd.Service1/ProcessInfo::get_NextProcess()`
+- `5888-5888` `0x060005B1` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_NextProcess(IntlThrdPerfSchd.Service1/ProcessInfo)`
+- `5891-5891` `0x060005B2` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1/ProcessInfo::get_ThreadSet()`
+- `5891-5891` `0x060005B3` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_ThreadSet(IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+- `5893-5893` `0x060005B4` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1/ProcessInfo::get_ThreadSet1()`
+- `5893-5893` `0x060005B5` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_ThreadSet1(IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+- `5895-5895` `0x060005B6` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1/ProcessInfo::get_ThreadSet2()`
+- `5895-5895` `0x060005B7` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_ThreadSet2(IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+- `5897-5897` `0x060005B8` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1/ProcessInfo::get_ThreadSet3()`
+- `5897-5897` `0x060005B9` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_ThreadSet3(IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+- `5899-5899` `0x060005BA` `IntlThrdPerfSchd.Service1/NeuralNetwork IntlThrdPerfSchd.Service1/ProcessInfo::get_neuralNetwork()`
+- `5899-5899` `0x060005BB` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_neuralNetwork(IntlThrdPerfSchd.Service1/NeuralNetwork)`
+- `5901-5901` `0x060005BC` `IntlThrdPerfSchd.Service1/ThreadExecutionRegistry IntlThrdPerfSchd.Service1/ProcessInfo::get_Activethreadstat()`
+- `5901-5901` `0x060005BD` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Activethreadstat(IntlThrdPerfSchd.Service1/ThreadExecutionRegistry)`
+- `5904-5904` `0x060005BE` `IntlThrdPerfSchd.Service1/ThreadExecutionRegistry IntlThrdPerfSchd.Service1/ProcessInfo::get_Activethreadstat4light()`
+- `5904-5904` `0x060005BF` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Activethreadstat4light(IntlThrdPerfSchd.Service1/ThreadExecutionRegistry)`
+- `5906-5906` `0x060005C0` `IntlThrdPerfSchd.Service1/ThreadExecutionRegistry IntlThrdPerfSchd.Service1/ProcessInfo::get_Activethread4perf()`
+- `5906-5906` `0x060005C1` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Activethread4perf(IntlThrdPerfSchd.Service1/ThreadExecutionRegistry)`
+- `5908-5908` `0x060005C2` `IntlThrdPerfSchd.Service1/ThreadExecutionRegistry IntlThrdPerfSchd.Service1/ProcessInfo::get_Activethread4eff()`
+- `5908-5908` `0x060005C3` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Activethread4eff(IntlThrdPerfSchd.Service1/ThreadExecutionRegistry)`
+- `5910-5910` `0x060005C4` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_Activethread4perf_count()`
+- `5910-5910` `0x060005C5` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Activethread4perf_count(System.Int64)`
+- `5912-5912` `0x060005C6` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_Activethread4eff_count()`
+- `5912-5912` `0x060005C7` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Activethread4eff_count(System.Int64)`
+- `5914-5914` `0x060005C8` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_Activethreadstatcnt()`
+- `5914-5914` `0x060005C9` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Activethreadstatcnt(System.Int64)`
+- `5916-5916` `0x060005CA` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_Acc_Activethreadstatcnt()`
+- `5916-5916` `0x060005CB` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Acc_Activethreadstatcnt(System.Int64)`
+- `5918-5918` `0x060005CC` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_Activethreadstat_datetime()`
+- `5918-5918` `0x060005CD` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Activethreadstat_datetime(System.Int64)`
+- `5920-5920` `0x060005CE` `System.Int32 IntlThrdPerfSchd.Service1/ProcessInfo::get_Activethreadstat_lock()`
+- `5920-5920` `0x060005CF` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Activethreadstat_lock(System.Int32)`
+- `5922-5922` `0x060005D0` `System.Int64 IntlThrdPerfSchd.Service1/ProcessInfo::get_Avg_activethreadstatcnt()`
+- `5922-5922` `0x060005D1` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_Avg_activethreadstatcnt(System.Int64)`
+- `5924-5924` `0x060005D2` `System.Int32 IntlThrdPerfSchd.Service1/ProcessInfo::get_SchedMode()`
+- `5924-5924` `0x060005D3` `System.Void IntlThrdPerfSchd.Service1/ProcessInfo::set_SchedMode(System.Int32)`
+
+### IntlThrdPerfSchd.Service1/SchedulerDataset
+- `76-78` `0x060002B2` `System.Void IntlThrdPerfSchd.Service1/SchedulerDataset::.ctor()`
+- `80-80` `0x060002AC` `System.Int32 IntlThrdPerfSchd.Service1/SchedulerDataset::get_Size()`
+- `81-81` `0x060002AD` `System.Single[] IntlThrdPerfSchd.Service1/SchedulerDataset::get_Mean()`
+- `82-82` `0x060002AE` `System.Single[] IntlThrdPerfSchd.Service1/SchedulerDataset::get_Std()`
+- `86-107` `0x060002AF` `System.Void IntlThrdPerfSchd.Service1/SchedulerDataset::GenerateData(System.Int32)`
+- `111-119` `0x060002B0` `System.Void IntlThrdPerfSchd.Service1/SchedulerDataset::ComputeNorm()`
+- `123-127` `0x060002B1` `System.ValueTuple`2<System.Single[],System.Int32> IntlThrdPerfSchd.Service1/SchedulerDataset::GetItem(System.Int32)`
+
+### IntlThrdPerfSchd.Service1/SchedulerDataset/<>c
+- `106-106` `0x06000760` `System.Boolean IntlThrdPerfSchd.Service1/SchedulerDataset/<>c::<GenerateData>b__9_0(IntlThrdPerfSchd.Service1/SchedulerThreadData)`
+- `106-106` `0x06000761` `System.Boolean IntlThrdPerfSchd.Service1/SchedulerDataset/<>c::<GenerateData>b__9_1(IntlThrdPerfSchd.Service1/SchedulerThreadData)`
+- `112-112` `0x06000762` `System.Single[] IntlThrdPerfSchd.Service1/SchedulerDataset/<>c::<ComputeNorm>b__10_0(IntlThrdPerfSchd.Service1/SchedulerThreadData)`
+
+### IntlThrdPerfSchd.Service1/SchedulerDataset/<>c__DisplayClass10_0
+- `115-115` `0x06000764` `System.Single IntlThrdPerfSchd.Service1/SchedulerDataset/<>c__DisplayClass10_0::<ComputeNorm>b__1(System.Single[])`
+- `116-116` `0x06000765` `System.Single IntlThrdPerfSchd.Service1/SchedulerDataset/<>c__DisplayClass10_0::<ComputeNorm>b__2(System.Single[])`
+
+### IntlThrdPerfSchd.Service1/SchedulerThreadData
+- `59-59` `0x0600029D` `System.Single IntlThrdPerfSchd.Service1/SchedulerThreadData::get_InstructionCount()`
+- `59-59` `0x0600029E` `System.Void IntlThrdPerfSchd.Service1/SchedulerThreadData::set_InstructionCount(System.Single)`
+- `60-60` `0x0600029F` `System.Single IntlThrdPerfSchd.Service1/SchedulerThreadData::get_Ipc()`
+- `60-60` `0x060002A0` `System.Void IntlThrdPerfSchd.Service1/SchedulerThreadData::set_Ipc(System.Single)`
+- `61-61` `0x060002A1` `System.Single IntlThrdPerfSchd.Service1/SchedulerThreadData::get_BranchMiss()`
+- `61-61` `0x060002A2` `System.Void IntlThrdPerfSchd.Service1/SchedulerThreadData::set_BranchMiss(System.Single)`
+- `62-62` `0x060002A3` `System.Single IntlThrdPerfSchd.Service1/SchedulerThreadData::get_CacheMiss()`
+- `62-62` `0x060002A4` `System.Void IntlThrdPerfSchd.Service1/SchedulerThreadData::set_CacheMiss(System.Single)`
+- `63-63` `0x060002A5` `System.Single IntlThrdPerfSchd.Service1/SchedulerThreadData::get_Priority()`
+- `63-63` `0x060002A6` `System.Void IntlThrdPerfSchd.Service1/SchedulerThreadData::set_Priority(System.Single)`
+- `65-65` `0x060002A7` `System.Int32 IntlThrdPerfSchd.Service1/SchedulerThreadData::get_ArtificialDecision()`
+- `65-65` `0x060002A8` `System.Void IntlThrdPerfSchd.Service1/SchedulerThreadData::set_ArtificialDecision(System.Int32)`
+- `67-67` `0x060002A9` `System.Single[] IntlThrdPerfSchd.Service1/SchedulerThreadData::ToArray()`
+- `68-68` `0x060002AA` `System.String IntlThrdPerfSchd.Service1/SchedulerThreadData::DecisionStr()`
+
+### IntlThrdPerfSchd.Service1/StructThreadInfo
+- `4988-4988` `0x0600040A` `IntlThrdPerfSchd.Service1/StructThreadInfo/BasicInfo IntlThrdPerfSchd.Service1/StructThreadInfo::get_ThreadBasicInfo()`
+- `4988-4988` `0x0600040B` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo::set_ThreadBasicInfo(IntlThrdPerfSchd.Service1/StructThreadInfo/BasicInfo)`
+- `4988-4991` `0x06000412` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo::.ctor()`
+- `4989-4989` `0x0600040C` `IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc IntlThrdPerfSchd.Service1/StructThreadInfo::get_IpcInfo()`
+- `4989-4989` `0x0600040D` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo::set_IpcInfo(IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc)`
+- `4990-4990` `0x0600040E` `IntlThrdPerfSchd.Service1/StructThreadInfo/ExecTime IntlThrdPerfSchd.Service1/StructThreadInfo::get_ExecutionTime()`
+- `4990-4990` `0x0600040F` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo::set_ExecutionTime(IntlThrdPerfSchd.Service1/StructThreadInfo/ExecTime)`
+- `4991-4991` `0x06000410` `IntlThrdPerfSchd.Service1/StructThreadInfo/Cache IntlThrdPerfSchd.Service1/StructThreadInfo::get_CacheInfo()`
+- `4991-4991` `0x06000411` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo::set_CacheInfo(IntlThrdPerfSchd.Service1/StructThreadInfo/Cache)`
+
+### IntlThrdPerfSchd.Service1/StructThreadInfo/BasicInfo
+- `4897-4897` `0x0600079E` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/BasicInfo::get_ThreadId()`
+- `4897-4897` `0x0600079F` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/BasicInfo::set_ThreadId(System.Int64)`
+- `4898-4898` `0x060007A0` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/BasicInfo::get_DateTime()`
+- `4898-4898` `0x060007A1` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/BasicInfo::set_DateTime(System.Int64)`
+- `4899-4899` `0x060007A2` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/BasicInfo::get_CoreType()`
+- `4899-4899` `0x060007A3` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/BasicInfo::set_CoreType(System.Int64)`
+- `4900-4900` `0x060007A4` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/BasicInfo::get_IsSched()`
+- `4900-4900` `0x060007A5` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/BasicInfo::set_IsSched(System.Int64)`
+- `4906-4906` `0x060007A6` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/BasicInfo::SchedulingThread()`
+
+### IntlThrdPerfSchd.Service1/StructThreadInfo/Cache
+- `4983-4983` `0x060007C6` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/Cache::get_CacheHits()`
+- `4983-4983` `0x060007C7` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/Cache::set_CacheHits(System.Int64)`
+- `4984-4984` `0x060007C8` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/Cache::get_CacheMisses()`
+- `4984-4984` `0x060007C9` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/Cache::set_CacheMisses(System.Int64)`
+- `4985-4985` `0x060007CA` `System.Double IntlThrdPerfSchd.Service1/StructThreadInfo/Cache::get_HitRate()`
+- `4985-4985` `0x060007CB` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/Cache::set_HitRate(System.Double)`
+
+### IntlThrdPerfSchd.Service1/StructThreadInfo/ExecTime
+- `4974-4974` `0x060007BD` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/ExecTime::get_TotalTime()`
+- `4974-4974` `0x060007BE` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/ExecTime::set_TotalTime(System.Int64)`
+- `4975-4975` `0x060007BF` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/ExecTime::get_AverageTime()`
+- `4975-4975` `0x060007C0` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/ExecTime::set_AverageTime(System.Int64)`
+- `4976-4976` `0x060007C1` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/ExecTime::get_MaxTime()`
+- `4976-4976` `0x060007C2` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/ExecTime::set_MaxTime(System.Int64)`
+- `4977-4977` `0x060007C3` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/ExecTime::get_MinTime()`
+- `4977-4977` `0x060007C4` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/ExecTime::set_MinTime(System.Int64)`
+
+### IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc
+- `4944-4944` `0x060007B3` `IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc::get_IpcBig()`
+- `4944-4944` `0x060007B4` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc::set_IpcBig(IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor)`
+- `4944-4945` `0x060007BC` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc::.ctor()`
+- `4945-4945` `0x060007B5` `IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc::get_IpcLittle()`
+- `4945-4945` `0x060007B6` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc::set_IpcLittle(IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor)`
+- `4946-4946` `0x060007B7` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc::get_AvgIpcRatio()`
+- `4946-4946` `0x060007B8` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc::set_AvgIpcRatio(System.Int64)`
+- `4951-4952` `0x060007B9` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc::ResetRatio()`
+- `4956-4959` `0x060007BA` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc::CalcIpcRatio()`
+- `4965-4968` `0x060007BB` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc::ResetAll()`
+
+### IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor
+- `4912-4912` `0x060007A8` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor::get_Count()`
+- `4912-4912` `0x060007A9` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor::set_Count(System.Int64)`
+- `4913-4913` `0x060007AA` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor::get_Instructions()`
+- `4913-4913` `0x060007AB` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor::set_Instructions(System.Int64)`
+- `4914-4914` `0x060007AC` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor::get_Cycles()`
+- `4914-4914` `0x060007AD` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor::set_Cycles(System.Int64)`
+- `4915-4915` `0x060007AE` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor::get_AvgIpc()`
+- `4915-4915` `0x060007AF` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor::set_AvgIpc(System.Int64)`
+- `4920-4924` `0x060007B0` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor::Reset()`
+- `4928-4937` `0x060007B1` `System.Int64 IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor::CalcIpc()`
+
+### IntlThrdPerfSchd.Service1/SysInfo
+- `4614-4616` `0x0600038C` `System.Void IntlThrdPerfSchd.Service1/SysInfo::.ctor()`
+- `4618-4638` `0x0600038D` `System.Void IntlThrdPerfSchd.Service1/SysInfo::.ctor(System.Int32,System.Int32,System.UInt32,System.UInt32)`
+- `4641-4641` `0x0600038E` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_accRewordPerS()`
+- `4641-4641` `0x0600038F` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_accRewordPerS(System.Int64)`
+- `4643-4643` `0x06000390` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_accQcount()`
+- `4643-4643` `0x06000391` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_accQcount(System.Int64)`
+- `4654-4654` `0x06000392` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_total_runtime()`
+- `4654-4654` `0x06000393` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_total_runtime(System.Int64)`
+- `4656-4656` `0x06000394` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_total_instructions()`
+- `4656-4656` `0x06000395` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_total_instructions(System.Int64)`
+- `4658-4658` `0x06000396` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_total_llcmiss()`
+- `4658-4658` `0x06000397` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_total_llcmiss(System.Int64)`
+- `4660-4660` `0x06000398` `System.Boolean IntlThrdPerfSchd.Service1/SysInfo::get_update()`
+- `4660-4660` `0x06000399` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_update(System.Boolean)`
+- `4663-4663` `0x0600039A` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_total_energy()`
+- `4663-4663` `0x0600039B` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_total_energy(System.Int64)`
+- `4665-4665` `0x0600039C` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_total_energy_l()`
+- `4665-4665` `0x0600039D` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_total_energy_l(System.Int64)`
+- `4667-4667` `0x0600039E` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_total_energy_e()`
+- `4667-4667` `0x0600039F` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_total_energy_e(System.Int64)`
+- `4670-4670` `0x060003A0` `System.Double IntlThrdPerfSchd.Service1/SysInfo::get_p_e_ratio()`
+- `4670-4670` `0x060003A1` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_p_e_ratio(System.Double)`
+- `4680-4680` `0x060003A2` `IntlThrdPerfSchd.Service1/ThreadLoadManager4l IntlThrdPerfSchd.Service1/SysInfo::get_CoreLoadSeq()`
+- `4680-4680` `0x060003A3` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_CoreLoadSeq(IntlThrdPerfSchd.Service1/ThreadLoadManager4l)`
+- `4681-4681` `0x060003A4` `System.Int32 IntlThrdPerfSchd.Service1/SysInfo::get_Lock1()`
+- `4681-4681` `0x060003A5` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Lock1(System.Int32)`
+- `4682-4682` `0x060003A6` `System.Int32 IntlThrdPerfSchd.Service1/SysInfo::get_Max_gid()`
+- `4682-4682` `0x060003A7` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Max_gid(System.Int32)`
+- `4684-4684` `0x060003A8` `System.Int32 IntlThrdPerfSchd.Service1/SysInfo::get_Min_gid()`
+- `4684-4684` `0x060003A9` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Min_gid(System.Int32)`
+- `4687-4687` `0x060003AA` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_Datetime()`
+- `4687-4687` `0x060003AB` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Datetime(System.Int64)`
+- `4689-4689` `0x060003AC` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_Maxtime()`
+- `4689-4689` `0x060003AD` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Maxtime(System.Int64)`
+- `4691-4691` `0x060003AE` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_Qtimeavg()`
+- `4691-4691` `0x060003AF` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Qtimeavg(System.Int64)`
+- `4693-4693` `0x060003B0` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_Qtimeacc()`
+- `4693-4693` `0x060003B1` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Qtimeacc(System.Int64)`
+- `4695-4695` `0x060003B2` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_Qtimecount()`
+- `4695-4695` `0x060003B3` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Qtimecount(System.Int64)`
+- `4697-4697` `0x060003B4` `System.UInt32 IntlThrdPerfSchd.Service1/SysInfo::get_Availaff()`
+- `4697-4697` `0x060003B5` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Availaff(System.UInt32)`
+- `4699-4699` `0x060003B6` `System.UInt32 IntlThrdPerfSchd.Service1/SysInfo::get_Availaff1()`
+- `4699-4699` `0x060003B7` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Availaff1(System.UInt32)`
+- `4701-4701` `0x060003B8` `IntlThrdPerfSchd.Service1/GroupInfo IntlThrdPerfSchd.Service1/SysInfo::get_Groupset()`
+- `4701-4701` `0x060003B9` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Groupset(IntlThrdPerfSchd.Service1/GroupInfo)`
+- `4703-4703` `0x060003BA` `System.Int32 IntlThrdPerfSchd.Service1/SysInfo::get_Counter_sys_enabled()`
+- `4703-4703` `0x060003BB` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Counter_sys_enabled(System.Int32)`
+- `4705-4705` `0x060003BC` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_Acc_perflvl()`
+- `4705-4705` `0x060003BD` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Acc_perflvl(System.Int64)`
+- `4707-4707` `0x060003BE` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_Avg_perflvl()`
+- `4707-4707` `0x060003BF` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Avg_perflvl(System.Int64)`
+- `4709-4709` `0x060003C0` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_Acc_perfcnt()`
+- `4709-4709` `0x060003C1` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Acc_perfcnt(System.Int64)`
+- `4711-4711` `0x060003C2` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_Acc_efflvl()`
+- `4711-4711` `0x060003C3` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Acc_efflvl(System.Int64)`
+- `4713-4713` `0x060003C4` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_Avg_efflvl()`
+- `4713-4713` `0x060003C5` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Avg_efflvl(System.Int64)`
+- `4715-4715` `0x060003C6` `System.Int64 IntlThrdPerfSchd.Service1/SysInfo::get_Acc_effcnt()`
+- `4715-4715` `0x060003C7` `System.Void IntlThrdPerfSchd.Service1/SysInfo::set_Acc_effcnt(System.Int64)`
+
+### IntlThrdPerfSchd.Service1/ThreadClassifier
+- `1229-1232` `0x060002E4` `System.Void IntlThrdPerfSchd.Service1/ThreadClassifier::.ctor()`
+- `1236-1255` `0x060002E5` `System.Void IntlThrdPerfSchd.Service1/ThreadClassifier::AddThread(IntlThrdPerfSchd.Service1/ThreadData)`
+- `1259-1272` `0x060002E6` `System.Int32 IntlThrdPerfSchd.Service1/ThreadClassifier::IsAboveThreshold(System.Int32,System.Int32,System.Boolean)`
+- `1280-1288` `0x060002E7` `System.Double IntlThrdPerfSchd.Service1/ThreadClassifier::GetDimensionValue(IntlThrdPerfSchd.Service1/ThreadData,System.Int32)`
+- `1294-1311` `0x060002E8` `System.Double IntlThrdPerfSchd.Service1/ThreadClassifier::CalculateMedian(System.Int32)`
+- `1317-1330` `0x060002E9` `System.Double IntlThrdPerfSchd.Service1/ThreadClassifier::CalculateQuartile(System.Int32)`
+- `1335-1345` `0x060002EA` `System.Void IntlThrdPerfSchd.Service1/ThreadClassifier::CleanExpiredData()`
+- `1349-1357` `0x060002EB` `System.Void IntlThrdPerfSchd.Service1/ThreadClassifier::RemoveOldestData()`
+- `1361-1361` `0x060002EC` `System.Int32 IntlThrdPerfSchd.Service1/ThreadClassifier::GetThreadCount()`
+
+### IntlThrdPerfSchd.Service1/ThreadClassifier/<>c
+- `1296-1296` `0x06000782` `System.Double IntlThrdPerfSchd.Service1/ThreadClassifier/<>c::<CalculateMedian>b__7_1(System.Double)`
+- `1319-1319` `0x06000783` `System.Double IntlThrdPerfSchd.Service1/ThreadClassifier/<>c::<CalculateQuartile>b__8_1(System.Double)`
+- `1338-1338` `0x06000784` `System.Int32 IntlThrdPerfSchd.Service1/ThreadClassifier/<>c::<CleanExpiredData>b__9_1(System.Collections.Generic.KeyValuePair`2<System.Int32,IntlThrdPerfSchd.Service1/ThreadData>)`
+- `1353-1353` `0x06000785` `System.Int64 IntlThrdPerfSchd.Service1/ThreadClassifier/<>c::<RemoveOldestData>b__10_0(System.Collections.Generic.KeyValuePair`2<System.Int32,IntlThrdPerfSchd.Service1/ThreadData>)`
+
+### IntlThrdPerfSchd.Service1/ThreadClassifier/<>c__DisplayClass7_0
+- `1295-1295` `0x06000787` `System.Double IntlThrdPerfSchd.Service1/ThreadClassifier/<>c__DisplayClass7_0::<CalculateMedian>b__0(IntlThrdPerfSchd.Service1/ThreadData)`
+
+### IntlThrdPerfSchd.Service1/ThreadClassifier/<>c__DisplayClass8_0
+- `1318-1318` `0x06000789` `System.Double IntlThrdPerfSchd.Service1/ThreadClassifier/<>c__DisplayClass8_0::<CalculateQuartile>b__0(IntlThrdPerfSchd.Service1/ThreadData)`
+
+### IntlThrdPerfSchd.Service1/ThreadClassifier/<>c__DisplayClass9_0
+- `1337-1337` `0x0600078B` `System.Boolean IntlThrdPerfSchd.Service1/ThreadClassifier/<>c__DisplayClass9_0::<CleanExpiredData>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,IntlThrdPerfSchd.Service1/ThreadData>)`
+
+### IntlThrdPerfSchd.Service1/ThreadData
+- `1206-1206` `0x060002D7` `System.Int32 IntlThrdPerfSchd.Service1/ThreadData::get_ThreadId()`
+- `1206-1206` `0x060002D8` `System.Void IntlThrdPerfSchd.Service1/ThreadData::set_ThreadId(System.Int32)`
+- `1207-1207` `0x060002D9` `System.Int64 IntlThrdPerfSchd.Service1/ThreadData::get_InstructionCount()`
+- `1207-1207` `0x060002DA` `System.Void IntlThrdPerfSchd.Service1/ThreadData::set_InstructionCount(System.Int64)`
+- `1208-1208` `0x060002DB` `System.Double IntlThrdPerfSchd.Service1/ThreadData::get_MemoryAccessFrequency()`
+- `1208-1208` `0x060002DC` `System.Void IntlThrdPerfSchd.Service1/ThreadData::set_MemoryAccessFrequency(System.Double)`
+- `1209-1209` `0x060002DD` `System.Double IntlThrdPerfSchd.Service1/ThreadData::get_BranchMispredictionRate()`
+- `1209-1209` `0x060002DE` `System.Void IntlThrdPerfSchd.Service1/ThreadData::set_BranchMispredictionRate(System.Double)`
+- `1210-1210` `0x060002DF` `System.Double IntlThrdPerfSchd.Service1/ThreadData::get_Ipc()`
+- `1210-1210` `0x060002E0` `System.Void IntlThrdPerfSchd.Service1/ThreadData::set_Ipc(System.Double)`
+- `1211-1211` `0x060002E1` `System.Int64 IntlThrdPerfSchd.Service1/ThreadData::get_Timestamp()`
+- `1211-1211` `0x060002E2` `System.Void IntlThrdPerfSchd.Service1/ThreadData::set_Timestamp(System.Int64)`
+
+### IntlThrdPerfSchd.Service1/ThreadDataCollector
+- `1405-1405` `0x060002FF` `System.Void IntlThrdPerfSchd.Service1/ThreadDataCollector::.ctor()`
+- `1417-1433` `0x060002F8` `System.Void IntlThrdPerfSchd.Service1/ThreadDataCollector::AddData(System.Int64,System.Double,System.Double,System.Double)`
+- `1442-1461` `0x060002F9` `System.Int32 IntlThrdPerfSchd.Service1/ThreadDataCollector::GetMostInfluentialVariableIndex()`
+- `1469-1487` `0x060002FA` `System.Double IntlThrdPerfSchd.Service1/ThreadDataCollector::CalculatePearsonCorrelation(System.Double[],System.Double[])`
+- `1493-1493` `0x060002FB` `System.Int32 IntlThrdPerfSchd.Service1/ThreadDataCollector::GetDataCount()`
+- `1498-1498` `0x060002FC` `System.Void IntlThrdPerfSchd.Service1/ThreadDataCollector::Clear()`
+- `1505-1507` `0x060002FD` `IntlThrdPerfSchd.Service1/ThreadPerformanceData IntlThrdPerfSchd.Service1/ThreadDataCollector::GetData(System.Int32)`
+- `1513-1513` `0x060002FE` `System.Collections.Generic.IReadOnlyList`1<IntlThrdPerfSchd.Service1/ThreadPerformanceData> IntlThrdPerfSchd.Service1/ThreadDataCollector::GetAllData()`
+
+### IntlThrdPerfSchd.Service1/ThreadDataCollector/<>c
+- `1446-1446` `0x0600078E` `System.Double IntlThrdPerfSchd.Service1/ThreadDataCollector/<>c::<GetMostInfluentialVariableIndex>b__3_0(IntlThrdPerfSchd.Service1/ThreadPerformanceData)`
+- `1447-1447` `0x0600078F` `System.Double IntlThrdPerfSchd.Service1/ThreadDataCollector/<>c::<GetMostInfluentialVariableIndex>b__3_1(IntlThrdPerfSchd.Service1/ThreadPerformanceData)`
+- `1448-1448` `0x06000790` `System.Double IntlThrdPerfSchd.Service1/ThreadDataCollector/<>c::<GetMostInfluentialVariableIndex>b__3_2(IntlThrdPerfSchd.Service1/ThreadPerformanceData)`
+- `1449-1449` `0x06000791` `System.Double IntlThrdPerfSchd.Service1/ThreadDataCollector/<>c::<GetMostInfluentialVariableIndex>b__3_3(IntlThrdPerfSchd.Service1/ThreadPerformanceData)`
+
+### IntlThrdPerfSchd.Service1/ThreadExecutionRegistry
+- `2493-2493` `0x06000345` `System.Void IntlThrdPerfSchd.Service1/ThreadExecutionRegistry::.ctor()`
+- `2498-2499` `0x06000341` `System.Void IntlThrdPerfSchd.Service1/ThreadExecutionRegistry::AddOrUpdate(System.Int32,System.Int64)`
+- `2502-2502` `0x06000342` `System.Int32 IntlThrdPerfSchd.Service1/ThreadExecutionRegistry::get_Count()`
+- `2507-2508` `0x06000343` `System.Void IntlThrdPerfSchd.Service1/ThreadExecutionRegistry::Clear()`
+- `2511-2511` `0x06000344` `System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int64>> IntlThrdPerfSchd.Service1/ThreadExecutionRegistry::GetAllData()`
+
+### IntlThrdPerfSchd.Service1/ThreadInfo
+- `5024-5026` `0x06000413` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::.ctor()`
+- `5028-5205` `0x06000414` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::.ctor(System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.UInt32,System.Int32,IntlThrdPerfSchd.Service1/ThreadInfoSimp,System.Int64,System.Int64,System.Int64,System.Int32,System.Int64,System.Int64,System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)`
+- `5212-5212` `0x06000415` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_InfluenceIndex()`
+- `5212-5212` `0x06000416` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_InfluenceIndex(System.Int64)`
+- `5218-5218` `0x06000417` `System.Double IntlThrdPerfSchd.Service1/ThreadInfo::get_DataLinkage()`
+- `5218-5218` `0x06000418` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_DataLinkage(System.Double)`
+- `5221-5221` `0x06000419` `System.Double IntlThrdPerfSchd.Service1/ThreadInfo::get_Elasticity()`
+- `5221-5221` `0x0600041A` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Elasticity(System.Double)`
+- `5223-5223` `0x0600041B` `System.Double IntlThrdPerfSchd.Service1/ThreadInfo::get_DataLinkage1()`
+- `5223-5223` `0x0600041C` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_DataLinkage1(System.Double)`
+- `5226-5226` `0x0600041D` `System.Double IntlThrdPerfSchd.Service1/ThreadInfo::get_Elasticity1()`
+- `5226-5226` `0x0600041E` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Elasticity1(System.Double)`
+- `5237-5237` `0x0600041F` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_CodeFootPrint_counter2()`
+- `5237-5237` `0x06000420` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_CodeFootPrint_counter2(System.Int64)`
+- `5238-5238` `0x06000421` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_CodeFootPrint_counter1()`
+- `5238-5238` `0x06000422` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_CodeFootPrint_counter1(System.Int64)`
+- `5239-5239` `0x06000423` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_CodeFootPrint()`
+- `5239-5239` `0x06000424` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_CodeFootPrint(System.Int64)`
+- `5240-5240` `0x06000425` `System.Double IntlThrdPerfSchd.Service1/ThreadInfo::get_UserModeRatio()`
+- `5240-5240` `0x06000426` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_UserModeRatio(System.Double)`
+- `5241-5241` `0x06000427` `System.String IntlThrdPerfSchd.Service1/ThreadInfo::get_Type()`
+- `5241-5241` `0x06000428` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Type(System.String)`
+- `5243-5243` `0x06000429` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_Tid()`
+- `5243-5243` `0x0600042A` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Tid(System.Int32)`
+- `5244-5244` `0x0600042B` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_DateTime()`
+- `5244-5244` `0x0600042C` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_DateTime(System.Int64)`
+- `5246-5246` `0x0600042D` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_DateTime4interval()`
+- `5246-5246` `0x0600042E` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_DateTime4interval(System.Int64)`
+- `5248-5248` `0x0600042F` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_DateTime4sched()`
+- `5248-5248` `0x06000430` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_DateTime4sched(System.Int64)`
+- `5251-5251` `0x06000431` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_IntVal()`
+- `5251-5251` `0x06000432` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_IntVal(System.Int64)`
+- `5253-5253` `0x06000433` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Count_internal()`
+- `5253-5253` `0x06000434` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Count_internal(System.Int64)`
+- `5255-5255` `0x06000435` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Count_internal1()`
+- `5255-5255` `0x06000436` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Count_internal1(System.Int64)`
+- `5257-5257` `0x06000437` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Count_internal2()`
+- `5257-5257` `0x06000438` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Count_internal2(System.Int64)`
+- `5259-5259` `0x06000439` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Count_sample()`
+- `5259-5259` `0x0600043A` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Count_sample(System.Int64)`
+- `5261-5261` `0x0600043B` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Count_sample1()`
+- `5261-5261` `0x0600043C` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Count_sample1(System.Int64)`
+- `5263-5263` `0x0600043D` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_RunTime()`
+- `5263-5263` `0x0600043E` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_RunTime(System.Int64)`
+- `5266-5266` `0x0600043F` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_WaitTime()`
+- `5266-5266` `0x06000440` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_WaitTime(System.Int64)`
+- `5268-5268` `0x06000441` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_wait_ratio()`
+- `5268-5268` `0x06000442` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_wait_ratio(System.Int64)`
+- `5269-5269` `0x06000443` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Duration()`
+- `5269-5269` `0x06000444` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Duration(System.Int64)`
+- `5271-5271` `0x06000445` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Duration_ing()`
+- `5271-5271` `0x06000446` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Duration_ing(System.Int64)`
+- `5273-5273` `0x06000447` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Instruction()`
+- `5273-5273` `0x06000448` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Instruction(System.Int64)`
+- `5277-5277` `0x06000449` `System.Double IntlThrdPerfSchd.Service1/ThreadInfo::get_InsPressure()`
+- `5277-5277` `0x0600044A` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_InsPressure(System.Double)`
+- `5279-5279` `0x0600044B` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Utilization()`
+- `5279-5279` `0x0600044C` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Utilization(System.Int64)`
+- `5281-5281` `0x0600044D` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_L1_miss()`
+- `5281-5281` `0x0600044E` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_L1_miss(System.Int64)`
+- `5283-5283` `0x0600044F` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_L1_miss1()`
+- `5283-5283` `0x06000450` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_L1_miss1(System.Int64)`
+- `5285-5285` `0x06000451` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_L2_miss()`
+- `5285-5285` `0x06000452` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_L2_miss(System.Int64)`
+- `5287-5287` `0x06000453` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_L3_miss()`
+- `5287-5287` `0x06000454` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_L3_miss(System.Int64)`
+- `5289-5289` `0x06000455` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_L3_miss1()`
+- `5289-5289` `0x06000456` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_L3_miss1(System.Int64)`
+- `5291-5291` `0x06000457` `System.Single IntlThrdPerfSchd.Service1/ThreadInfo::get_Block_avg_ins()`
+- `5291-5291` `0x06000458` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Block_avg_ins(System.Single)`
+- `5293-5293` `0x06000459` `System.Single IntlThrdPerfSchd.Service1/ThreadInfo::get_Avg_Block_avg_ins()`
+- `5293-5293` `0x0600045A` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Avg_Block_avg_ins(System.Single)`
+- `5295-5295` `0x0600045B` `System.Single IntlThrdPerfSchd.Service1/ThreadInfo::get_Acc_Block_avg_ins()`
+- `5295-5295` `0x0600045C` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Acc_Block_avg_ins(System.Single)`
+- `5298-5298` `0x0600045D` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Ins_sample()`
+- `5298-5298` `0x0600045E` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ins_sample(System.Int64)`
+- `5301-5301` `0x0600045F` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Branchs_taken()`
+- `5301-5301` `0x06000460` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Branchs_taken(System.Int64)`
+- `5305-5305` `0x06000461` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_L4_miss()`
+- `5305-5305` `0x06000462` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_L4_miss(System.Int64)`
+- `5308-5308` `0x06000463` `System.Double IntlThrdPerfSchd.Service1/ThreadInfo::get_avgruntime()`
+- `5308-5308` `0x06000464` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_avgruntime(System.Double)`
+- `5310-5310` `0x06000465` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_avgruntime_total()`
+- `5310-5310` `0x06000466` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_avgruntime_total(System.Int64)`
+- `5313-5313` `0x06000467` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_avgruntime_count()`
+- `5313-5313` `0x06000468` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_avgruntime_count(System.Int64)`
+- `5316-5316` `0x06000469` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Miss_rate()`
+- `5316-5316` `0x0600046A` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Miss_rate(System.Int64)`
+- `5318-5318` `0x0600046B` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_CoreType()`
+- `5318-5318` `0x0600046C` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_CoreType(System.Int32)`
+- `5320-5320` `0x0600046D` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_PrevCoreType()`
+- `5320-5320` `0x0600046E` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_PrevCoreType(System.Int32)`
+- `5322-5322` `0x0600046F` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Dummy()`
+- `5322-5322` `0x06000470` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Dummy(System.Int64)`
+- `5324-5324` `0x06000471` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Instruction_big()`
+- `5324-5324` `0x06000472` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Instruction_big(System.Int64)`
+- `5326-5326` `0x06000473` `System.Double IntlThrdPerfSchd.Service1/ThreadInfo::get_Clock()`
+- `5326-5326` `0x06000474` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Clock(System.Double)`
+- `5328-5328` `0x06000475` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Ipc()`
+- `5328-5328` `0x06000476` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ipc(System.Int64)`
+- `5330-5330` `0x06000477` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_Is_important_threads()`
+- `5330-5330` `0x06000478` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Is_important_threads(System.Int32)`
+- `5331-5331` `0x06000479` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_rate_mem()`
+- `5331-5331` `0x0600047A` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_rate_mem(System.Int64)`
+- `5333-5333` `0x0600047B` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Ins_per_count()`
+- `5333-5333` `0x0600047C` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ins_per_count(System.Int64)`
+- `5336-5336` `0x0600047D` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Ins_flow()`
+- `5336-5336` `0x0600047E` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ins_flow(System.Int64)`
+- `5338-5338` `0x0600047F` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Ins_flow1()`
+- `5338-5338` `0x06000480` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ins_flow1(System.Int64)`
+- `5340-5340` `0x06000481` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Ins_issue()`
+- `5340-5340` `0x06000482` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ins_issue(System.Int64)`
+- `5342-5342` `0x06000483` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Ins_retire()`
+- `5342-5342` `0x06000484` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ins_retire(System.Int64)`
+- `5344-5344` `0x06000485` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Br_eff()`
+- `5344-5344` `0x06000486` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Br_eff(System.Int64)`
+- `5347-5347` `0x06000487` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_PriorityAcc()`
+- `5347-5347` `0x06000488` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_PriorityAcc(System.Int64)`
+- `5349-5349` `0x06000489` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_PriorityAcc1()`
+- `5349-5349` `0x0600048A` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_PriorityAcc1(System.Int64)`
+- `5350-5350` `0x0600048B` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Ins_total()`
+- `5350-5350` `0x0600048C` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ins_total(System.Int64)`
+- `5352-5352` `0x0600048D` `System.UInt32 IntlThrdPerfSchd.Service1/ThreadInfo::get_Affinity()`
+- `5352-5352` `0x0600048E` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Affinity(System.UInt32)`
+- `5354-5354` `0x0600048F` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_Group()`
+- `5354-5354` `0x06000490` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Group(System.Int32)`
+- `5356-5356` `0x06000491` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_Group_original()`
+- `5356-5356` `0x06000492` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Group_original(System.Int32)`
+- `5358-5358` `0x06000493` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_Sched()`
+- `5358-5358` `0x06000494` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Sched(System.Int32)`
+- `5360-5360` `0x06000495` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_Lockdata()`
+- `5360-5360` `0x06000496` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Lockdata(System.Int32)`
+- `5362-5362` `0x06000497` `System.Double IntlThrdPerfSchd.Service1/ThreadInfo::get_Ins_big()`
+- `5362-5362` `0x06000498` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ins_big(System.Double)`
+- `5364-5364` `0x06000499` `System.Double IntlThrdPerfSchd.Service1/ThreadInfo::get_Ins_big1()`
+- `5364-5364` `0x0600049A` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ins_big1(System.Double)`
+- `5365-5365` `0x0600049B` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Avg_ins_big()`
+- `5365-5365` `0x0600049C` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Avg_ins_big(System.Int64)`
+- `5367-5367` `0x0600049D` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Acc_ins_big()`
+- `5367-5367` `0x0600049E` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Acc_ins_big(System.Int64)`
+- `5370-5370` `0x0600049F` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_ratio3()`
+- `5370-5370` `0x060004A0` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_ratio3(System.Int64)`
+- `5372-5372` `0x060004A1` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_ratio4()`
+- `5372-5372` `0x060004A2` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_ratio4(System.Int64)`
+- `5374-5374` `0x060004A3` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Ins_little()`
+- `5374-5374` `0x060004A4` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ins_little(System.Int64)`
+- `5377-5377` `0x060004A5` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Clock_big()`
+- `5377-5377` `0x060004A6` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Clock_big(System.Int64)`
+- `5379-5379` `0x060004A7` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Clock_litte()`
+- `5379-5379` `0x060004A8` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Clock_litte(System.Int64)`
+- `5381-5381` `0x060004A9` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Ipc_big()`
+- `5381-5381` `0x060004AA` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ipc_big(System.Int64)`
+- `5384-5384` `0x060004AB` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Ipc_ratio()`
+- `5384-5384` `0x060004AC` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ipc_ratio(System.Int64)`
+- `5387-5387` `0x060004AD` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Ipc_ratio1()`
+- `5387-5387` `0x060004AE` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ipc_ratio1(System.Int64)`
+- `5388-5388` `0x060004AF` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Ipc_ratio2()`
+- `5388-5388` `0x060004B0` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ipc_ratio2(System.Int64)`
+- `5390-5390` `0x060004B1` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Ipc_reset_count()`
+- `5390-5390` `0x060004B2` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Ipc_reset_count(System.Int64)`
+- `5393-5393` `0x060004B3` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_threshold()`
+- `5393-5393` `0x060004B4` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_threshold(System.Int64)`
+- `5395-5395` `0x060004B5` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_SchedType()`
+- `5395-5395` `0x060004B6` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_SchedType(System.Int64)`
+- `5398-5398` `0x060004B7` `System.Boolean IntlThrdPerfSchd.Service1/ThreadInfo::get_WasNeuroDecision()`
+- `5398-5398` `0x060004B8` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_WasNeuroDecision(System.Boolean)`
+- `5401-5401` `0x060004B9` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_ThreadType()`
+- `5401-5401` `0x060004BA` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_ThreadType(System.Int64)`
+- `5403-5403` `0x060004BB` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_prevThreadType()`
+- `5403-5403` `0x060004BC` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_prevThreadType(System.Int64)`
+- `5405-5405` `0x060004BD` `System.Single IntlThrdPerfSchd.Service1/ThreadInfo::get_newScore()`
+- `5405-5405` `0x060004BE` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_newScore(System.Single)`
+- `5407-5407` `0x060004BF` `System.Single IntlThrdPerfSchd.Service1/ThreadInfo::get_oldScore()`
+- `5407-5407` `0x060004C0` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_oldScore(System.Single)`
+- `5409-5409` `0x060004C1` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_maxins()`
+- `5409-5409` `0x060004C2` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_maxins(System.Int64)`
+- `5412-5412` `0x060004C3` `System.Int32[] IntlThrdPerfSchd.Service1/ThreadInfo::get_inputs()`
+- `5412-5412` `0x060004C4` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_inputs(System.Int32[])`
+- `5414-5414` `0x060004C5` `System.Int32[] IntlThrdPerfSchd.Service1/ThreadInfo::get_previnputs()`
+- `5414-5414` `0x060004C6` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_previnputs(System.Int32[])`
+- `5416-5416` `0x060004C7` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_rs()`
+- `5416-5416` `0x060004C8` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_rs(System.Int32)`
+- `5418-5418` `0x060004C9` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_prevrs()`
+- `5418-5418` `0x060004CA` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_prevrs(System.Int32)`
+- `5420-5420` `0x060004CB` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_trial_count()`
+- `5420-5420` `0x060004CC` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_trial_count(System.Int64)`
+- `5422-5422` `0x060004CD` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_trial_switch()`
+- `5422-5422` `0x060004CE` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_trial_switch(System.Int64)`
+- `5425-5425` `0x060004CF` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_sched_count()`
+- `5425-5425` `0x060004D0` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_sched_count(System.Int64)`
+- `5427-5427` `0x060004D1` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_sched_little_count()`
+- `5427-5427` `0x060004D2` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_sched_little_count(System.Int64)`
+- `5429-5429` `0x060004D3` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_rfo_counters()`
+- `5429-5429` `0x060004D4` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_rfo_counters(System.Int64)`
+- `5432-5432` `0x060004D5` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_l2ref_counters()`
+- `5432-5432` `0x060004D6` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_l2ref_counters(System.Int64)`
+- `5434-5434` `0x060004D7` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_rfo_counters1()`
+- `5434-5434` `0x060004D8` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_rfo_counters1(System.Int64)`
+- `5436-5436` `0x060004D9` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_rfo_counters2()`
+- `5436-5436` `0x060004DA` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_rfo_counters2(System.Int64)`
+- `5438-5438` `0x060004DB` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_rfo_counters3()`
+- `5438-5438` `0x060004DC` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_rfo_counters3(System.Int64)`
+- `5440-5440` `0x060004DD` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_l2ref_counters1()`
+- `5440-5440` `0x060004DE` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_l2ref_counters1(System.Int64)`
+- `5442-5442` `0x060004DF` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_l2ref_counters2()`
+- `5442-5442` `0x060004E0` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_l2ref_counters2(System.Int64)`
+- `5444-5444` `0x060004E1` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_l2ref_counters3()`
+- `5444-5444` `0x060004E2` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_l2ref_counters3(System.Int64)`
+- `5447-5447` `0x060004E3` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_demoteacc()`
+- `5447-5447` `0x060004E4` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_demoteacc(System.Int64)`
+- `5449-5449` `0x060004E5` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_avg_ins()`
+- `5449-5449` `0x060004E6` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_avg_ins(System.Int64)`
+- `5452-5452` `0x060004E7` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_avg_ins1()`
+- `5452-5452` `0x060004E8` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_avg_ins1(System.Int64)`
+- `5455-5455` `0x060004E9` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_avg_ins2()`
+- `5455-5455` `0x060004EA` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_avg_ins2(System.Int64)`
+- `5457-5457` `0x060004EB` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_avg_ins3()`
+- `5457-5457` `0x060004EC` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_avg_ins3(System.Int64)`
+- `5459-5459` `0x060004ED` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_l2cr_counters()`
+- `5459-5459` `0x060004EE` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_l2cr_counters(System.Int64)`
+- `5462-5462` `0x060004EF` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_rfo_ratio()`
+- `5462-5462` `0x060004F0` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_rfo_ratio(System.Int64)`
+- `5464-5464` `0x060004F1` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_rfo_ratio1()`
+- `5464-5464` `0x060004F2` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_rfo_ratio1(System.Int64)`
+- `5466-5466` `0x060004F3` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_rfo_ratio2()`
+- `5466-5466` `0x060004F4` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_rfo_ratio2(System.Int64)`
+- `5467-5467` `0x060004F5` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_rfo_ratio3()`
+- `5467-5467` `0x060004F6` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_rfo_ratio3(System.Int64)`
+- `5469-5469` `0x060004F7` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_ins_little()`
+- `5469-5469` `0x060004F8` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_ins_little(System.Int64)`
+- `5471-5471` `0x060004F9` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_clock_little()`
+- `5471-5471` `0x060004FA` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_clock_little(System.Int64)`
+- `5473-5473` `0x060004FB` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_ipc_big()`
+- `5473-5473` `0x060004FC` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_ipc_big(System.Int64)`
+- `5476-5476` `0x060004FD` `IntlThrdPerfSchd.Service1/ProcessInfo IntlThrdPerfSchd.Service1/ThreadInfo::get_Processinfo()`
+- `5476-5476` `0x060004FE` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Processinfo(IntlThrdPerfSchd.Service1/ProcessInfo)`
+- `5478-5478` `0x060004FF` `IntlThrdPerfSchd.Service1/GroupInfo IntlThrdPerfSchd.Service1/ThreadInfo::get_Groupinfo()`
+- `5478-5478` `0x06000500` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Groupinfo(IntlThrdPerfSchd.Service1/GroupInfo)`
+- `5480-5480` `0x06000501` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1/ThreadInfo::get_SimpThread()`
+- `5480-5480` `0x06000502` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_SimpThread(IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+- `5482-5482` `0x06000503` `IntlThrdPerfSchd.Service1/PrevSchedInfo IntlThrdPerfSchd.Service1/ThreadInfo::get_PrevSchedInfo()`
+- `5482-5482` `0x06000504` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_PrevSchedInfo(IntlThrdPerfSchd.Service1/PrevSchedInfo)`
+- `5485-5485` `0x06000505` `IntlThrdPerfSchd.Service1/ThreadInfo IntlThrdPerfSchd.Service1/ThreadInfo::get_NextThread()`
+- `5485-5485` `0x06000506` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_NextThread(IntlThrdPerfSchd.Service1/ThreadInfo)`
+- `5488-5488` `0x06000507` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_sched_correct()`
+- `5488-5488` `0x06000508` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_sched_correct(System.Int64)`
+- `5491-5491` `0x06000509` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_sched_wrong()`
+- `5491-5491` `0x0600050A` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_sched_wrong(System.Int64)`
+- `5493-5493` `0x0600050B` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_sched_corr_ratio()`
+- `5493-5493` `0x0600050C` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_sched_corr_ratio(System.Int64)`
+- `5501-5501` `0x0600050D` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_Neuro_on()`
+- `5501-5501` `0x0600050E` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Neuro_on(System.Int32)`
+- `5503-5503` `0x0600050F` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_Neuro_count()`
+- `5503-5503` `0x06000510` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Neuro_count(System.Int32)`
+- `5506-5506` `0x06000511` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_update_signal()`
+- `5506-5506` `0x06000512` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_update_signal(System.Int64)`
+- `5508-5508` `0x06000513` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::get_Iscollected()`
+- `5508-5508` `0x06000514` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Iscollected(System.Int64)`
+- `5511-5511` `0x06000515` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_Perflvl()`
+- `5511-5511` `0x06000516` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Perflvl(System.Int32)`
+- `5513-5513` `0x06000517` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_Efflvl()`
+- `5513-5513` `0x06000518` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Efflvl(System.Int32)`
+- `5515-5515` `0x06000519` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfo::get_Smtlvl()`
+- `5515-5515` `0x0600051A` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_Smtlvl(System.Int32)`
+- `5519-5519` `0x0600051B` `IntlThrdPerfSchd.Service1/ThreadMetrics IntlThrdPerfSchd.Service1/ThreadInfo::get_ThreadMetricsCurrent()`
+- `5519-5519` `0x0600051C` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_ThreadMetricsCurrent(IntlThrdPerfSchd.Service1/ThreadMetrics)`
+- `5522-5522` `0x0600051D` `IntlThrdPerfSchd.Service1/ThreadMetrics IntlThrdPerfSchd.Service1/ThreadInfo::get_ThreadMetricsLast()`
+- `5522-5522` `0x0600051E` `System.Void IntlThrdPerfSchd.Service1/ThreadInfo::set_ThreadMetricsLast(IntlThrdPerfSchd.Service1/ThreadMetrics)`
+- `5531-5542` `0x0600051F` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfo::CalcRatio(System.Int64,System.Int64,System.Int64)`
+- `5550-5561` `0x06000520` `System.Double IntlThrdPerfSchd.Service1/ThreadInfo::CalcRatio1(System.Int64,System.Int64,System.Double)`
+
+### IntlThrdPerfSchd.Service1/ThreadInfoSimp
+- `4843-4845` `0x060003F4` `System.Void IntlThrdPerfSchd.Service1/ThreadInfoSimp::.ctor()`
+- `4847-4869` `0x060003F5` `System.Void IntlThrdPerfSchd.Service1/ThreadInfoSimp::.ctor(System.Int32,System.Int64,System.Int64,System.Int64,System.Int32,System.Int32,IntlThrdPerfSchd.Service1/ThreadInfo)`
+- `4871-4871` `0x060003F6` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfoSimp::get_Tid()`
+- `4871-4871` `0x060003F7` `System.Void IntlThrdPerfSchd.Service1/ThreadInfoSimp::set_Tid(System.Int32)`
+- `4872-4872` `0x060003F8` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfoSimp::get_InsPressure()`
+- `4872-4872` `0x060003F9` `System.Void IntlThrdPerfSchd.Service1/ThreadInfoSimp::set_InsPressure(System.Int64)`
+- `4874-4874` `0x060003FA` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfoSimp::get_InsPressure1()`
+- `4874-4874` `0x060003FB` `System.Void IntlThrdPerfSchd.Service1/ThreadInfoSimp::set_InsPressure1(System.Int64)`
+- `4876-4876` `0x060003FC` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfoSimp::get_InsPressure2()`
+- `4876-4876` `0x060003FD` `System.Void IntlThrdPerfSchd.Service1/ThreadInfoSimp::set_InsPressure2(System.Int64)`
+- `4878-4878` `0x060003FE` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfoSimp::get_Ins_per_count()`
+- `4878-4878` `0x060003FF` `System.Void IntlThrdPerfSchd.Service1/ThreadInfoSimp::set_Ins_per_count(System.Int64)`
+- `4879-4879` `0x06000400` `System.Int64 IntlThrdPerfSchd.Service1/ThreadInfoSimp::get_Ipc()`
+- `4879-4879` `0x06000401` `System.Void IntlThrdPerfSchd.Service1/ThreadInfoSimp::set_Ipc(System.Int64)`
+- `4881-4881` `0x06000402` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfoSimp::get_CoreType()`
+- `4881-4881` `0x06000403` `System.Void IntlThrdPerfSchd.Service1/ThreadInfoSimp::set_CoreType(System.Int32)`
+- `4883-4883` `0x06000404` `System.Int32 IntlThrdPerfSchd.Service1/ThreadInfoSimp::get_Group()`
+- `4883-4883` `0x06000405` `System.Void IntlThrdPerfSchd.Service1/ThreadInfoSimp::set_Group(System.Int32)`
+- `4885-4885` `0x06000406` `IntlThrdPerfSchd.Service1/ThreadInfo IntlThrdPerfSchd.Service1/ThreadInfoSimp::get_Belong2thread()`
+- `4885-4885` `0x06000407` `System.Void IntlThrdPerfSchd.Service1/ThreadInfoSimp::set_Belong2thread(IntlThrdPerfSchd.Service1/ThreadInfo)`
+- `4888-4888` `0x06000408` `IntlThrdPerfSchd.Service1/ThreadInfoSimp IntlThrdPerfSchd.Service1/ThreadInfoSimp::get_Next()`
+- `4888-4888` `0x06000409` `System.Void IntlThrdPerfSchd.Service1/ThreadInfoSimp::set_Next(IntlThrdPerfSchd.Service1/ThreadInfoSimp)`
+
+### IntlThrdPerfSchd.Service1/ThreadLoadManager4b
+- `11403-11404` `0x0600071B` `System.Void IntlThrdPerfSchd.Service1/ThreadLoadManager4b::.ctor()`
+- `11411-11426` `0x06000713` `System.Void IntlThrdPerfSchd.Service1/ThreadLoadManager4b::AddOrUpdate(System.Int32,System.Int64)`
+- `11434-11434` `0x06000714` `System.Collections.Generic.List`1<System.ValueTuple`2<System.Int32,System.Int64>> IntlThrdPerfSchd.Service1/ThreadLoadManager4b::TakeTopN(System.Int32)`
+- `11443-11443` `0x06000715` `System.Collections.Generic.List`1<System.ValueTuple`2<System.Int32,System.Int64>> IntlThrdPerfSchd.Service1/ThreadLoadManager4b::TakeBottomN(System.Int32)`
+- `11451-11470` `0x06000716` `System.Int32 IntlThrdPerfSchd.Service1/ThreadLoadManager4b::IsInTopPos(IntlThrdPerfSchd.Service1/ThreadLoadManager4b/ThreadLoadNode,System.Int32)`
+- `11477-11488` `0x06000717` `System.Int32 IntlThrdPerfSchd.Service1/ThreadLoadManager4b::GetNodePosition(System.Int32)`
+- `11495-11497` `0x06000718` `System.Void IntlThrdPerfSchd.Service1/ThreadLoadManager4b::Clear()`
+- `11502-11502` `0x06000719` `System.Int32 IntlThrdPerfSchd.Service1/ThreadLoadManager4b::get_Count()`
+- `11507-11507` `0x0600071A` `System.Collections.Generic.List`1<IntlThrdPerfSchd.Service1/ThreadLoadManager4b/ThreadLoadNode> IntlThrdPerfSchd.Service1/ThreadLoadManager4b::GetAllNodes()`
+
+### IntlThrdPerfSchd.Service1/ThreadLoadManager4b/<>c
+- `11434-11434` `0x060007D4` `System.ValueTuple`2<System.Int32,System.Int64> IntlThrdPerfSchd.Service1/ThreadLoadManager4b/<>c::<TakeTopN>b__5_0(IntlThrdPerfSchd.Service1/ThreadLoadManager4b/ThreadLoadNode)`
+- `11443-11443` `0x060007D5` `System.ValueTuple`2<System.Int32,System.Int64> IntlThrdPerfSchd.Service1/ThreadLoadManager4b/<>c::<TakeBottomN>b__6_0(IntlThrdPerfSchd.Service1/ThreadLoadManager4b/ThreadLoadNode)`
+
+### IntlThrdPerfSchd.Service1/ThreadLoadManager4b/NodeComparer
+- `11395-11399` `0x060007D0` `System.Int32 IntlThrdPerfSchd.Service1/ThreadLoadManager4b/NodeComparer::Compare(IntlThrdPerfSchd.Service1/ThreadLoadManager4b/ThreadLoadNode,IntlThrdPerfSchd.Service1/ThreadLoadManager4b/ThreadLoadNode)`
+
+### IntlThrdPerfSchd.Service1/ThreadLoadManager4b/ThreadLoadNode
+- `11380-11380` `0x060007CD` `System.Int32 IntlThrdPerfSchd.Service1/ThreadLoadManager4b/ThreadLoadNode::get_ThreadId()`
+- `11381-11381` `0x060007CE` `System.Int64 IntlThrdPerfSchd.Service1/ThreadLoadManager4b/ThreadLoadNode::get_Load()`
+- `11383-11387` `0x060007CF` `System.Void IntlThrdPerfSchd.Service1/ThreadLoadManager4b/ThreadLoadNode::.ctor(System.Int32,System.Int64)`
+
+### IntlThrdPerfSchd.Service1/ThreadLoadManager4l
+- `11537-11538` `0x06000726` `System.Void IntlThrdPerfSchd.Service1/ThreadLoadManager4l::.ctor()`
+- `11545-11560` `0x0600071C` `System.Void IntlThrdPerfSchd.Service1/ThreadLoadManager4l::AddOrUpdate(System.Int32,System.Int64)`
+- `11568-11568` `0x0600071D` `System.Collections.Generic.List`1<System.ValueTuple`2<System.Int32,System.Int64>> IntlThrdPerfSchd.Service1/ThreadLoadManager4l::TakeTopN(System.Int32)`
+- `11577-11577` `0x0600071E` `System.Collections.Generic.List`1<System.ValueTuple`2<System.Int32,System.Int64>> IntlThrdPerfSchd.Service1/ThreadLoadManager4l::TakeBottomN(System.Int32)`
+- `11585-11604` `0x0600071F` `System.Int32 IntlThrdPerfSchd.Service1/ThreadLoadManager4l::IsInTopPos(IntlThrdPerfSchd.Service1/ThreadLoadManager4l/ThreadLoadNode,System.Int32)`
+- `11611-11622` `0x06000720` `System.Int32 IntlThrdPerfSchd.Service1/ThreadLoadManager4l::GetNodePosition(System.Int32)`
+- `11629-11631` `0x06000721` `System.Void IntlThrdPerfSchd.Service1/ThreadLoadManager4l::Clear()`
+- `11636-11636` `0x06000722` `System.Int32 IntlThrdPerfSchd.Service1/ThreadLoadManager4l::get_Count()`
+- `11641-11641` `0x06000723` `System.Collections.Generic.List`1<IntlThrdPerfSchd.Service1/ThreadLoadManager4l/ThreadLoadNode> IntlThrdPerfSchd.Service1/ThreadLoadManager4l::GetAllNodes()`
+- `11647-11650` `0x06000724` `System.Int32 IntlThrdPerfSchd.Service1/ThreadLoadManager4l::GetThreadIdByIndex(System.Int32)`
+- `11658-11661` `0x06000725` `System.Int64 IntlThrdPerfSchd.Service1/ThreadLoadManager4l::GetLoadByIndex(System.Int32)`
+
+### IntlThrdPerfSchd.Service1/ThreadLoadManager4l/<>c
+- `11568-11568` `0x060007DD` `System.ValueTuple`2<System.Int32,System.Int64> IntlThrdPerfSchd.Service1/ThreadLoadManager4l/<>c::<TakeTopN>b__5_0(IntlThrdPerfSchd.Service1/ThreadLoadManager4l/ThreadLoadNode)`
+- `11577-11577` `0x060007DE` `System.ValueTuple`2<System.Int32,System.Int64> IntlThrdPerfSchd.Service1/ThreadLoadManager4l/<>c::<TakeBottomN>b__6_0(IntlThrdPerfSchd.Service1/ThreadLoadManager4l/ThreadLoadNode)`
+
+### IntlThrdPerfSchd.Service1/ThreadLoadManager4l/NodeComparer
+- `11529-11533` `0x060007D9` `System.Int32 IntlThrdPerfSchd.Service1/ThreadLoadManager4l/NodeComparer::Compare(IntlThrdPerfSchd.Service1/ThreadLoadManager4l/ThreadLoadNode,IntlThrdPerfSchd.Service1/ThreadLoadManager4l/ThreadLoadNode)`
+
+### IntlThrdPerfSchd.Service1/ThreadLoadManager4l/ThreadLoadNode
+- `11514-11514` `0x060007D6` `System.Int32 IntlThrdPerfSchd.Service1/ThreadLoadManager4l/ThreadLoadNode::get_ThreadId()`
+- `11515-11515` `0x060007D7` `System.Int64 IntlThrdPerfSchd.Service1/ThreadLoadManager4l/ThreadLoadNode::get_Load()`
+- `11517-11521` `0x060007D8` `System.Void IntlThrdPerfSchd.Service1/ThreadLoadManager4l/ThreadLoadNode::.ctor(System.Int32,System.Int64)`
+
+### IntlThrdPerfSchd.Service1/ThreadPerformanceData
+- `1376-1376` `0x060002ED` `System.Int64 IntlThrdPerfSchd.Service1/ThreadPerformanceData::get_InstructionCount()`
+- `1376-1376` `0x060002EE` `System.Void IntlThrdPerfSchd.Service1/ThreadPerformanceData::set_InstructionCount(System.Int64)`
+- `1381-1381` `0x060002EF` `System.Double IntlThrdPerfSchd.Service1/ThreadPerformanceData::get_MemoryAccessFrequency()`
+- `1381-1381` `0x060002F0` `System.Void IntlThrdPerfSchd.Service1/ThreadPerformanceData::set_MemoryAccessFrequency(System.Double)`
+- `1386-1386` `0x060002F1` `System.Double IntlThrdPerfSchd.Service1/ThreadPerformanceData::get_BranchMispredictRate()`
+- `1386-1386` `0x060002F2` `System.Void IntlThrdPerfSchd.Service1/ThreadPerformanceData::set_BranchMispredictRate(System.Double)`
+- `1391-1391` `0x060002F3` `System.Double IntlThrdPerfSchd.Service1/ThreadPerformanceData::get_IPC()`
+- `1391-1391` `0x060002F4` `System.Void IntlThrdPerfSchd.Service1/ThreadPerformanceData::set_IPC(System.Double)`
+- `1396-1396` `0x060002F5` `System.Int64 IntlThrdPerfSchd.Service1/ThreadPerformanceData::get_Timestamp()`
+- `1396-1396` `0x060002F6` `System.Void IntlThrdPerfSchd.Service1/ThreadPerformanceData::set_Timestamp(System.Int64)`
+
+### IntlThrdPerfSchd.Service1/ThreadPriorityMapper
+- `1108-1139` `0x060002D6` `System.Void IntlThrdPerfSchd.Service1/ThreadPriorityMapper::.cctor()`
+- `1149-1157` `0x060002D2` `System.Int32 IntlThrdPerfSchd.Service1/ThreadPriorityMapper::GetFinalPriority(System.Int32,System.Int32)`
+- `1165-1165` `0x060002D3` `IntlThrdPerfSchd.Service1/ThreadPriorityMapper/PriorityClass IntlThrdPerfSchd.Service1/ThreadPriorityMapper::GetPriorityClass(System.Int32)`
+- `1173-1173` `0x060002D4` `IntlThrdPerfSchd.Service1/ThreadPriorityMapper/ThreadPriorityLevel IntlThrdPerfSchd.Service1/ThreadPriorityMapper::GetThreadPriority(System.Int32)`
+
+### IntlThrdPerfSchd.Service1/ThreadSchedulerCore
+- `3844-3854` `0x06000364` `System.Void IntlThrdPerfSchd.Service1/ThreadSchedulerCore::.ctor(System.Int32,System.Int32)`
+- `3861-3867` `0x06000365` `System.Double[] IntlThrdPerfSchd.Service1/ThreadSchedulerCore::InitializeWeights(System.Int32)`
+- `3875-3884` `0x06000366` `System.Double[] IntlThrdPerfSchd.Service1/ThreadSchedulerCore::ConvertToInput(IntlThrdPerfSchd.Service1/ThreadMetrics)`
+- `3892-3892` `0x06000367` `System.Double IntlThrdPerfSchd.Service1/ThreadSchedulerCore::NormalizeInstructions(System.Int64)`
+- `3900-3900` `0x06000368` `System.Double IntlThrdPerfSchd.Service1/ThreadSchedulerCore::NormalizeExecutionTime(System.Int64)`
+- `3913-3939` `0x06000369` `System.ValueTuple`4<System.Int32,System.Double,System.Boolean,System.Int32> IntlThrdPerfSchd.Service1/ThreadSchedulerCore::MakeDecision(IntlThrdPerfSchd.Service1/ThreadMetrics,System.Int32)`
+- `3947-3958` `0x0600036A` `System.Double IntlThrdPerfSchd.Service1/ThreadSchedulerCore::CalculateScore(System.Double[],System.Int32)`
+- `3972-4010` `0x0600036B` `System.Void IntlThrdPerfSchd.Service1/ThreadSchedulerCore::OnlineLearning(IntlThrdPerfSchd.Service1/ThreadMetrics,IntlThrdPerfSchd.Service1/ThreadMetrics,System.Int32,System.Boolean)`
+- `4017-4043` `0x0600036C` `System.Double IntlThrdPerfSchd.Service1/ThreadSchedulerCore::CalculateReward(IntlThrdPerfSchd.Service1/ThreadMetrics,IntlThrdPerfSchd.Service1/ThreadMetrics,System.Int32)`
+- `4051-4057` `0x0600036D` `System.Void IntlThrdPerfSchd.Service1/ThreadSchedulerCore::UpdateWeights(System.Double,System.Double[],System.Int32)`
+- `4065-4066` `0x0600036E` `System.Void IntlThrdPerfSchd.Service1/ThreadSchedulerCore::LearnFromNeuralDecision(System.Double,System.Double[],System.Int32)`
+- `4075-4090` `0x0600036F` `System.Void IntlThrdPerfSchd.Service1/ThreadSchedulerCore::LearnFromObservation(IntlThrdPerfSchd.Service1/ThreadMetrics,IntlThrdPerfSchd.Service1/ThreadMetrics,System.Int32,System.Double)`
+- `4097-4106` `0x06000370` `IntlThrdPerfSchd.Service1/LearningStatistics IntlThrdPerfSchd.Service1/ThreadSchedulerCore::GetLearningStatistics()`
+- `4114-4115` `0x06000371` `System.Void IntlThrdPerfSchd.Service1/ThreadSchedulerCore::ResetLearningHistory()`
+- `4122-4123` `0x06000372` `System.Void IntlThrdPerfSchd.Service1/ThreadSchedulerCore::SetLearningRate(System.Double)`
+- `4128-4128` `0x06000373` `System.Double IntlThrdPerfSchd.Service1/ThreadSchedulerCore::GetLearningRate()`
+- `4135-4141` `0x06000374` `IntlThrdPerfSchd.Service1/ModelInfo IntlThrdPerfSchd.Service1/ThreadSchedulerCore::GetModelInfo()`
+- `4150-4168` `0x06000375` `System.Void IntlThrdPerfSchd.Service1/ThreadSchedulerCore::RecordDecision(IntlThrdPerfSchd.Service1/ThreadMetrics,System.Int32,System.Int32,System.Double,System.Boolean,System.Int32)`
+- `4175-4210` `0x06000376` `IntlThrdPerfSchd.Service1/SchedulerStatistics IntlThrdPerfSchd.Service1/ThreadSchedulerCore::GetSchedulerStatistics()`
+- `4218-4242` `0x06000377` `IntlThrdPerfSchd.Service1/SchedulerStatistics IntlThrdPerfSchd.Service1/ThreadSchedulerCore::GetRecentStatistics(System.Int32)`
+- `4250-4251` `0x06000378` `System.Void IntlThrdPerfSchd.Service1/ThreadSchedulerCore::ResetDecisionHistory()`
+- `4256-4256` `0x06000379` `System.Int32 IntlThrdPerfSchd.Service1/ThreadSchedulerCore::GetDecisionHistoryCount()`
+- `4261-4261` `0x0600037A` `System.Int32 IntlThrdPerfSchd.Service1/ThreadSchedulerCore::GetLearningHistoryCount()`
+- `4266-4266` `0x0600037B` `System.Int32 IntlThrdPerfSchd.Service1/ThreadSchedulerCore::GetMaxDecisionHistorySize()`
+- `4271-4271` `0x0600037C` `System.Int32 IntlThrdPerfSchd.Service1/ThreadSchedulerCore::GetMaxLearningHistorySize()`
+- `4278-4286` `0x0600037D` `System.Void IntlThrdPerfSchd.Service1/ThreadSchedulerCore::SetMaxDecisionHistorySize(System.Int32)`
+- `4293-4301` `0x0600037E` `System.Void IntlThrdPerfSchd.Service1/ThreadSchedulerCore::SetMaxLearningHistorySize(System.Int32)`
+- `4308-4310` `0x0600037F` `System.ValueTuple`2<System.Double,System.Double> IntlThrdPerfSchd.Service1/ThreadSchedulerCore::GetHistoryUsage()`
+
+### IntlThrdPerfSchd.Service1/ThreadSchedulerCore/<>c
+- `4103-4103` `0x06000796` `System.Boolean IntlThrdPerfSchd.Service1/ThreadSchedulerCore/<>c::<GetLearningStatistics>b__25_0(IntlThrdPerfSchd.Service1/LearningRecord)`
+- `4104-4104` `0x06000797` `System.Double IntlThrdPerfSchd.Service1/ThreadSchedulerCore/<>c::<GetLearningStatistics>b__25_1(IntlThrdPerfSchd.Service1/LearningRecord)`
+- `4194-4194` `0x06000798` `System.Boolean IntlThrdPerfSchd.Service1/ThreadSchedulerCore/<>c::<GetSchedulerStatistics>b__31_0(IntlThrdPerfSchd.Service1/DecisionRecord)`
+- `4196-4196` `0x06000799` `System.Boolean IntlThrdPerfSchd.Service1/ThreadSchedulerCore/<>c::<GetSchedulerStatistics>b__31_1(IntlThrdPerfSchd.Service1/DecisionRecord)`
+- `4197-4197` `0x0600079A` `System.Double IntlThrdPerfSchd.Service1/ThreadSchedulerCore/<>c::<GetSchedulerStatistics>b__31_2(IntlThrdPerfSchd.Service1/DecisionRecord)`
+- `4226-4226` `0x0600079B` `System.Boolean IntlThrdPerfSchd.Service1/ThreadSchedulerCore/<>c::<GetRecentStatistics>b__32_0(IntlThrdPerfSchd.Service1/DecisionRecord)`
+- `4228-4228` `0x0600079C` `System.Boolean IntlThrdPerfSchd.Service1/ThreadSchedulerCore/<>c::<GetRecentStatistics>b__32_1(IntlThrdPerfSchd.Service1/DecisionRecord)`
+- `4229-4229` `0x0600079D` `System.Double IntlThrdPerfSchd.Service1/ThreadSchedulerCore/<>c::<GetRecentStatistics>b__32_2(IntlThrdPerfSchd.Service1/DecisionRecord)`
+
+## Service1.Designer.cs
+
+- Mapped methods: `2`
+
+### IntlThrdPerfSchd.Service1
+- `16-21` `0x0600012F` `System.Void IntlThrdPerfSchd.Service1::Dispose(System.Boolean)`
+- `31-33` `0x06000130` `System.Void IntlThrdPerfSchd.Service1::InitializeComponent()`
+

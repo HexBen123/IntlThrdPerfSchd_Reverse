@@ -1,0 +1,1195 @@
+{
+  "generated_at_utc": "2026-04-05T13:48:57.870813+00:00",
+  "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\Intel大小核神经网络调度器N版2.35\\IntlThrdSchd\\IntlThrdSchd.pdb",
+  "compare_injected_json": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.35\\recovery_artifacts\\dia_injected_source_2.35.json",
+  "superblock": {
+    "block_size": 512,
+    "free_block_map_block": 2,
+    "num_blocks": 1507,
+    "num_directory_bytes": 5612,
+    "reserved_block_map_block": 0,
+    "block_map_address": 1506
+  },
+  "directory": {
+    "directory_blocks": [
+      1495,
+      1496,
+      1497,
+      1498,
+      1499,
+      1500,
+      1501,
+      1502,
+      1503,
+      1504,
+      1505
+    ],
+    "directory_bytes_length": 5612,
+    "num_streams": 138
+  },
+  "pdb_stream": {
+    "version": 20000404,
+    "signature": 3692930208,
+    "age": 1,
+    "guid": "7b78a73b-44b1-4edd-a404-47903656f37c",
+    "string_buffer_size": 2325,
+    "named_stream_map_size": 23,
+    "named_stream_map_capacity": 38,
+    "present_word_count": 2,
+    "deleted_word_count": 0,
+    "trailing_tail_u32s": [
+      0,
+      20140508
+    ]
+  },
+  "names_stream": {
+    "signature": 4026462206,
+    "signature_matches_expected": true,
+    "hash_version": 1,
+    "byte_size": 4148,
+    "hash_count": 61,
+    "name_count": 39,
+    "string_count": 38,
+    "strings": [
+      {
+        "offset": 1,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\CoreIndexMapper.cs"
+      },
+      {
+        "offset": 108,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\coreindexmapper.cs"
+      },
+      {
+        "offset": 214,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\OpenLibSys.cs"
+      },
+      {
+        "offset": 315,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\openlibsys.cs"
+      },
+      {
+        "offset": 416,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\OnlineLearning.cs"
+      },
+      {
+        "offset": 521,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\onlinelearning.cs"
+      },
+      {
+        "offset": 626,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\OnlineLearningManager.cs"
+      },
+      {
+        "offset": 738,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\onlinelearningmanager.cs"
+      },
+      {
+        "offset": 850,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\Program.cs"
+      },
+      {
+        "offset": 948,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\program.cs"
+      },
+      {
+        "offset": 1046,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ProjectInstaller.cs"
+      },
+      {
+        "offset": 1153,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\projectinstaller.cs"
+      },
+      {
+        "offset": 1260,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ProjectInstaller.Designer.cs"
+      },
+      {
+        "offset": 1376,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\projectinstaller.designer.cs"
+      },
+      {
+        "offset": 1492,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\RealtimeScheduler.cs"
+      },
+      {
+        "offset": 1600,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\realtimescheduler.cs"
+      },
+      {
+        "offset": 1708,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\SchedulerModel.cs"
+      },
+      {
+        "offset": 1813,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\schedulermodel.cs"
+      },
+      {
+        "offset": 1918,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\SchedulerService.cs"
+      },
+      {
+        "offset": 2025,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\schedulerservice.cs"
+      },
+      {
+        "offset": 2132,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\Service1.cs"
+      },
+      {
+        "offset": 2231,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\service1.cs"
+      },
+      {
+        "offset": 2330,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\Service1.Designer.cs"
+      },
+      {
+        "offset": 2438,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\service1.designer.cs"
+      },
+      {
+        "offset": 2546,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ThreadClassifier.cs"
+      },
+      {
+        "offset": 2653,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threadclassifier.cs"
+      },
+      {
+        "offset": 2760,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ThreadDataPointV2.cs"
+      },
+      {
+        "offset": 2868,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threaddatapointv2.cs"
+      },
+      {
+        "offset": 2976,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ThreadPerformanceTracking.cs"
+      },
+      {
+        "offset": 3092,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threadperformancetracking.cs"
+      },
+      {
+        "offset": 3208,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\TransformerLayers.cs"
+      },
+      {
+        "offset": 3316,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\transformerlayers.cs"
+      },
+      {
+        "offset": 3424,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\MatrixOperations.cs"
+      },
+      {
+        "offset": 3531,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\matrixoperations.cs"
+      },
+      {
+        "offset": 3638,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\VectorMath.cs"
+      },
+      {
+        "offset": 3739,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\vectormath.cs"
+      },
+      {
+        "offset": 3840,
+        "text": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\obj\\Release\\net48\\.NETFramework,Version=v4.8.AssemblyAttributes.cs"
+      },
+      {
+        "offset": 3994,
+        "text": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\obj\\release\\net48\\.netframework,version=v4.8.assemblyattributes.cs"
+      }
+    ],
+    "hash_ids": [
+      108,
+      0,
+      0,
+      0,
+      214,
+      315,
+      0,
+      0,
+      2976,
+      3092,
+      0,
+      0,
+      521,
+      416,
+      0,
+      0,
+      1046,
+      1153,
+      107,
+      0,
+      2760,
+      2868,
+      3208,
+      3316,
+      0,
+      0,
+      0,
+      1708,
+      1813,
+      3424,
+      3531,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2330,
+      1918,
+      2025,
+      2438,
+      2546,
+      2653,
+      626,
+      738,
+      1260,
+      1376,
+      3638,
+      3739,
+      3840,
+      3994,
+      1492,
+      1600,
+      948,
+      850,
+      0,
+      0,
+      2132,
+      2231,
+      1
+    ],
+    "nonzero_hash_id_count": 39,
+    "unique_nonzero_hash_id_count": 39,
+    "empty_string_ids": [
+      107
+    ],
+    "empty_string_id_count": 1,
+    "original_case_path_count": 19,
+    "lowercase_path_count": 19,
+    "path_pair_count": 19,
+    "all_nonempty_strings_look_like_paths": true,
+    "string_by_offset": {
+      "1": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\CoreIndexMapper.cs",
+      "108": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\coreindexmapper.cs",
+      "214": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\OpenLibSys.cs",
+      "315": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\openlibsys.cs",
+      "416": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\OnlineLearning.cs",
+      "521": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\onlinelearning.cs",
+      "626": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\OnlineLearningManager.cs",
+      "738": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\onlinelearningmanager.cs",
+      "850": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\Program.cs",
+      "948": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\program.cs",
+      "1046": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ProjectInstaller.cs",
+      "1153": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\projectinstaller.cs",
+      "1260": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ProjectInstaller.Designer.cs",
+      "1376": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\projectinstaller.designer.cs",
+      "1492": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\RealtimeScheduler.cs",
+      "1600": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\realtimescheduler.cs",
+      "1708": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\SchedulerModel.cs",
+      "1813": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\schedulermodel.cs",
+      "1918": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\SchedulerService.cs",
+      "2025": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\schedulerservice.cs",
+      "2132": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\Service1.cs",
+      "2231": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\service1.cs",
+      "2330": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\Service1.Designer.cs",
+      "2438": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\service1.designer.cs",
+      "2546": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ThreadClassifier.cs",
+      "2653": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threadclassifier.cs",
+      "2760": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ThreadDataPointV2.cs",
+      "2868": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threaddatapointv2.cs",
+      "2976": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ThreadPerformanceTracking.cs",
+      "3092": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threadperformancetracking.cs",
+      "3208": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\TransformerLayers.cs",
+      "3316": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\transformerlayers.cs",
+      "3424": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\MatrixOperations.cs",
+      "3531": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\matrixoperations.cs",
+      "3638": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\VectorMath.cs",
+      "3739": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\vectormath.cs",
+      "3840": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\obj\\Release\\net48\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+      "3994": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\obj\\release\\net48\\.netframework,version=v4.8.assemblyattributes.cs"
+    }
+  },
+  "src_headerblock": {
+    "version": 19980827,
+    "version_matches_expected": true,
+    "header_size": 924,
+    "filetime": 0,
+    "age": 1,
+    "table_size": 19,
+    "table_capacity": 38,
+    "present_bucket_count": 19,
+    "deleted_bucket_count": 0,
+    "present_buckets": [
+      4,
+      5,
+      6,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      27,
+      28,
+      29,
+      31,
+      32,
+      35,
+      36
+    ],
+    "deleted_buckets": [],
+    "entries": [
+      {
+        "bucket": 4,
+        "key": 1600,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 1362172656,
+        "file_size": 104,
+        "file_name_id": 1492,
+        "object_name_id": 107,
+        "virtual_file_name_id": 1600,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\RealtimeScheduler.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\realtimescheduler.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 5,
+        "key": 3994,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 2481309425,
+        "file_size": 104,
+        "file_name_id": 3840,
+        "object_name_id": 107,
+        "virtual_file_name_id": 3994,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\obj\\Release\\net48\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\obj\\release\\net48\\.netframework,version=v4.8.assemblyattributes.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 6,
+        "key": 2438,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 824501624,
+        "file_size": 104,
+        "file_name_id": 2330,
+        "object_name_id": 107,
+        "virtual_file_name_id": 2438,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\Service1.Designer.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\service1.designer.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 8,
+        "key": 1376,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 2334349464,
+        "file_size": 104,
+        "file_name_id": 1260,
+        "object_name_id": 107,
+        "virtual_file_name_id": 1376,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ProjectInstaller.Designer.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\projectinstaller.designer.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 10,
+        "key": 3316,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 3045302934,
+        "file_size": 104,
+        "file_name_id": 3208,
+        "object_name_id": 107,
+        "virtual_file_name_id": 3316,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\TransformerLayers.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\transformerlayers.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 11,
+        "key": 315,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 378765567,
+        "file_size": 104,
+        "file_name_id": 214,
+        "object_name_id": 107,
+        "virtual_file_name_id": 315,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\OpenLibSys.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\openlibsys.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 12,
+        "key": 2025,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 3385694909,
+        "file_size": 104,
+        "file_name_id": 1918,
+        "object_name_id": 107,
+        "virtual_file_name_id": 2025,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\SchedulerService.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\schedulerservice.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 13,
+        "key": 1153,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 1428846861,
+        "file_size": 104,
+        "file_name_id": 1046,
+        "object_name_id": 107,
+        "virtual_file_name_id": 1153,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ProjectInstaller.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\projectinstaller.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 14,
+        "key": 3092,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 3002585132,
+        "file_size": 104,
+        "file_name_id": 2976,
+        "object_name_id": 107,
+        "virtual_file_name_id": 3092,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ThreadPerformanceTracking.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threadperformancetracking.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 15,
+        "key": 3739,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 4220319497,
+        "file_size": 104,
+        "file_name_id": 3638,
+        "object_name_id": 107,
+        "virtual_file_name_id": 3739,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\VectorMath.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\vectormath.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 16,
+        "key": 738,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 1139300109,
+        "file_size": 104,
+        "file_name_id": 626,
+        "object_name_id": 107,
+        "virtual_file_name_id": 738,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\OnlineLearningManager.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\onlinelearningmanager.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 18,
+        "key": 2868,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 3288356849,
+        "file_size": 104,
+        "file_name_id": 2760,
+        "object_name_id": 107,
+        "virtual_file_name_id": 2868,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ThreadDataPointV2.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threaddatapointv2.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 27,
+        "key": 521,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 1090062256,
+        "file_size": 104,
+        "file_name_id": 416,
+        "object_name_id": 107,
+        "virtual_file_name_id": 521,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\OnlineLearning.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\onlinelearning.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 28,
+        "key": 2231,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 3893911350,
+        "file_size": 104,
+        "file_name_id": 2132,
+        "object_name_id": 107,
+        "virtual_file_name_id": 2231,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\Service1.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\service1.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 29,
+        "key": 1813,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 2900803946,
+        "file_size": 104,
+        "file_name_id": 1708,
+        "object_name_id": 107,
+        "virtual_file_name_id": 1813,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\SchedulerModel.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\schedulermodel.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 31,
+        "key": 2653,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 1986465938,
+        "file_size": 104,
+        "file_name_id": 2546,
+        "object_name_id": 107,
+        "virtual_file_name_id": 2653,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ThreadClassifier.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threadclassifier.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 32,
+        "key": 108,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 4192509692,
+        "file_size": 104,
+        "file_name_id": 1,
+        "object_name_id": 107,
+        "virtual_file_name_id": 108,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\CoreIndexMapper.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\coreindexmapper.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 35,
+        "key": 3531,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 3973057150,
+        "file_size": 104,
+        "file_name_id": 3424,
+        "object_name_id": 107,
+        "virtual_file_name_id": 3531,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\MatrixOperations.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\matrixoperations.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      },
+      {
+        "bucket": 36,
+        "key": 948,
+        "entry_size": 40,
+        "entry_version": 19980827,
+        "entry_version_matches_expected": true,
+        "crc": 3560914474,
+        "file_size": 104,
+        "file_name_id": 850,
+        "object_name_id": 107,
+        "virtual_file_name_id": 948,
+        "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\Program.cs",
+        "object_name": null,
+        "object_name_is_empty_string_id": true,
+        "virtual_file_name": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\program.cs",
+        "compression": 101,
+        "is_virtual": 0,
+        "reserved_padding": 0,
+        "reserved_bytes_hex": "0000000000000000",
+        "key_equals_virtual_file_name_id": true,
+        "file_name_has_original_case": true,
+        "virtual_file_name_is_lowercase": true
+      }
+    ],
+    "entries_count": 19,
+    "all_entries_have_size_40": true,
+    "all_entries_compression_101": true,
+    "all_entries_not_virtual": true,
+    "all_entries_object_name_empty": true,
+    "all_entries_key_equals_virtual_name_id": true,
+    "all_entries_virtual_file_names_lowercase": true,
+    "all_entries_file_names_original_case": true,
+    "remaining_trailing_bytes_hex": ""
+  },
+  "summary": {
+    "named_stream_count": 23,
+    "source_file_named_stream_count": 19,
+    "zero_length_named_stream_count": 2,
+    "zero_length_named_streams": [
+      "/TMCache",
+      "/LinkInfo"
+    ],
+    "source_file_named_stream_unique_sizes": [
+      104
+    ],
+    "all_source_file_named_streams_same_size": true,
+    "source_file_named_streams_match_injected_payload_count": 19,
+    "all_source_file_named_streams_match_injected_payload": true
+  },
+  "named_streams": [
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\service1.designer.cs",
+      "stream_index": 22,
+      "size": 104,
+      "blocks": [
+        1283
+      ],
+      "sha256": "525be0ad32204b99a186e79f66c9b9c657baae3982f59b1b2461da7ca04479df",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... .......U..........8.....D.'.y..~.|. ..k",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\service1.designer.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16200000000000000055ebaa1a84f3b504cbb7d938d18cceca024495279e7904d47ee17c1a20e30b6b",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "55ebaa1a84f3b504cbb7d938d18cceca024495279e7904d47ee17c1a20e30b6b"
+    },
+    {
+      "name": "/TMCache",
+      "stream_index": 6,
+      "size": 0,
+      "blocks": [],
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hex_preview_64": "",
+      "ascii_preview_160": "",
+      "kind": "other_named_stream"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\vectormath.cs",
+      "stream_index": 28,
+      "size": 104,
+      "blocks": [
+        1289
+      ],
+      "sha256": "4bc3a6efdfb9f10735638fa492cc46ff4176569d01e71916d19740230e25e285",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... ........tZ0.....yH.....).j...9b..c.'3@.",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\vectormath.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000d6745a30ffe3b8b9f779489edbfaa0c629f76a84fd08396201db63fe273340fe",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "d6745a30ffe3b8b9f779489edbfaa0c629f76a84fd08396201db63fe273340fe"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\coreindexmapper.cs",
+      "stream_index": 11,
+      "size": 104,
+      "blocks": [
+        5
+      ],
+      "sha256": "7d89f0ef02f7901bf31e3e4e4ef7340784236a4e843c6fe5c83878515e4abd8c",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... ..........q....;..!....$.... U.....^.K.",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\coreindexmapper.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16200000000000000010faf57107a1bf1f3b99cc21bcffba1324c09df7ff2055988bbfbebc5e914be3",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "10faf57107a1bf1f3b99cc21bcffba1324c09df7ff2055988bbfbebc5e914be3"
+    },
+    {
+      "name": "/src/headerblock",
+      "stream_index": 8,
+      "size": 924,
+      "blocks": [
+        1292,
+        1293
+      ],
+      "sha256": "a34b54586612b3960dac6f789f6a8b26c3cb0644c0ab79689fda91bd0afc422b",
+      "hex_preview_64": "1be230019c0300000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "ascii_preview_160": "..0.................................................................&.......p...........@...(.....0...1Qh.......k...@...e...............(.....0.....h.......k...",
+      "kind": "src_headerblock"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threadclassifier.cs",
+      "stream_index": 23,
+      "size": 104,
+      "blocks": [
+        1284
+      ],
+      "sha256": "b8ceb3b2f5189f8c0f15ba310e999974995b9554a3e096c15eb93e998e8bfc91",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... ........a....].../H..*z.....idf.J..ti..",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threadclassifier.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000d761060cb0945dfac9152f48a6c32a7aec83a819d0696466134af502746992db",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "d761060cb0945dfac9152f48a6c32a7aec83a819d0696466134af502746992db"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\schedulerservice.cs",
+      "stream_index": 20,
+      "size": 104,
+      "blocks": [
+        1281
+      ],
+      "sha256": "ba133e42706e0c6f8258ad38e49baa7f22710149fb62e8930320920c7d7046f4",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... ...........(.|Q.;..m.E&QY...Q!Lx.cm..&.",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\schedulerservice.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000b190c9c8280f7c517f3b8ddf6dd745265159ec8a1151214c78bc636dfd1a26f5",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "b190c9c8280f7c517f3b8ddf6dd745265159ec8a1151214c78bc636dfd1a26f5"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\openlibsys.cs",
+      "stream_index": 12,
+      "size": 104,
+      "blocks": [
+        6
+      ],
+      "sha256": "e67ea51b36fa8ae5a8521cbf0c5a387fd86106ed864e0e4f0d9106820167375b",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... .......~.........N_..R...GU.6.X........",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\openlibsys.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000007eb01210ef0b868c179f4e5fa8aa529eabfd4755d5369258adbfe698b5cf9ade",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "7eb01210ef0b868c179f4e5fa8aa529eabfd4755d5369258adbfe698b5cf9ade"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\projectinstaller.cs",
+      "stream_index": 16,
+      "size": 104,
+      "blocks": [
+        1277
+      ],
+      "sha256": "4e17f45bbd6c0f5ef6083a1496559572e31cccb611ccf972f7a491a29fe6bbc8",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... .......^.6Ns....D.......aP.R.(#....AE[.",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\projectinstaller.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000005eaf364e732ef11197449d06b1c09aa3cf61509b52cc2823b8c2880741455b9d",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "5eaf364e732ef11197449d06b1c09aa3cf61509b52cc2823b8c2880741455b9d"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\projectinstaller.designer.cs",
+      "stream_index": 17,
+      "size": 104,
+      "blocks": [
+        1278
+      ],
+      "sha256": "48e03dba73a2223e0f1fc6eb2c6461938c0dd06b62d0004b1a876b1154a9ea2f",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... .......`....s.'...D.`.5.!p...:.A<..8.a@",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\projectinstaller.designer.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000006013fffa85739d2796c81344ef609335bc21701eb69b3a85413c04e238e16140",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "6013fffa85739d2796c81344ef609335bc21701eb69b3a85413c04e238e16140"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\realtimescheduler.cs",
+      "stream_index": 18,
+      "size": 104,
+      "blocks": [
+        1279
+      ],
+      "sha256": "10220bc3d77436ad228e4d8989bcc8a52c538378331b1151bab46671e9d1c742",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... ........ y.n...R>...cp.E@0.....;.k.....",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\realtimescheduler.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000009420792e6edba9bb523e85a90f6370d545403080e1110f9c3b146bea1c0dfb09",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "9420792e6edba9bb523e85a90f6370d545403080e1110f9c3b146bea1c0dfb09"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\matrixoperations.cs",
+      "stream_index": 27,
+      "size": 104,
+      "blocks": [
+        1288
+      ],
+      "sha256": "9199da60784235f45d8964a140056987b87322f0761997ced230197922b824f4",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... ...................r....ywY,.Q..n....>.",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\matrixoperations.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000aab9c1f718cab2a4f8d5e6e672fd12f8f77977592c075111076e8e0baaa73eea",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "aab9c1f718cab2a4f8d5e6e672fd12f8f77977592c075111076e8e0baaa73eea"
+    },
+    {
+      "name": "/names",
+      "stream_index": 7,
+      "size": 4412,
+      "blocks": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "sha256": "168c72f141c90a5c417c0ac0971950c2e5a11e50d5db7033de0962b48ce93c31",
+      "hex_preview_64": "feeffeef010000003410000000433a5c55736572735c6d617870705c736f757263655c7265706f735c496e746c546872645065726653636864332e32395c496e",
+      "ascii_preview_160": "........4....C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd3.29\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\CoreIndexMapper.cs..c:\\users\\maxpp\\source\\repos\\intlthrdperf",
+      "kind": "names"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\program.cs",
+      "stream_index": 15,
+      "size": 104,
+      "blocks": [
+        1276
+      ],
+      "sha256": "7e6e854278bc6efd3bd18464a28f62664851aa2c5bed1d04495114037d09bd3f",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... ..........!.....YIu........n9U...M.\\#H>",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\program.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000150e8b212eb7869cfc594975820bb3efcd9beeef6e39551c0dad4da75c23483e",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "150e8b212eb7869cfc594975820bb3efcd9beeef6e39551c0dad4da75c23483e"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\schedulermodel.cs",
+      "stream_index": 19,
+      "size": 104,
+      "blocks": [
+        1280
+      ],
+      "sha256": "ca3415f425f214f2999deed514acdb32bb6ef15ba5a7858ece4220061ca10a40",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... .......+..%L...@.9..........[B..v..'. Z",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\schedulermodel.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000002b9f15254c1e807f40aa3982ceedc7ebed8f0315db5b421fb97684d4272e205a",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "2b9f15254c1e807f40aa3982ceedc7ebed8f0315db5b421fb97684d4272e205a"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threadperformancetracking.cs",
+      "stream_index": 25,
+      "size": 104,
+      "blocks": [
+        1286
+      ],
+      "sha256": "3f5deb2e42eed18bdf603c2c2289f86de37a7ef3bdead0460b1c33c260cc3a0f",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... ........2......Z.b...........O.l..P...0",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threadperformancetracking.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000008832978af19f08c65ab362808ecac58a2e10b8aef2f24f056ccad65008dbc030",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "8832978af19f08c65ab362808ecac58a2e10b8aef2f24f056ccad65008dbc030"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\onlinelearning.cs",
+      "stream_index": 13,
+      "size": 104,
+      "blocks": [
+        7
+      ],
+      "sha256": "f2aad457147aa4ee8ddfdd338f97e536bfcf6d244fbcfc9f6cce3b4955b5f250",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... ........5`v..,...c$.[.?...d[..^..V...&.",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\onlinelearning.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000e0356076a9172ce0038163240e5b113ff7dfb4645becf45ed11356c080e226f0",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "e0356076a9172ce0038163240e5b113ff7dfb4645becf45ed11356c080e226f0"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\service1.cs",
+      "stream_index": 21,
+      "size": 104,
+      "blocks": [
+        1282
+      ],
+      "sha256": "9d1db4ef166ec59678036344d61676e8e897506a064a0c2cb03015032d977e13",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... ..........\\./.i...U.Eqw2...^.n...G..xr.",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\service1.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000008f1e025cd02fb26985efcd558545717732a7f8115e8b6ec6aee347bca0787299",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "8f1e025cd02fb26985efcd558545717732a7f8115e8b6ec6aee347bca0787299"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\transformerlayers.cs",
+      "stream_index": 26,
+      "size": 104,
+      "blocks": [
+        1287
+      ],
+      "sha256": "a1d7161ec674ef494863b0a5688664ecae094a1bf6e162460cfc2380852ec944",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... .......w.CT.'...g...fA...........@..P@.",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\transformerlayers.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16200000000000000077f04354c327ddcddf670da1af6641e704d09393b9bfc0e1f4d24092d75040aa",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "77f04354c327ddcddf670da1af6641e704d09393b9bfc0e1f4d24092d75040aa"
+    },
+    {
+      "name": "/LinkInfo",
+      "stream_index": 5,
+      "size": 0,
+      "blocks": [],
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hex_preview_64": "",
+      "ascii_preview_160": "",
+      "kind": "other_named_stream"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\obj\\release\\net48\\.netframework,version=v4.8.assemblyattributes.cs",
+      "stream_index": 29,
+      "size": 104,
+      "blocks": [
+        1290
+      ],
+      "sha256": "be7abf6f0f31896093de9c8361e1b4d8f8ce9275eb64691a8649ae80ace28e43",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... ........L$.....9F..H.m...P.q.q.8.r..sss",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\obj\\release\\net48\\.netframework,version=v4.8.assemblyattributes.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000af4c24efdd16c0cb3946e8e148fb6df4fc9c501c71cc718738b4728808737373",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "af4c24efdd16c0cb3946e8e148fb6df4fc9c501c71cc718738b4728808737373"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\onlinelearningmanager.cs",
+      "stream_index": 14,
+      "size": 104,
+      "blocks": [
+        8
+      ],
+      "sha256": "47ccb33ecaa03c878cd1a91e531833f528c9555e3c53874b479dbd491dc0f20f",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... ........Y.E2R...b;..q..;.d`/..sJw...72.",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\onlinelearningmanager.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000df5909453252eee3ec623bfab471e1c53b9464602fa712734a770be2c5373216",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "df5909453252eee3ec623bfab471e1c53b9464602fa712734a770be2c5373216"
+    },
+    {
+      "name": "/src/files/c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threaddatapointv2.cs",
+      "stream_index": 24,
+      "size": 104,
+      "blocks": [
+        1285
+      ],
+      "sha256": "1b28aef978f1e6f23e86b8522af32ef1f7c2714a089582b04fbe4853068ef981",
+      "hex_preview_64": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16",
+      "ascii_preview_160": ".bQ?.....S..O....EK......?..O......Z.f...*....I...)....B..w..... ...........o.......8....hx......*...F.l",
+      "kind": "src_file_metadata",
+      "source_path_lower": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd3.29\\intlthrdperfschd2.22\\intlthrdperfschd\\threaddatapointv2.cs",
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000ecda98ee6f809fefb3db82b3381ccc0db268780ef895fd16872a0cc18146076c",
+      "matches_injected_payload_hex": true,
+      "matches_injected_embedded_checksum_hex": true,
+      "injected_embedded_checksum_hex": "ecda98ee6f809fefb3db82b3381ccc0db268780ef895fd16872a0cc18146076c"
+    }
+  ]
+}

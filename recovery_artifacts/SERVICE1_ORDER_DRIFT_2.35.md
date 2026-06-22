@@ -1,0 +1,172 @@
+# Service1 Order Drift
+
+This report compares the current declaration order in `pdb_aligned_src/IntlThrdPerfSchd/Service1.cs` against the original source order inferred from shipped PDB line spans.
+
+## Summary
+- Current parsed declarations: `263`
+- Original mapped methods in `Service1.cs`: `269`
+- Matched declarations: `262`
+- Current-only declarations not matched to original order map: `1`
+- Original-only mapped methods not found by current parser: `7`
+- Constructor-only original holes: `7`
+- Non-constructor original-only methods: `0`
+- Spearman rank correlation: `1.0000`
+- Constructor-hole-adjusted Spearman: `1.0000`
+- Constructor-hole-adjusted exact matches: `259/262`
+- Constructor-hole-adjusted non-zero drift rows: `3`
+- Constructor-hole-adjusted max abs drift: `1`
+- Constructor-hole-adjusted avg abs drift: `0.01`
+- Bidirectional-adjusted exact matches: `262/262`
+- Bidirectional-adjusted non-zero drift rows: `0`
+- Bidirectional-adjusted max abs drift: `0`
+- Bidirectional-adjusted avg abs drift: `0.00`
+
+## Largest Drift
+- `-7` current#216 vs original#223 `IntlThrdPerfSchd.Service1::UpdateNode`
+- `-7` current#217 vs original#224 `IntlThrdPerfSchd.Service1::UpdateNode2`
+- `-7` current#218 vs original#225 `IntlThrdPerfSchd.Service1::UpdateNode2_little`
+- `-7` current#219 vs original#226 `IntlThrdPerfSchd.Service1::UpdateNodeP`
+- `-7` current#220 vs original#227 `IntlThrdPerfSchd.Service1::ProcessSysinfo`
+- `-7` current#221 vs original#228 `IntlThrdPerfSchd.Service1::ProcessCompare`
+- `-7` current#222 vs original#229 `IntlThrdPerfSchd.Service1::ProcessCompare1`
+- `-7` current#223 vs original#230 `IntlThrdPerfSchd.Service1::ProcessCompare2`
+- `-7` current#224 vs original#231 `IntlThrdPerfSchd.Service1::ProcessCompare3`
+- `-7` current#225 vs original#232 `IntlThrdPerfSchd.Service1::UpdateNode1`
+- `-7` current#226 vs original#233 `IntlThrdPerfSchd.Service1::DeleteNode`
+- `-7` current#227 vs original#234 `IntlThrdPerfSchd.Service1::GetNodeValue`
+- `-7` current#228 vs original#235 `IntlThrdPerfSchd.Service1::FindNodeValue2`
+- `-7` current#229 vs original#236 `IntlThrdPerfSchd.Service1::FindCompareValue`
+- `-7` current#230 vs original#237 `IntlThrdPerfSchd.Service1::FindNodeValue`
+- `-7` current#231 vs original#238 `IntlThrdPerfSchd.Service1::FindMaxIpc`
+- `-7` current#232 vs original#239 `IntlThrdPerfSchd.Service1::FindThread`
+- `-7` current#233 vs original#240 `IntlThrdPerfSchd.Service1::FindProcess`
+- `-7` current#234 vs original#241 `IntlThrdPerfSchd.Service1::FindNodeValue1`
+- `-7` current#235 vs original#242 `IntlThrdPerfSchd.Service1::GetFactor`
+- `-7` current#236 vs original#243 `IntlThrdPerfSchd.Service1::Intval2Limit`
+- `-7` current#237 vs original#244 `IntlThrdPerfSchd.Service1::GetLevel`
+- `-7` current#238 vs original#245 `IntlThrdPerfSchd.Service1/ThreadLoadManager4b/ThreadLoadNode::.ctor`
+- `-7` current#239 vs original#246 `IntlThrdPerfSchd.Service1/ThreadLoadManager4b/NodeComparer::Compare`
+- `-7` current#240 vs original#247 `IntlThrdPerfSchd.Service1/ThreadLoadManager4b::.ctor`
+- `-7` current#241 vs original#248 `IntlThrdPerfSchd.Service1/ThreadLoadManager4b::AddOrUpdate`
+- `-7` current#242 vs original#249 `IntlThrdPerfSchd.Service1/ThreadLoadManager4b::TakeTopN`
+- `-7` current#243 vs original#250 `IntlThrdPerfSchd.Service1/ThreadLoadManager4b::TakeBottomN`
+- `-7` current#244 vs original#251 `IntlThrdPerfSchd.Service1/ThreadLoadManager4b::IsInTopPos`
+- `-7` current#245 vs original#252 `IntlThrdPerfSchd.Service1/ThreadLoadManager4b::GetNodePosition`
+
+## Constructor-hole-adjusted Drift
+- `+1` current#261 vs adjusted-original#260 (raw original#267, ctor-holes-before=7) `IntlThrdPerfSchd.Service1::OnStart`
+- `+1` current#262 vs adjusted-original#261 (raw original#268, ctor-holes-before=7) `IntlThrdPerfSchd.Service1::OnStop`
+- `+1` current#263 vs adjusted-original#262 (raw original#269, ctor-holes-before=7) `IntlThrdPerfSchd.Service1::OnTimedEvent`
+- `+0` current#1 vs adjusted-original#1 (raw original#1, ctor-holes-before=0) `IntlThrdPerfSchd.Service1/SchedulerThreadData::ToArray`
+- `+0` current#2 vs adjusted-original#2 (raw original#2, ctor-holes-before=0) `IntlThrdPerfSchd.Service1/SchedulerThreadData::DecisionStr`
+- `+0` current#3 vs adjusted-original#3 (raw original#4, ctor-holes-before=1) `IntlThrdPerfSchd.Service1/SchedulerDataset::GenerateData`
+- `+0` current#4 vs adjusted-original#4 (raw original#5, ctor-holes-before=1) `IntlThrdPerfSchd.Service1/SchedulerDataset::ComputeNorm`
+- `+0` current#5 vs adjusted-original#5 (raw original#6, ctor-holes-before=1) `IntlThrdPerfSchd.Service1/SchedulerDataset::GetItem`
+- `+0` current#6 vs adjusted-original#6 (raw original#7, ctor-holes-before=1) `IntlThrdPerfSchd.Service1/Mat::Rand`
+- `+0` current#7 vs adjusted-original#7 (raw original#8, ctor-holes-before=1) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::.ctor`
+- `+0` current#8 vs adjusted-original#8 (raw original#10, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::SetNormalization`
+- `+0` current#9 vs adjusted-original#9 (raw original#11, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Normalize`
+- `+0` current#10 vs adjusted-original#10 (raw original#12, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Forward`
+- `+0` current#11 vs adjusted-original#11 (raw original#13, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Train`
+- `+0` current#12 vs adjusted-original#12 (raw original#14, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::PrintCoreTypeTemplates`
+- `+0` current#13 vs adjusted-original#13 (raw original#15, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::TrainOnline`
+- `+0` current#14 vs adjusted-original#14 (raw original#16, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::TrainOnlineRaw`
+- `+0` current#15 vs adjusted-original#15 (raw original#17, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Evaluate`
+- `+0` current#16 vs adjusted-original#16 (raw original#18, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Predict`
+- `+0` current#17 vs adjusted-original#17 (raw original#19, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Schedule`
+- `+0` current#18 vs adjusted-original#18 (raw original#20, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::PredictRaw`
+- `+0` current#19 vs adjusted-original#19 (raw original#21, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::IsModelReady`
+- `+0` current#20 vs adjusted-original#20 (raw original#22, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::GetAttention`
+- `+0` current#21 vs adjusted-original#21 (raw original#23, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Learn`
+- `+0` current#22 vs adjusted-original#22 (raw original#24, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Learn`
+- `+0` current#23 vs adjusted-original#23 (raw original#25, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Schedule`
+- `+0` current#24 vs adjusted-original#24 (raw original#26, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::ScheduleWithDetails`
+- `+0` current#25 vs adjusted-original#25 (raw original#27, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::ScheduleWithDetails`
+- `+0` current#26 vs adjusted-original#26 (raw original#28, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::EnableEnergyLearning`
+- `+0` current#27 vs adjusted-original#27 (raw original#29, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::DisableEnergyLearning`
+
+## Bidirectional-adjusted Drift
+- `+0` normalized-current#1 vs adjusted-original#1 (raw current#1, raw original#1, current-only-before=0, ctor-holes-before=0) `IntlThrdPerfSchd.Service1/SchedulerThreadData::ToArray`
+- `+0` normalized-current#2 vs adjusted-original#2 (raw current#2, raw original#2, current-only-before=0, ctor-holes-before=0) `IntlThrdPerfSchd.Service1/SchedulerThreadData::DecisionStr`
+- `+0` normalized-current#3 vs adjusted-original#3 (raw current#3, raw original#4, current-only-before=0, ctor-holes-before=1) `IntlThrdPerfSchd.Service1/SchedulerDataset::GenerateData`
+- `+0` normalized-current#4 vs adjusted-original#4 (raw current#4, raw original#5, current-only-before=0, ctor-holes-before=1) `IntlThrdPerfSchd.Service1/SchedulerDataset::ComputeNorm`
+- `+0` normalized-current#5 vs adjusted-original#5 (raw current#5, raw original#6, current-only-before=0, ctor-holes-before=1) `IntlThrdPerfSchd.Service1/SchedulerDataset::GetItem`
+- `+0` normalized-current#6 vs adjusted-original#6 (raw current#6, raw original#7, current-only-before=0, ctor-holes-before=1) `IntlThrdPerfSchd.Service1/Mat::Rand`
+- `+0` normalized-current#7 vs adjusted-original#7 (raw current#7, raw original#8, current-only-before=0, ctor-holes-before=1) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::.ctor`
+- `+0` normalized-current#8 vs adjusted-original#8 (raw current#8, raw original#10, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::SetNormalization`
+- `+0` normalized-current#9 vs adjusted-original#9 (raw current#9, raw original#11, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Normalize`
+- `+0` normalized-current#10 vs adjusted-original#10 (raw current#10, raw original#12, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Forward`
+- `+0` normalized-current#11 vs adjusted-original#11 (raw current#11, raw original#13, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Train`
+- `+0` normalized-current#12 vs adjusted-original#12 (raw current#12, raw original#14, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::PrintCoreTypeTemplates`
+- `+0` normalized-current#13 vs adjusted-original#13 (raw current#13, raw original#15, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::TrainOnline`
+- `+0` normalized-current#14 vs adjusted-original#14 (raw current#14, raw original#16, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::TrainOnlineRaw`
+- `+0` normalized-current#15 vs adjusted-original#15 (raw current#15, raw original#17, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Evaluate`
+- `+0` normalized-current#16 vs adjusted-original#16 (raw current#16, raw original#18, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Predict`
+- `+0` normalized-current#17 vs adjusted-original#17 (raw current#17, raw original#19, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Schedule`
+- `+0` normalized-current#18 vs adjusted-original#18 (raw current#18, raw original#20, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::PredictRaw`
+- `+0` normalized-current#19 vs adjusted-original#19 (raw current#19, raw original#21, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::IsModelReady`
+- `+0` normalized-current#20 vs adjusted-original#20 (raw current#20, raw original#22, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::GetAttention`
+- `+0` normalized-current#21 vs adjusted-original#21 (raw current#21, raw original#23, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Learn`
+- `+0` normalized-current#22 vs adjusted-original#22 (raw current#22, raw original#24, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Learn`
+- `+0` normalized-current#23 vs adjusted-original#23 (raw current#23, raw original#25, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Schedule`
+- `+0` normalized-current#24 vs adjusted-original#24 (raw current#24, raw original#26, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::ScheduleWithDetails`
+- `+0` normalized-current#25 vs adjusted-original#25 (raw current#25, raw original#27, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::ScheduleWithDetails`
+- `+0` normalized-current#26 vs adjusted-original#26 (raw current#26, raw original#28, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::EnableEnergyLearning`
+- `+0` normalized-current#27 vs adjusted-original#27 (raw current#27, raw original#29, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::DisableEnergyLearning`
+- `+0` normalized-current#28 vs adjusted-original#28 (raw current#28, raw original#30, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::ScheduleAndRecord`
+- `+0` normalized-current#29 vs adjusted-original#29 (raw current#29, raw original#31, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::ScheduleAndRecord`
+- `+0` normalized-current#30 vs adjusted-original#30 (raw current#30, raw original#32, current-only-before=0, ctor-holes-before=2) `IntlThrdPerfSchd.Service1/CrossAttentionScheduler::ReceiveEnergyFeedback`
+
+## Type Summary
+- `IntlThrdPerfSchd.Service1/ThreadLoadManager4l` count=`10` max-abs-drift=`7` avg-abs-drift=`7.00`
+- `IntlThrdPerfSchd.Service1/ThreadLoadManager4b` count=`8` max-abs-drift=`7` avg-abs-drift=`7.00`
+- `IntlThrdPerfSchd.Service1/ThreadLoadManager4b/ThreadLoadNode` count=`1` max-abs-drift=`7` avg-abs-drift=`7.00`
+- `IntlThrdPerfSchd.Service1/ThreadLoadManager4b/NodeComparer` count=`1` max-abs-drift=`7` avg-abs-drift=`7.00`
+- `IntlThrdPerfSchd.Service1/ThreadLoadManager4l/ThreadLoadNode` count=`1` max-abs-drift=`7` avg-abs-drift=`7.00`
+- `IntlThrdPerfSchd.Service1/ThreadLoadManager4l/NodeComparer` count=`1` max-abs-drift=`7` avg-abs-drift=`7.00`
+- `IntlThrdPerfSchd.Service1` count=`50` max-abs-drift=`7` avg-abs-drift=`6.30`
+- `IntlThrdPerfSchd.Service1/ThreadInfo` count=`4` max-abs-drift=`6` avg-abs-drift=`6.00`
+- `IntlThrdPerfSchd.Service1/CoreInfo` count=`3` max-abs-drift=`6` avg-abs-drift=`6.00`
+- `IntlThrdPerfSchd.Service1/ProcessInfo` count=`2` max-abs-drift=`6` avg-abs-drift=`6.00`
+- `IntlThrdPerfSchd.Service1/CoreQueue` count=`2` max-abs-drift=`6` avg-abs-drift=`6.00`
+- `IntlThrdPerfSchd.Service1/Node2` count=`2` max-abs-drift=`6` avg-abs-drift=`6.00`
+- `IntlThrdPerfSchd.Service1/Node` count=`2` max-abs-drift=`6` avg-abs-drift=`6.00`
+- `IntlThrdPerfSchd.Service1/Node1` count=`2` max-abs-drift=`6` avg-abs-drift=`6.00`
+- `IntlThrdPerfSchd.Service1/NodeT` count=`2` max-abs-drift=`6` avg-abs-drift=`6.00`
+- `IntlThrdPerfSchd.Service1/NodeP` count=`2` max-abs-drift=`6` avg-abs-drift=`6.00`
+- `IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc` count=`3` max-abs-drift=`5` avg-abs-drift=`5.00`
+- `IntlThrdPerfSchd.Service1/ThreadSchedulerCore` count=`28` max-abs-drift=`4` avg-abs-drift=`4.00`
+- `IntlThrdPerfSchd.Service1/NeuralNetwork` count=`19` max-abs-drift=`4` avg-abs-drift=`4.00`
+- `IntlThrdPerfSchd.Service1/LSTMCell` count=`12` max-abs-drift=`4` avg-abs-drift=`4.00`
+- `IntlThrdPerfSchd.Service1/CoreManager` count=`4` max-abs-drift=`4` avg-abs-drift=`4.00`
+- `IntlThrdPerfSchd.Service1/ThreadExecutionRegistry` count=`3` max-abs-drift=`4` avg-abs-drift=`4.00`
+- `IntlThrdPerfSchd.Service1/GaussianRandom` count=`2` max-abs-drift=`4` avg-abs-drift=`4.00`
+- `IntlThrdPerfSchd.Service1/SysInfo` count=`2` max-abs-drift=`4` avg-abs-drift=`4.00`
+- `IntlThrdPerfSchd.Service1/GroupInfo` count=`2` max-abs-drift=`4` avg-abs-drift=`4.00`
+- `IntlThrdPerfSchd.Service1/ThreadInfoSimp` count=`2` max-abs-drift=`4` avg-abs-drift=`4.00`
+- `IntlThrdPerfSchd.Service1/StructThreadInfo/IpcProcessor` count=`2` max-abs-drift=`4` avg-abs-drift=`4.00`
+- `IntlThrdPerfSchd.Service1/CoreEntry` count=`1` max-abs-drift=`4` avg-abs-drift=`4.00`
+- `IntlThrdPerfSchd.Service1/CoreEntryComparer` count=`1` max-abs-drift=`4` avg-abs-drift=`4.00`
+- `IntlThrdPerfSchd.Service1/StructThreadInfo/BasicInfo` count=`1` max-abs-drift=`4` avg-abs-drift=`4.00`
+- `IntlThrdPerfSchd.Service1/CausalityAnalyzer` count=`12` max-abs-drift=`3` avg-abs-drift=`3.00`
+- `IntlThrdPerfSchd.Service1/DataLinkageAnalyzer` count=`11` max-abs-drift=`3` avg-abs-drift=`3.00`
+- `IntlThrdPerfSchd.Service1/ThreadDataCollector` count=`7` max-abs-drift=`3` avg-abs-drift=`3.00`
+- `IntlThrdPerfSchd.Service1/NumberProcessor` count=`5` max-abs-drift=`3` avg-abs-drift=`3.00`
+- `IntlThrdPerfSchd.Service1/LinkageAnalysisResult` count=`3` max-abs-drift=`3` avg-abs-drift=`3.00`
+- `IntlThrdPerfSchd.Service1/ElasticityResult` count=`1` max-abs-drift=`3` avg-abs-drift=`3.00`
+- `IntlThrdPerfSchd.Service1/ThreadClassifier` count=`9` max-abs-drift=`2` avg-abs-drift=`2.00`
+- `IntlThrdPerfSchd.Service1/ThreadPriorityMapper` count=`3` max-abs-drift=`2` avg-abs-drift=`2.00`
+- `IntlThrdPerfSchd.Service1/CrossAttentionScheduler` count=`30` max-abs-drift=`2` avg-abs-drift=`1.97`
+- `IntlThrdPerfSchd.Service1/SchedulerDataset` count=`3` max-abs-drift=`1` avg-abs-drift=`1.00`
+
+## Current-only Declarations
+- line `7221` `IntlThrdPerfSchd.Service1::PowerSetActiveScheme`
+
+## Original-only Mapped Methods
+- `76-78` `0x060002B2` `System.Void IntlThrdPerfSchd.Service1/SchedulerDataset::.ctor()`
+- `206-210` `0x06000776` `System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler/ScheduleRecord::.ctor()`
+- `1405-1405` `0x060002FF` `System.Void IntlThrdPerfSchd.Service1/ThreadDataCollector::.ctor()`
+- `2493-2493` `0x06000345` `System.Void IntlThrdPerfSchd.Service1/ThreadExecutionRegistry::.ctor()`
+- `4944-4945` `0x060007BC` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo/Ipc::.ctor()`
+- `4988-4991` `0x06000412` `System.Void IntlThrdPerfSchd.Service1/StructThreadInfo::.ctor()`
+- `8064-12926` `0x0600012B` `System.Void IntlThrdPerfSchd.Service1::.ctor()`
