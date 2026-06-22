@@ -1,0 +1,18 @@
+﻿OriginalExe: G:\BaiduNetdiskDownload\逆向\Intel大小核神经网络调度器N版2.51永久权重（20分钟训练版）\IntlThrdSchd\IntlThrdSchd.exe
+RecoveredExe: G:\BaiduNetdiskDownload\逆向\recovered_src_2.51\IntlThrdPerfSchd\bin\Release\net48\IntlThrdSchd.exe
+
+stable_method_count_original: 1815
+stable_method_count_recovered: 1815
+stable_method_count_compared(intersection): 1815
+stable_method_hash_match_count: 1815
+stable_method_hash_match_percent: 100
+
+missing_in_recovered_count: 0
+extra_in_recovered_count: 0
+il_mismatch_count: 0
+
+missing_in_recovered:
+
+extra_in_recovered:
+
+il_hash_mismatch_methods:

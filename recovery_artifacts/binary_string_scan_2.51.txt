@@ -1,0 +1,33 @@
+path: G:\BaiduNetdiskDownload\逆向\Intel大小核神经网络调度器N版2.51永久权重（20分钟训练版）\IntlThrdSchd\IntlThrdSchd.exe
+size: 339968
+sha256: bdda3e835d6907c07a31e5b22a6ff033cabc2b308318e32431e71e1d75678791
+
+find b'RSDS': -1
+find b'NB10': -1
+find b'PDB:': -1
+find b'.pdb': -1
+find b'.PDB': -1
+find b'.cs': -1
+find b'.sln': -1
+find b'.csproj': -1
+
+ascii_strings_count(len>=4): 4272
+interesting_ascii_strings_count: 9
+
+IntlThrdSchd
+IntlThrdPerfSchd
+get_Source
+ETWTraceEventSource
+source
+IntlThrdSchd.exe
+IntlThrdSchd.ProjectInstaller.resources
+sourceOffset
+lSystem.Resources.ResourceReader, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089#System.Resources.RuntimeResourceSet
+
+utf16le_strings_count(len>=4): 391
+interesting_utf16le_strings_count: 4
+
+IntlThrdSchd
+IntlThrdSchedErrorInfo.txt
+IntlThrdSchd.exe
+IntlThrdSchd.exe

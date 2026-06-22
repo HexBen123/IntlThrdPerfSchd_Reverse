@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProjectGuid>{0DF20A12-A9E6-4A53-A515-50CF0426E9B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IntlThrdSchd</RootNamespace>
+    <AssemblyName>IntlThrdSchd</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <StartupObject>IntlThrdPerfSchd.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Diagnostics.Tracing.TraceEvent">
+      <HintPath>..\..\..\Intel大小核神经网络调度器N版2.51永久权重（20分钟训练版）\IntlThrdSchd\Microsoft.Diagnostics.Tracing.TraceEvent.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory">
+      <HintPath>..\..\..\Intel大小核神经网络调度器N版2.51永久权重（20分钟训练版）\IntlThrdSchd\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>..\..\..\Intel大小核神经网络调度器N版2.51永久权重（20分钟训练版）\IntlThrdSchd\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CoreIndexMapper.cs" />
+    <Compile Include="IntlThrdPerfSchd\CircularBuffer.cs" />
+    <Compile Include="IntlThrdPerfSchd\CoreTransformerEncoder.cs" />
+    <Compile Include="IntlThrdPerfSchd\DecisionRecord.cs" />
+    <Compile Include="IntlThrdPerfSchd\FeedForwardLayer.cs" />
+    <Compile Include="IntlThrdPerfSchd\GradientHelper.cs" />
+    <Compile Include="IntlThrdPerfSchd\LayerNormLayer.cs" />
+    <Compile Include="IntlThrdPerfSchd\LinearLayer.cs" />
+    <Compile Include="IntlThrdPerfSchd\MathCompat.cs" />
+    <Compile Include="IntlThrdPerfSchd\MathHelper.cs" />
+    <Compile Include="IntlThrdPerfSchd\MultiHeadAttention.cs" />
+    <Compile Include="IntlThrdPerfSchd\OnlineLearningManager.cs" />
+    <Compile Include="IntlThrdPerfSchd\Program.cs" />
+    <Compile Include="IntlThrdPerfSchd\ProjectInstaller.cs" />
+    <Compile Include="IntlThrdPerfSchd\RandomExtensions.cs" />
+    <Compile Include="IntlThrdPerfSchd\RealtimeScheduler.cs" />
+    <Compile Include="IntlThrdPerfSchd\SchedulerController.cs" />
+    <Compile Include="IntlThrdPerfSchd\SchedulerService.cs" />
+    <Compile Include="IntlThrdPerfSchd\SchedulerStatistics.cs" />
+    <Compile Include="IntlThrdPerfSchd\Service1.cs" />
+    <Compile Include="IntlThrdPerfSchd\SOMNeuron.cs" />
+    <Compile Include="IntlThrdPerfSchd\ThreadDataPointV2.cs" />
+    <Compile Include="IntlThrdPerfSchd\ThreadPerformanceTracker.cs" />
+    <Compile Include="IntlThrdPerfSchd\ThreadTransformerEncoder.cs" />
+    <Compile Include="IntlThrdPerfSchd\Tracker.cs" />
+    <Compile Include="IntlThrdPerfSchd\Tracker4lat.cs" />
+    <Compile Include="IntlThrdPerfSchd\TransformerEncoderLayer.cs" />
+    <Compile Include="IntlThrdPerfSchd\TransformerScheduler.cs" />
+    <Compile Include="OpenLibSys\Ols.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimdLibrary\MatrixOperations.cs" />
+    <Compile Include="SimdLibrary\VectorMath.cs" />
+    <Compile Include="SimdLibrary\VectorMathNew.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IntlThrdSchd\ProjectInstaller.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
