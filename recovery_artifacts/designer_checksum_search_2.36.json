@@ -1,0 +1,20 @@
+{
+  "generated_at_utc": "2026-04-05T17:38:04.757729+00:00",
+  "targets": {
+    "ProjectInstaller.cs": {
+      "target_checksum": "5eaf364e732ef11197449d06b1c09aa3cf61509b52cc2823b8c2880741455b9d",
+      "tested_candidate_count": 300,
+      "hit": null
+    },
+    "ProjectInstaller.Designer.cs": {
+      "target_checksum": "6013fffa85739d2796c81344ef609335bc21701eb69b3a85413c04e238e16140",
+      "tested_candidate_count": 12,
+      "hit": null
+    },
+    "Service1.Designer.cs": {
+      "target_checksum": "55ebaa1a84f3b504cbb7d938d18cceca024495279e7904d47ee17c1a20e30b6b",
+      "tested_candidate_count": 16908,
+      "hit": null
+    }
+  }
+}

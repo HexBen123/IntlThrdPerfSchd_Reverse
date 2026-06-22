@@ -1,0 +1,1274 @@
+{
+  "generated_at_utc": "2026-04-05T17:39:55.344776+00:00",
+  "pdb_path": "G:\\BaiduNetdiskDownload\\逆向\\Intel大小核神经网络调度器N版2.36\\IntlThrdSchd\\IntlThrdSchd.pdb",
+  "recovered_root": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd",
+  "global_scope_name": "IntlThrdSchd",
+  "table_counts": {
+    "SourceFiles": 20,
+    "LineNumbers": 12844,
+    "Sections": null,
+    "SegmentMap": null,
+    "InjectedSource": 20,
+    "FrameData": null,
+    "InputAssemblyFiles": 0,
+    "Symbols": 10978
+  },
+  "all_compiland_count": 109,
+  "special_compilands": [
+    "* CompilerInfo *",
+    "<DanglingDocuments*223343bd-a859-41a3-90c0-9dfa101f1a95>"
+  ],
+  "marshal_observation": {
+    "comtypes_wrapper_issue": "IDiaInjectedSource.get_source() 被 comtypes 生成为 (pcbData, pbData)；其中 pbData 仅被自动解组为单个 BYTE，不能直接拿到完整缓冲区。",
+    "raw_vtable_slot_used": 9
+  },
+  "payload_observations": {
+    "row_count": 20,
+    "unique_payload_sha256_count": 20,
+    "unique_first_32_hex_count": 1,
+    "all_first_32_hex_identical": true,
+    "recovered_sha256_match_count": 3
+  },
+  "injected_sources": [
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ProjectInstaller.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\projectinstaller.cs",
+      "object_file_name": "",
+      "crc": 1428846861,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000005eaf364e732ef11197449d06b1c09aa3cf61509b52cc2823b8c2880741455b9d",
+      "payload_sha256": "4e17f45bbd6c0f5ef6083a1496559572e31cccb611ccf972f7a491a29fe6bbc8",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "5eaf364e732ef11197449d06b1c09aa3cf61509b52cc2823b8c2880741455b9d",
+      "suffix_hex_from_offset_64": "20000000000000005eaf364e732ef11197449d06b1c09aa3cf61509b52cc2823b8c2880741455b9d",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\ProjectInstaller.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "19bf4c8dda5769e0b6b2079dbb9d56b25052c6565bbeb6273926be8cab336ed0",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\MatrixOperations.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\matrixoperations.cs",
+      "object_file_name": "",
+      "crc": 1948625407,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000be4bb4fd56e5817894e212f04778baf6151e5c89db71e90fcc5c9abc8aacb921",
+      "payload_sha256": "53124b44ffae3806b364d2d0fbfa8403e15e3fab42444c3712a78c6d5a19bfe5",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "be4bb4fd56e5817894e212f04778baf6151e5c89db71e90fcc5c9abc8aacb921",
+      "suffix_hex_from_offset_64": "2000000000000000be4bb4fd56e5817894e212f04778baf6151e5c89db71e90fcc5c9abc8aacb921",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\MatrixOperations.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "77f1824066e9be03325818c48a7ae9dfbfae7b45383e9c1445a1cf1f4526160e",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ThreadClassifier.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\threadclassifier.cs",
+      "object_file_name": "",
+      "crc": 1986465938,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000d761060cb0945dfac9152f48a6c32a7aec83a819d0696466134af502746992db",
+      "payload_sha256": "b8ceb3b2f5189f8c0f15ba310e999974995b9554a3e096c15eb93e998e8bfc91",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "d761060cb0945dfac9152f48a6c32a7aec83a819d0696466134af502746992db",
+      "suffix_hex_from_offset_64": "2000000000000000d761060cb0945dfac9152f48a6c32a7aec83a819d0696466134af502746992db",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\ThreadClassifier.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "dc343e054e4a03ee3edb6d5d54ba05641754a9d044ec01b06cce58125b9752d4",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\Service1.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\service1.cs",
+      "object_file_name": "",
+      "crc": 242885418,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16200000000000000059ad3b502974510eee83fd817a23a9e6f36bed649bb6bc6ab6e7f4d2d7998b5a",
+      "payload_sha256": "87e12a045ca57545fcee5c68030be9ea1ff0fc937da072fba52533b9284e01aa",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "59ad3b502974510eee83fd817a23a9e6f36bed649bb6bc6ab6e7f4d2d7998b5a",
+      "suffix_hex_from_offset_64": "200000000000000059ad3b502974510eee83fd817a23a9e6f36bed649bb6bc6ab6e7f4d2d7998b5a",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\Service1.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "42e3ed6c922d0299cd8bca0e5a82f16e905033031b4aae49f8b4e4c6b53ce8bf",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\OpenLibSys.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\openlibsys.cs",
+      "object_file_name": "",
+      "crc": 378765567,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000007eb01210ef0b868c179f4e5fa8aa529eabfd4755d5369258adbfe698b5cf9ade",
+      "payload_sha256": "e67ea51b36fa8ae5a8521cbf0c5a387fd86106ed864e0e4f0d9106820167375b",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "7eb01210ef0b868c179f4e5fa8aa529eabfd4755d5369258adbfe698b5cf9ade",
+      "suffix_hex_from_offset_64": "20000000000000007eb01210ef0b868c179f4e5fa8aa529eabfd4755d5369258adbfe698b5cf9ade",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\OpenLibSys.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "22c19abae0c2ecb41d0dcacc9021d7ba30ca8e1699a519fa094798427bad2f8a",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\OnlineLearningManager.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\onlinelearningmanager.cs",
+      "object_file_name": "",
+      "crc": 1139300109,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000df5909453252eee3ec623bfab471e1c53b9464602fa712734a770be2c5373216",
+      "payload_sha256": "47ccb33ecaa03c878cd1a91e531833f528c9555e3c53874b479dbd491dc0f20f",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "df5909453252eee3ec623bfab471e1c53b9464602fa712734a770be2c5373216",
+      "suffix_hex_from_offset_64": "2000000000000000df5909453252eee3ec623bfab471e1c53b9464602fa712734a770be2c5373216",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\OnlineLearningManager.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "3bb58338004e8c7e1cdd73a0997cee5d244f8823a267f0374d25822ae8fbbbba",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\SchedulerModel.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\schedulermodel.cs",
+      "object_file_name": "",
+      "crc": 2524995940,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000b5511ddf4ef6beaa27f16658e0f24c5af0e24ecce0cff0bef7ab46c66a0448dd",
+      "payload_sha256": "d83b726ae865531d6b9bac2314b2fd180e20afc8716e70e8e4f74146afdde465",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "b5511ddf4ef6beaa27f16658e0f24c5af0e24ecce0cff0bef7ab46c66a0448dd",
+      "suffix_hex_from_offset_64": "2000000000000000b5511ddf4ef6beaa27f16658e0f24c5af0e24ecce0cff0bef7ab46c66a0448dd",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\SchedulerModel.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "4ce1720439cb4cb0004b3057e00ce7ef0346fc91c42f295401859d6db64bff6b",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\TransformerLayers.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\transformerlayers.cs",
+      "object_file_name": "",
+      "crc": 1868361206,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000b8dbae2a9104a801442f430a7a58eeb2c9ffae56ff46ddc55529a6fbdd41e4ee",
+      "payload_sha256": "c1de9b4b855cfc1e8556eb7bb73855e92e4109fc196c891ba03199a97c5b3817",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "b8dbae2a9104a801442f430a7a58eeb2c9ffae56ff46ddc55529a6fbdd41e4ee",
+      "suffix_hex_from_offset_64": "2000000000000000b8dbae2a9104a801442f430a7a58eeb2c9ffae56ff46ddc55529a6fbdd41e4ee",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\TransformerLayers.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "b12cfda39b6a91b03f74ef868a2c7ff0b4101e7889683a5c99f789263fd29258",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\VectorMath.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\vectormath.cs",
+      "object_file_name": "",
+      "crc": 3735383365,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000002f3fa5aac5ed167a66d95311fd20455453f1a146cca6d7cb8ec8999067e18d77",
+      "payload_sha256": "2f0768eaed0d67862425207b14bf6896db76f9c4092de5e38a2a2c20f567eee8",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "2f3fa5aac5ed167a66d95311fd20455453f1a146cca6d7cb8ec8999067e18d77",
+      "suffix_hex_from_offset_64": "20000000000000002f3fa5aac5ed167a66d95311fd20455453f1a146cca6d7cb8ec8999067e18d77",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\VectorMath.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "d80fcd035d5fb3058a86f737f5e8f9e1e7590073f3266d977e36fe8244d87eb7",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\Service1.Designer.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\service1.designer.cs",
+      "object_file_name": "",
+      "crc": 824501624,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16200000000000000055ebaa1a84f3b504cbb7d938d18cceca024495279e7904d47ee17c1a20e30b6b",
+      "payload_sha256": "525be0ad32204b99a186e79f66c9b9c657baae3982f59b1b2461da7ca04479df",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "55ebaa1a84f3b504cbb7d938d18cceca024495279e7904d47ee17c1a20e30b6b",
+      "suffix_hex_from_offset_64": "200000000000000055ebaa1a84f3b504cbb7d938d18cceca024495279e7904d47ee17c1a20e30b6b",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\Service1.Designer.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "55ebaa1a84f3b504cbb7d938d18cceca024495279e7904d47ee17c1a20e30b6b",
+      "recovered_sha256_matches_embedded_checksum": true
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\OnlineLearning.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\onlinelearning.cs",
+      "object_file_name": "",
+      "crc": 1090062256,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000e0356076a9172ce0038163240e5b113ff7dfb4645becf45ed11356c080e226f0",
+      "payload_sha256": "f2aad457147aa4ee8ddfdd338f97e536bfcf6d244fbcfc9f6cce3b4955b5f250",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "e0356076a9172ce0038163240e5b113ff7dfb4645becf45ed11356c080e226f0",
+      "suffix_hex_from_offset_64": "2000000000000000e0356076a9172ce0038163240e5b113ff7dfb4645becf45ed11356c080e226f0",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\OnlineLearning.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "10c5d4be451e6d39d7901f50eaa9be162ed11962319c8e6156c6d1140d780a2c",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ThreadPerformanceTracking.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\threadperformancetracking.cs",
+      "object_file_name": "",
+      "crc": 3002585132,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000008832978af19f08c65ab362808ecac58a2e10b8aef2f24f056ccad65008dbc030",
+      "payload_sha256": "3f5deb2e42eed18bdf603c2c2289f86de37a7ef3bdead0460b1c33c260cc3a0f",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "8832978af19f08c65ab362808ecac58a2e10b8aef2f24f056ccad65008dbc030",
+      "suffix_hex_from_offset_64": "20000000000000008832978af19f08c65ab362808ecac58a2e10b8aef2f24f056ccad65008dbc030",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\ThreadPerformanceTracking.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "f746d8925980f6bd2d41f6fd96a4d248789099f24a6eeda64f530faa2e7f8397",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\obj\\Release\\net48\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\obj\\release\\net48\\.netframework,version=v4.8.assemblyattributes.cs",
+      "object_file_name": "",
+      "crc": 2481309425,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000af4c24efdd16c0cb3946e8e148fb6df4fc9c501c71cc718738b4728808737373",
+      "payload_sha256": "be7abf6f0f31896093de9c8361e1b4d8f8ce9275eb64691a8649ae80ace28e43",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "af4c24efdd16c0cb3946e8e148fb6df4fc9c501c71cc718738b4728808737373",
+      "suffix_hex_from_offset_64": "2000000000000000af4c24efdd16c0cb3946e8e148fb6df4fc9c501c71cc718738b4728808737373",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\obj\\Release\\net48\\.NETFramework,Version=v4.8.AssemblyAttributes.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "af4c24efdd16c0cb3946e8e148fb6df4fc9c501c71cc718738b4728808737373",
+      "recovered_sha256_matches_embedded_checksum": true
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\Program.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\program.cs",
+      "object_file_name": "",
+      "crc": 3560914474,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000150e8b212eb7869cfc594975820bb3efcd9beeef6e39551c0dad4da75c23483e",
+      "payload_sha256": "7e6e854278bc6efd3bd18464a28f62664851aa2c5bed1d04495114037d09bd3f",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "150e8b212eb7869cfc594975820bb3efcd9beeef6e39551c0dad4da75c23483e",
+      "suffix_hex_from_offset_64": "2000000000000000150e8b212eb7869cfc594975820bb3efcd9beeef6e39551c0dad4da75c23483e",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\Program.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "150e8b212eb7869cfc594975820bb3efcd9beeef6e39551c0dad4da75c23483e",
+      "recovered_sha256_matches_embedded_checksum": true
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\RealtimeScheduler.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\realtimescheduler.cs",
+      "object_file_name": "",
+      "crc": 1362172656,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000009420792e6edba9bb523e85a90f6370d545403080e1110f9c3b146bea1c0dfb09",
+      "payload_sha256": "10220bc3d77436ad228e4d8989bcc8a52c538378331b1151bab46671e9d1c742",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "9420792e6edba9bb523e85a90f6370d545403080e1110f9c3b146bea1c0dfb09",
+      "suffix_hex_from_offset_64": "20000000000000009420792e6edba9bb523e85a90f6370d545403080e1110f9c3b146bea1c0dfb09",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\RealtimeScheduler.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "6bf3a05c58c740606e0fcb62c185a9227214ef4cf1ae21c61a4123266b5c42ef",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ThreadDataPointV2.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\threaddatapointv2.cs",
+      "object_file_name": "",
+      "crc": 3288356849,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000ecda98ee6f809fefb3db82b3381ccc0db268780ef895fd16872a0cc18146076c",
+      "payload_sha256": "1b28aef978f1e6f23e86b8522af32ef1f7c2714a089582b04fbe4853068ef981",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "ecda98ee6f809fefb3db82b3381ccc0db268780ef895fd16872a0cc18146076c",
+      "suffix_hex_from_offset_64": "2000000000000000ecda98ee6f809fefb3db82b3381ccc0db268780ef895fd16872a0cc18146076c",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\ThreadDataPointV2.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "9d203ab8e39313fcddd7e595c76d5b72cefd2d11eea6f42db4c6adb63310fabf",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\SchedulerService.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\schedulerservice.cs",
+      "object_file_name": "",
+      "crc": 3385694909,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000b190c9c8280f7c517f3b8ddf6dd745265159ec8a1151214c78bc636dfd1a26f5",
+      "payload_sha256": "ba133e42706e0c6f8258ad38e49baa7f22710149fb62e8930320920c7d7046f4",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "b190c9c8280f7c517f3b8ddf6dd745265159ec8a1151214c78bc636dfd1a26f5",
+      "suffix_hex_from_offset_64": "2000000000000000b190c9c8280f7c517f3b8ddf6dd745265159ec8a1151214c78bc636dfd1a26f5",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\SchedulerService.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "8ae69182cc3278468cc0d3cb652560271c1b14319da7c4ce922f0bc717c93677",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\VectorMathNew.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\vectormathnew.cs",
+      "object_file_name": "",
+      "crc": 3883400200,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac162000000000000000b705f36b30dff015950403e01a931106927a5cad861b8c5f75211786c16940e3",
+      "payload_sha256": "6b852a78685180d363d0611e952c4bbc31269947791ea24aaabac0a13aead899",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "b705f36b30dff015950403e01a931106927a5cad861b8c5f75211786c16940e3",
+      "suffix_hex_from_offset_64": "2000000000000000b705f36b30dff015950403e01a931106927a5cad861b8c5f75211786c16940e3",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\VectorMathNew.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "46dfdcf38393639a40f26501651a3f95caed08df70ef94464d71b452919a4069",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\CoreIndexMapper.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\coreindexmapper.cs",
+      "object_file_name": "",
+      "crc": 4192509692,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac16200000000000000010faf57107a1bf1f3b99cc21bcffba1324c09df7ff2055988bbfbebc5e914be3",
+      "payload_sha256": "7d89f0ef02f7901bf31e3e4e4ef7340784236a4e843c6fe5c83878515e4abd8c",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "10faf57107a1bf1f3b99cc21bcffba1324c09df7ff2055988bbfbebc5e914be3",
+      "suffix_hex_from_offset_64": "200000000000000010faf57107a1bf1f3b99cc21bcffba1324c09df7ff2055988bbfbebc5e914be3",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\CoreIndexMapper.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "4afcf8afb08ced9f214c2242891f5317ab24efa5d98342980bf2b1853320ddcd",
+      "recovered_sha256_matches_embedded_checksum": false
+    },
+    {
+      "file_name": "C:\\Users\\maxpp\\source\\repos\\IntlThrdPerfSchd4.6\\IntlThrdPerfSchd2.22\\IntlThrdPerfSchd\\ProjectInstaller.Designer.cs",
+      "virtual_filename": "c:\\users\\maxpp\\source\\repos\\intlthrdperfschd4.6\\intlthrdperfschd2.22\\intlthrdperfschd\\projectinstaller.designer.cs",
+      "object_file_name": "",
+      "crc": 2334349464,
+      "length": 104,
+      "source_compression": 101,
+      "comtypes_get_source_zero_probe": [
+        0,
+        0
+      ],
+      "comtypes_get_source_one_probe": [
+        1,
+        248
+      ],
+      "payload_length": 104,
+      "payload_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a10b9d865a1166d311bd2a0000f80849bd0fd02988b8111342878b770e8597ac1620000000000000006013fffa85739d2796c81344ef609335bc21701eb69b3a85413c04e238e16140",
+      "payload_sha256": "48e03dba73a2223e0f1fc6eb2c6461938c0dd06b62d0004b1a876b1154a9ea2f",
+      "payload_first_32_hex": "f862513fc607d311905300c04fa302a1c4454b99e9e6d211903f00c04fa302a1",
+      "language_guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+      "language_guid_name": "CorSym_LanguageType_CSharp",
+      "vendor_guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+      "vendor_guid_name": "CorSym_LanguageVendor_Microsoft",
+      "document_type_guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+      "document_type_guid_name": "CorSym_DocumentType_Text",
+      "checksum_algorithm_guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+      "checksum_algorithm_guid_name": "SHA256",
+      "parsed_guids": [
+        {
+          "offset": 0,
+          "field": "language_guid",
+          "guid": "3f5162f8-07c6-11d3-9053-00c04fa302a1",
+          "known_name": "CorSym_LanguageType_CSharp"
+        },
+        {
+          "offset": 16,
+          "field": "vendor_guid",
+          "guid": "994b45c4-e6e9-11d2-903f-00c04fa302a1",
+          "known_name": "CorSym_LanguageVendor_Microsoft"
+        },
+        {
+          "offset": 32,
+          "field": "document_type_guid",
+          "guid": "5a869d0b-6611-11d3-bd2a-0000f80849bd",
+          "known_name": "CorSym_DocumentType_Text"
+        },
+        {
+          "offset": 48,
+          "field": "checksum_algorithm_guid",
+          "guid": "8829d00f-11b8-4213-878b-770e8597ac16",
+          "known_name": "SHA256"
+        }
+      ],
+      "checksum_length_le_uint32": 32,
+      "reserved_dword_le_uint32": 0,
+      "embedded_checksum_hex": "6013fffa85739d2796c81344ef609335bc21701eb69b3a85413c04e238e16140",
+      "suffix_hex_from_offset_64": "20000000000000006013fffa85739d2796c81344ef609335bc21701eb69b3a85413c04e238e16140",
+      "recovered_candidate_path": "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\IntlThrdPerfSchd\\ProjectInstaller.Designer.cs",
+      "recovered_exists": true,
+      "recovered_sha256": "1cadf82b4326d144449eec21728e94b973bfeddd1fe6d5be9889a1ffff3e2c33",
+      "recovered_sha256_matches_embedded_checksum": false
+    }
+  ]
+}

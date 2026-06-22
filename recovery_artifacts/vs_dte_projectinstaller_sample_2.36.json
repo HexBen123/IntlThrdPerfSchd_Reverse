@@ -1,0 +1,33 @@
+﻿{
+    "generated_at_utc":  "2026-04-05T18:19:31.0485572Z",
+    "project_template_path":  "D:\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\ProjectTemplates\\CSharp\\Windows\\2052\\WindowsService\\cswindowsservice.vstemplate",
+    "item_template_path":  "D:\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\ItemTemplates\\CSharp\\General\\2052\\Installer\\installer.vstemplate",
+    "output_root":  "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\recovery_artifacts\\tmp\\vs_dte_projectinstaller_sample",
+    "solution_root":  "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\recovery_artifacts\\tmp\\vs_dte_projectinstaller_sample\\workspace",
+    "solution_file":  "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\recovery_artifacts\\tmp\\vs_dte_projectinstaller_sample\\workspace\\IntlThrdPerfSchd.sln",
+    "project_dir":  "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\recovery_artifacts\\tmp\\vs_dte_projectinstaller_sample\\workspace\\IntlThrdPerfSchd",
+    "project_file":  "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\recovery_artifacts\\tmp\\vs_dte_projectinstaller_sample\\workspace\\IntlThrdPerfSchd\\IntlThrdPerfSchd.csproj",
+    "project_name":  "IntlThrdPerfSchd",
+    "installer_file":  "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\recovery_artifacts\\tmp\\vs_dte_projectinstaller_sample\\workspace\\IntlThrdPerfSchd\\ProjectInstaller.cs",
+    "installer_designer_file":  "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\recovery_artifacts\\tmp\\vs_dte_projectinstaller_sample\\workspace\\IntlThrdPerfSchd\\ProjectInstaller.Designer.cs",
+    "recovered_root":  "",
+    "roundtrip_recovered":  false,
+    "before_roundtrip":  [
+
+                         ],
+    "files":  [
+                  {
+                      "path":  "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\recovery_artifacts\\tmp\\vs_dte_projectinstaller_sample\\workspace\\IntlThrdPerfSchd\\ProjectInstaller.cs",
+                      "exists":  true,
+                      "sha256":  "ae1e0b260d7f61482007eb98456edff20d63066964c2bfea230890f72430fa6c",
+                      "length":  451
+                  },
+                  {
+                      "path":  "G:\\BaiduNetdiskDownload\\逆向\\recovered_src_2.36\\recovery_artifacts\\tmp\\vs_dte_projectinstaller_sample\\workspace\\IntlThrdPerfSchd\\ProjectInstaller.Designer.cs",
+                      "exists":  true,
+                      "sha256":  "9fc15dee6d87fb73f3a92aeebc0b265f20cc50768ce64d36c094f584b67dc384",
+                      "length":  1058
+                  }
+              ],
+    "error":  null
+}
