@@ -1,0 +1,99 @@
+﻿OriginalExe: G:\BaiduNetdiskDownload\逆向\recovered_src_2.81\recovery_artifacts\original\IntlThrdSchd.exe
+RecoveredExe: G:\BaiduNetdiskDownload\逆向\recovered_src_2.81\IntlThrdPerfSchd\bin\Release\net48\IntlThrdSchd.exe
+
+metadata_surface_count_original: 11909
+metadata_surface_count_recovered: 11909
+metadata_surface_missing_in_recovered_count: 44
+metadata_surface_extra_in_recovered_count: 44
+
+missing_in_recovered:
+  customattr|method:System.Void IntlThrdPerfSchd.Service1::<OnStart>b__743_2(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ThreadTraceData)|type:System.Runtime.CompilerServices.CompilerGeneratedAttribute|ctor:System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()|args:|named:
+  customattr|method:System.Void IntlThrdPerfSchd.Service1::<OnStart>b__743_3(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ProcessTraceData)|type:System.Runtime.CompilerServices.CompilerGeneratedAttribute|ctor:System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()|args:|named:
+  customattr|method:System.Void IntlThrdPerfSchd.Service1::<OnStart>b__743_4(Microsoft.Diagnostics.Tracing.Parsers.Kernel.CSwitchTraceData)|type:System.Runtime.CompilerServices.CompilerGeneratedAttribute|ctor:System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()|args:|named:
+  customattr|method:System.Void IntlThrdPerfSchd.Service1::<OnStart>g__thread1|743_0()|type:System.Runtime.CompilerServices.CompilerGeneratedAttribute|ctor:System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()|args:|named:
+  customattr|method:System.Void IntlThrdPerfSchd.Service1::<OnStart>g__thread2|743_1()|type:System.Runtime.CompilerServices.CompilerGeneratedAttribute|ctor:System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()|args:|named:
+  customattr|type:IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass152_0|type:System.Runtime.CompilerServices.CompilerGeneratedAttribute|ctor:System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()|args:|named:
+  field|System.Collections.Generic.HashSet`1<IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord> IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass152_0::trainedSet|attrs:Public|type:System.Collections.Generic.HashSet`1<IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord>
+  field|System.Func`2<IntlThrdPerfSchd.OnlineLearningManager/EnergyWindow,System.Boolean> IntlThrdPerfSchd.OnlineLearningManager/<>c::<>9__141_0|attrs:Public, Static|type:System.Func`2<IntlThrdPerfSchd.OnlineLearningManager/EnergyWindow,System.Boolean>
+  field|System.Func`2<IntlThrdPerfSchd.Tracker/ThreadData,System.Double> IntlThrdPerfSchd.Tracker/<>c::<>9__11_0|attrs:Public, Static|type:System.Func`2<IntlThrdPerfSchd.Tracker/ThreadData,System.Double>
+  field|System.Func`2<IntlThrdPerfSchd.Tracker4lat/ThreadData,System.Double> IntlThrdPerfSchd.Tracker4lat/<>c::<>9__11_0|attrs:Public, Static|type:System.Func`2<IntlThrdPerfSchd.Tracker4lat/ThreadData,System.Double>
+  field|System.Func`2<System.Single[],System.Single> IntlThrdPerfSchd.Service1/SchedulerDataset/<>c__DisplayClass10_0::<>9__1|attrs:Public|type:System.Func`2<System.Single[],System.Single>
+  field|System.Func`2<System.Single[],System.Single> IntlThrdPerfSchd.Service1/SchedulerDataset/<>c__DisplayClass10_0::<>9__2|attrs:Public|type:System.Func`2<System.Single[],System.Single>
+  field|System.Predicate`1<IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord> IntlThrdPerfSchd.OnlineLearningManager/<>c::<>9__152_0|attrs:Public, Static|type:System.Predicate`1<IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord>
+  method|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass152_0::<UpdateModel>b__1(IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord)|attrs:Assembly, HideBySig|implattrs:IL|hasbody:True
+  method|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c::<GetStats>b__141_0(IntlThrdPerfSchd.OnlineLearningManager/EnergyWindow)|attrs:Assembly, HideBySig|implattrs:IL|hasbody:True
+  method|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c::<UpdateModel>b__152_0(IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord)|attrs:Assembly, HideBySig|implattrs:IL|hasbody:True
+  method|System.Double IntlThrdPerfSchd.Tracker/<>c::<RecalculateMaxValue>b__11_0(IntlThrdPerfSchd.Tracker/ThreadData)|attrs:Assembly, HideBySig|implattrs:IL|hasbody:True
+  method|System.Double IntlThrdPerfSchd.Tracker4lat/<>c::<RecalculateMaxValue>b__11_0(IntlThrdPerfSchd.Tracker4lat/ThreadData)|attrs:Assembly, HideBySig|implattrs:IL|hasbody:True
+  method|System.Void IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass152_0::.ctor()|attrs:Public, HideBySig, SpecialName, RTSpecialName|implattrs:IL|hasbody:True
+  method|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__743_2(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ThreadTraceData)|attrs:Private, HideBySig|implattrs:IL|hasbody:True
+  method|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__743_3(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ProcessTraceData)|attrs:Private, HideBySig|implattrs:IL|hasbody:True
+  method|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__743_4(Microsoft.Diagnostics.Tracing.Parsers.Kernel.CSwitchTraceData)|attrs:Private, HideBySig|implattrs:IL|hasbody:True
+  method|System.Void IntlThrdPerfSchd.Service1::<OnStart>g__thread1|743_0()|attrs:Private, HideBySig|implattrs:IL|hasbody:True
+  method|System.Void IntlThrdPerfSchd.Service1::<OnStart>g__thread2|743_1()|attrs:Private, HideBySig|implattrs:IL|hasbody:True
+  param|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass152_0::<UpdateModel>b__1(IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord)|index:0|name:|type:IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass152_0|attrs:
+  param|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass152_0::<UpdateModel>b__1(IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord)|index:1|name:r|type:IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord|attrs:0
+  param|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c::<GetStats>b__141_0(IntlThrdPerfSchd.OnlineLearningManager/EnergyWindow)|index:0|name:|type:IntlThrdPerfSchd.OnlineLearningManager/<>c|attrs:
+  param|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c::<GetStats>b__141_0(IntlThrdPerfSchd.OnlineLearningManager/EnergyWindow)|index:1|name:w|type:IntlThrdPerfSchd.OnlineLearningManager/EnergyWindow|attrs:0
+  param|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c::<UpdateModel>b__152_0(IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord)|index:0|name:|type:IntlThrdPerfSchd.OnlineLearningManager/<>c|attrs:
+  param|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c::<UpdateModel>b__152_0(IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord)|index:1|name:r|type:IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord|attrs:0
+  param|System.Double IntlThrdPerfSchd.Tracker/<>c::<RecalculateMaxValue>b__11_0(IntlThrdPerfSchd.Tracker/ThreadData)|index:0|name:|type:IntlThrdPerfSchd.Tracker/<>c|attrs:
+  param|System.Double IntlThrdPerfSchd.Tracker/<>c::<RecalculateMaxValue>b__11_0(IntlThrdPerfSchd.Tracker/ThreadData)|index:1|name:d|type:IntlThrdPerfSchd.Tracker/ThreadData|attrs:0
+  param|System.Double IntlThrdPerfSchd.Tracker4lat/<>c::<RecalculateMaxValue>b__11_0(IntlThrdPerfSchd.Tracker4lat/ThreadData)|index:0|name:|type:IntlThrdPerfSchd.Tracker4lat/<>c|attrs:
+  param|System.Double IntlThrdPerfSchd.Tracker4lat/<>c::<RecalculateMaxValue>b__11_0(IntlThrdPerfSchd.Tracker4lat/ThreadData)|index:1|name:d|type:IntlThrdPerfSchd.Tracker4lat/ThreadData|attrs:0
+  param|System.Void IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass152_0::.ctor()|index:0|name:|type:IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass152_0|attrs:
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__743_2(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ThreadTraceData)|index:0|name:|type:IntlThrdPerfSchd.Service1|attrs:
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__743_2(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ThreadTraceData)|index:1|name:data|type:Microsoft.Diagnostics.Tracing.Parsers.Kernel.ThreadTraceData|attrs:0
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__743_3(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ProcessTraceData)|index:0|name:|type:IntlThrdPerfSchd.Service1|attrs:
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__743_3(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ProcessTraceData)|index:1|name:data|type:Microsoft.Diagnostics.Tracing.Parsers.Kernel.ProcessTraceData|attrs:0
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__743_4(Microsoft.Diagnostics.Tracing.Parsers.Kernel.CSwitchTraceData)|index:0|name:|type:IntlThrdPerfSchd.Service1|attrs:
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__743_4(Microsoft.Diagnostics.Tracing.Parsers.Kernel.CSwitchTraceData)|index:1|name:data|type:Microsoft.Diagnostics.Tracing.Parsers.Kernel.CSwitchTraceData|attrs:0
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>g__thread1|743_0()|index:0|name:|type:IntlThrdPerfSchd.Service1|attrs:
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>g__thread2|743_1()|index:0|name:|type:IntlThrdPerfSchd.Service1|attrs:
+  type|IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass152_0|attrs:NestedPrivate, Sealed, BeforeFieldInit|base:System.Object|interfaces:
+
+extra_in_recovered:
+  customattr|method:System.Void IntlThrdPerfSchd.Service1::<OnStart>b__744_2(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ThreadTraceData)|type:System.Runtime.CompilerServices.CompilerGeneratedAttribute|ctor:System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()|args:|named:
+  customattr|method:System.Void IntlThrdPerfSchd.Service1::<OnStart>b__744_3(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ProcessTraceData)|type:System.Runtime.CompilerServices.CompilerGeneratedAttribute|ctor:System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()|args:|named:
+  customattr|method:System.Void IntlThrdPerfSchd.Service1::<OnStart>b__744_4(Microsoft.Diagnostics.Tracing.Parsers.Kernel.CSwitchTraceData)|type:System.Runtime.CompilerServices.CompilerGeneratedAttribute|ctor:System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()|args:|named:
+  customattr|method:System.Void IntlThrdPerfSchd.Service1::<OnStart>g__thread|744_0()|type:System.Runtime.CompilerServices.CompilerGeneratedAttribute|ctor:System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()|args:|named:
+  customattr|method:System.Void IntlThrdPerfSchd.Service1::<OnStart>g__thread2|744_1()|type:System.Runtime.CompilerServices.CompilerGeneratedAttribute|ctor:System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()|args:|named:
+  customattr|type:IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass153_0|type:System.Runtime.CompilerServices.CompilerGeneratedAttribute|ctor:System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()|args:|named:
+  field|System.Collections.Generic.HashSet`1<IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord> IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass153_0::trainedSet|attrs:Public|type:System.Collections.Generic.HashSet`1<IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord>
+  field|System.Func`2<IntlThrdPerfSchd.OnlineLearningManager/EnergyWindow,System.Boolean> IntlThrdPerfSchd.OnlineLearningManager/<>c::<>9__142_0|attrs:Public, Static|type:System.Func`2<IntlThrdPerfSchd.OnlineLearningManager/EnergyWindow,System.Boolean>
+  field|System.Func`2<IntlThrdPerfSchd.Tracker/ThreadData,System.Double> IntlThrdPerfSchd.Tracker/<>c::<>9__15_0|attrs:Public, Static|type:System.Func`2<IntlThrdPerfSchd.Tracker/ThreadData,System.Double>
+  field|System.Func`2<IntlThrdPerfSchd.Tracker4lat/ThreadData,System.Double> IntlThrdPerfSchd.Tracker4lat/<>c::<>9__15_0|attrs:Public, Static|type:System.Func`2<IntlThrdPerfSchd.Tracker4lat/ThreadData,System.Double>
+  field|System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,IntlThrdPerfSchd.Service1/ProcessBehaviorAnalyzer/ThreadData>,System.Boolean> IntlThrdPerfSchd.Service1/ProcessBehaviorAnalyzer/<>c__DisplayClass15_0::<>9__0|attrs:Public|type:System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,IntlThrdPerfSchd.Service1/ProcessBehaviorAnalyzer/ThreadData>,System.Boolean>
+  field|System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,IntlThrdPerfSchd.Service1/ThreadData>,System.Boolean> IntlThrdPerfSchd.Service1/ThreadClassifier/<>c__DisplayClass9_0::<>9__0|attrs:Public|type:System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Int32,IntlThrdPerfSchd.Service1/ThreadData>,System.Boolean>
+  field|System.Predicate`1<IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord> IntlThrdPerfSchd.OnlineLearningManager/<>c::<>9__153_0|attrs:Public, Static|type:System.Predicate`1<IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord>
+  method|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass153_0::<UpdateModel>b__1(IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord)|attrs:Assembly, HideBySig|implattrs:IL|hasbody:True
+  method|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c::<GetStats>b__142_0(IntlThrdPerfSchd.OnlineLearningManager/EnergyWindow)|attrs:Assembly, HideBySig|implattrs:IL|hasbody:True
+  method|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c::<UpdateModel>b__153_0(IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord)|attrs:Assembly, HideBySig|implattrs:IL|hasbody:True
+  method|System.Double IntlThrdPerfSchd.Tracker/<>c::<RecalculateMaxValue>b__15_0(IntlThrdPerfSchd.Tracker/ThreadData)|attrs:Assembly, HideBySig|implattrs:IL|hasbody:True
+  method|System.Double IntlThrdPerfSchd.Tracker4lat/<>c::<RecalculateMaxValue>b__15_0(IntlThrdPerfSchd.Tracker4lat/ThreadData)|attrs:Assembly, HideBySig|implattrs:IL|hasbody:True
+  method|System.Void IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass153_0::.ctor()|attrs:Public, HideBySig, SpecialName, RTSpecialName|implattrs:IL|hasbody:True
+  method|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__744_2(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ThreadTraceData)|attrs:Private, HideBySig|implattrs:IL|hasbody:True
+  method|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__744_3(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ProcessTraceData)|attrs:Private, HideBySig|implattrs:IL|hasbody:True
+  method|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__744_4(Microsoft.Diagnostics.Tracing.Parsers.Kernel.CSwitchTraceData)|attrs:Private, HideBySig|implattrs:IL|hasbody:True
+  method|System.Void IntlThrdPerfSchd.Service1::<OnStart>g__thread|744_0()|attrs:Private, HideBySig|implattrs:IL|hasbody:True
+  method|System.Void IntlThrdPerfSchd.Service1::<OnStart>g__thread2|744_1()|attrs:Private, HideBySig|implattrs:IL|hasbody:True
+  param|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass153_0::<UpdateModel>b__1(IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord)|index:0|name:|type:IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass153_0|attrs:
+  param|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass153_0::<UpdateModel>b__1(IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord)|index:1|name:r|type:IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord|attrs:0
+  param|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c::<GetStats>b__142_0(IntlThrdPerfSchd.OnlineLearningManager/EnergyWindow)|index:0|name:|type:IntlThrdPerfSchd.OnlineLearningManager/<>c|attrs:
+  param|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c::<GetStats>b__142_0(IntlThrdPerfSchd.OnlineLearningManager/EnergyWindow)|index:1|name:w|type:IntlThrdPerfSchd.OnlineLearningManager/EnergyWindow|attrs:0
+  param|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c::<UpdateModel>b__153_0(IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord)|index:0|name:|type:IntlThrdPerfSchd.OnlineLearningManager/<>c|attrs:
+  param|System.Boolean IntlThrdPerfSchd.OnlineLearningManager/<>c::<UpdateModel>b__153_0(IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord)|index:1|name:r|type:IntlThrdPerfSchd.OnlineLearningManager/SchedulingRecord|attrs:0
+  param|System.Double IntlThrdPerfSchd.Tracker/<>c::<RecalculateMaxValue>b__15_0(IntlThrdPerfSchd.Tracker/ThreadData)|index:0|name:|type:IntlThrdPerfSchd.Tracker/<>c|attrs:
+  param|System.Double IntlThrdPerfSchd.Tracker/<>c::<RecalculateMaxValue>b__15_0(IntlThrdPerfSchd.Tracker/ThreadData)|index:1|name:d|type:IntlThrdPerfSchd.Tracker/ThreadData|attrs:0
+  param|System.Double IntlThrdPerfSchd.Tracker4lat/<>c::<RecalculateMaxValue>b__15_0(IntlThrdPerfSchd.Tracker4lat/ThreadData)|index:0|name:|type:IntlThrdPerfSchd.Tracker4lat/<>c|attrs:
+  param|System.Double IntlThrdPerfSchd.Tracker4lat/<>c::<RecalculateMaxValue>b__15_0(IntlThrdPerfSchd.Tracker4lat/ThreadData)|index:1|name:d|type:IntlThrdPerfSchd.Tracker4lat/ThreadData|attrs:0
+  param|System.Void IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass153_0::.ctor()|index:0|name:|type:IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass153_0|attrs:
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__744_2(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ThreadTraceData)|index:0|name:|type:IntlThrdPerfSchd.Service1|attrs:
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__744_2(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ThreadTraceData)|index:1|name:data|type:Microsoft.Diagnostics.Tracing.Parsers.Kernel.ThreadTraceData|attrs:0
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__744_3(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ProcessTraceData)|index:0|name:|type:IntlThrdPerfSchd.Service1|attrs:
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__744_3(Microsoft.Diagnostics.Tracing.Parsers.Kernel.ProcessTraceData)|index:1|name:data|type:Microsoft.Diagnostics.Tracing.Parsers.Kernel.ProcessTraceData|attrs:0
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__744_4(Microsoft.Diagnostics.Tracing.Parsers.Kernel.CSwitchTraceData)|index:0|name:|type:IntlThrdPerfSchd.Service1|attrs:
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>b__744_4(Microsoft.Diagnostics.Tracing.Parsers.Kernel.CSwitchTraceData)|index:1|name:data|type:Microsoft.Diagnostics.Tracing.Parsers.Kernel.CSwitchTraceData|attrs:0
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>g__thread|744_0()|index:0|name:|type:IntlThrdPerfSchd.Service1|attrs:
+  param|System.Void IntlThrdPerfSchd.Service1::<OnStart>g__thread2|744_1()|index:0|name:|type:IntlThrdPerfSchd.Service1|attrs:
+  type|IntlThrdPerfSchd.OnlineLearningManager/<>c__DisplayClass153_0|attrs:NestedPrivate, Sealed, BeforeFieldInit|base:System.Object|interfaces:

@@ -1,0 +1,39 @@
+﻿OriginalExe: G:\BaiduNetdiskDownload\逆向\recovered_src_2.81\recovery_artifacts\original\IntlThrdSchd.exe
+RecoveredExe: G:\BaiduNetdiskDownload\逆向\recovered_src_2.81\IntlThrdPerfSchd\bin\Release\net48\IntlThrdSchd.exe
+
+stable_method_count_original: 1923
+stable_method_count_recovered: 1923
+stable_method_count_compared(intersection): 1923
+stable_method_hash_match_count: 1902
+stable_method_hash_match_percent: 98.908
+
+missing_in_recovered_count: 0
+extra_in_recovered_count: 0
+il_mismatch_count: 21
+
+missing_in_recovered:
+
+extra_in_recovered:
+
+il_hash_mismatch_methods:
+  IntlThrdPerfSchd.OnlineLearningManager/LearningStats IntlThrdPerfSchd.OnlineLearningManager::GetStats()
+  System.Int32 IntlThrdPerfSchd.Service1::ProcessCompare(IntlThrdPerfSchd.Service1/ThreadInfoSimp,System.Int64&)
+  System.Int32 IntlThrdPerfSchd.Service1::ProcessCompare1(IntlThrdPerfSchd.Service1/ThreadInfoSimp,System.Int64&)
+  System.Int32 IntlThrdPerfSchd.Service1::ProcessCompare2(IntlThrdPerfSchd.Service1/ThreadInfoSimp,System.Int64&)
+  System.Int32 IntlThrdPerfSchd.Service1::ProcessCompare3(IntlThrdPerfSchd.Service1/ThreadInfoSimp,System.Int64&)
+  System.Int32 IntlThrdPerfSchd.Service1::UpdateNode(System.Int32,IntlThrdPerfSchd.Service1/Node&,System.Int32,System.Int32)
+  System.Int32 IntlThrdPerfSchd.Service1::UpdateNode1(System.Int32,IntlThrdPerfSchd.Service1/Node1&,System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.UInt32,System.Int64)
+  System.Int32 IntlThrdPerfSchd.Service1::UpdateNodeP(System.Int32,IntlThrdPerfSchd.Service1/NodeP&,System.Int32,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,IntlThrdPerfSchd.Service1/Node2,IntlThrdPerfSchd.Service1/Node2)
+  System.Int32 IntlThrdPerfSchd.Service1/CrossAttentionScheduler::Schedule(IntlThrdPerfSchd.Service1/SchedulerThreadData)
+  System.String IntlThrdPerfSchd.TransformerScheduler::GetAttentionHeadReport(System.Int32)
+  System.Void IntlThrdPerfSchd.OnlineLearningManager::UpdateModel()
+  System.Void IntlThrdPerfSchd.RealtimeScheduler::Dispose(System.Boolean)
+  System.Void IntlThrdPerfSchd.Service1::OnStart(System.String[])
+  System.Void IntlThrdPerfSchd.Service1/CrossAttentionScheduler::TrainOnline(System.Single[],System.Int32,System.Single)
+  System.Void IntlThrdPerfSchd.Service1/ProcessBehaviorAnalyzer::CleanInactiveThreads()
+  System.Void IntlThrdPerfSchd.Service1/SchedulerDataset::ComputeNorm()
+  System.Void IntlThrdPerfSchd.Service1/ThreadClassifier::CleanExpiredData()
+  System.Void IntlThrdPerfSchd.Tracker::RecalculateMaxValue()
+  System.Void IntlThrdPerfSchd.Tracker4lat::RecalculateMaxValue()
+  System.Void IntlThrdPerfSchd.TransformerScheduler::PerformBatchTraining()
+  System.Void IntlThrdPerfSchd.TransformerScheduler::UpdateTATInternal(System.Single,System.Single,System.Single,System.Single,System.Int32,System.Int32)

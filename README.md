@@ -1,234 +1,148 @@
-<p align="center">
-  <h1 align="center">Intel 大小核线程调度器 · 逆向恢复</h1>
-  <p align="center">
-    <strong>IntlThrdPerfSchd</strong> — 基于 Transformer 神经网络的 Intel 大小核在线调度系统
-  </p>
-</p>
+# Intel 大小核神经网络调度器 N 版 2.81 源码主线恢复树
 
----
+本目录包含基于 `Intel大小核神经网络调度器N版2.81永久权重全功能版` 发布包恢复出的 C# 工程树。最终目标设定为作者原项目真源码 `100%` 还原；当前主线要求 `IntlThrdPerfSchd` 源码项目逐步逼近作者原始工程结构和源码表达，并保持普通 `dotnet build` 可用。二进制 IL 对齐报告只作为审计证据，不替代源码恢复本身。
 
-## 这是什么？
+## 当前进度
 
-本仓库归档了 **Intel 大小核线程调度器** 的逆向恢复源代码。原始程序是一个基于 .NET Framework 4.8 的 Windows 服务，利用 Transformer 神经网络模型在线学习线程行为，动态将线程分配到 Intel 12 代及更新处理器的 P-core（性能核）或 E-core（能效核）上，以优化系统整体性能与能效。
+- 源码主线恢复进度估算：`97% / 100%`
+- 稳定方法 IL hash 对齐：`1902 / 1923 = 98.908%`
+- 实体数量：`194 / 194`
+- manifest resource：字节级一致
+- metadata surface 数量：`11909 / 11909`
+- 普通 Release 构建：通过，`180 warnings, 0 errors`
 
-每次发布包均为**单一 `IntlThrdSchd.exe`**，不附带源码。本仓库通过 ILSpy / dnSpy 反编译，结合 shipped PDB / DIA / PDB named stream 等旁证，将各个发布版本逐一恢复为**可编译、可维护、贴近原作者工程结构**的 Visual Studio 解决方案。
+这个百分比不是“已经拿到作者原始仓库”的证明，而是当前恢复树相对原始 EXE 的结构、资源、实体、构建和方法 IL 证据综合估算。最终目标是 `100%` 作者真源码；剩余差距主要来自 21 个方法的 IL 形态差异、若干编译器生成 lambda/local-function 成员编号漂移，以及 `Service1` 大文件边界仍需继续精修。
 
----
+## 原始基线
 
-## 仓库结构
+- 原始主程序：
+  - `Intel大小核神经网络调度器N版2.81永久权重全功能版/IntlThrdSchd/IntlThrdSchd.exe`
+  - 文件大小：`389120`
+  - SHA256：`53037500DD638987BA781939DEF20DCD9B444746B91F0B874B3EF0695D1CCEA6`
+  - `FileVersion/ProductVersion`: `0.0.0.0`
+- 恢复树内置基线：
+  - `recovery_artifacts/original/IntlThrdSchd.exe`
+- 2.81 发布包未在初始盘点中发现匹配 PDB，所以本轮没有 PDB 强真值路径；恢复主线以 ILSpy/dnSpy 导出、原始 EXE 二进制审计和旧版本恢复树对照为证据。
 
-`main` 分支仅含本 README，四个恢复版本各占独立分支。
+## 目录说明
 
-```
-main（当前分支）
-└── README.md
+- `IntlThrdPerfSchd.sln`
+  - 恢复出的解决方案入口。
+- `IntlThrdPerfSchd/`
+  - 主源码工程，目标框架为 `net48`。
+  - `AssemblyName` 保持 `IntlThrdSchd`。
+  - `RootNamespace` 为 `IntlThrdSchd`，用于匹配原始 EXE 的 manifest resource 名称。
+  - `lib/` 保存构建所需的直接引用 DLL。
+  - `ProjectInstaller` 已拆为 `ProjectInstaller.cs` 与 `ProjectInstaller.Designer.cs`，匹配 Windows 服务项目常见 designer 边界。
+- `shipped_payload/`
+  - 从 2.81 发布包保留的运行和安装 payload，包括 WinRing0 文件、TraceEvent/DIA 相关 DLL、系统依赖 DLL、安装脚本和注册表文件。
+- `_ilspy_export/`
+  - ILSpy 默认语言版本项目导出。
+- `_ilspy_export_cs8/`
+  - ILSpy C# 8 项目导出，是当前源码主线的主要来源。
+- `_dnspy_export/`
+  - dnSpy 导出的反编译旁证，保留了另一套文件边界和 token 注释视角。
+- `recovery_artifacts/`
+  - 原始 EXE、实体清单、resource 对比、metadata surface 对比、方法 IL hash 对比和源码恢复审计记录。
+  - `generate_entity_lists_2.81.ps1`、`compare_manifest_resources_2.81.ps1`、`compare_method_il_hashes_2.81.ps1`、`compare_metadata_surface_2.81.ps1` 可用默认路径复现当前报告。
 
-s_1.26 — S 版调度器 1.26
-n_2.35 — N 版神经网络 2.35
-n_2.36 — N 版神经网络 2.36
-n_2.51 — N 版神经网络 2.51
-```
+## 构建方式
 
-| 分支 | 系列 | PDB | 要点 |
-| --- | --- | --- | --- |
-| [`s_1.26`](../../tree/s_1.26) | S 版（调度器）1.26 | 随包（GUID 不匹配） | 基础调度器，无神经网络；含高保真审计脚本 |
-| [`n_2.35`](../../tree/n_2.35) | N 版（神经网络）2.35 | ✅ 匹配 | 初代 Transformer；`MatrixOperations` / `VectorMath` |
-| [`n_2.36`](../../tree/n_2.36) | N 版（神经网络）2.36 | ✅ 匹配 | + `CoreTransformerEncoder` / `ThreadTransformerEncoder` / `VectorMathNew` |
-| [`n_2.51`](../../tree/n_2.51) | N 版（神经网络）2.51 | ❌ 无 | 永久权重；含 `scheduler_model.bin.bak` |
-
----
-
-## 快速开始
-
-### 克隆特定版本
-
-```bash
-# 克隆整个仓库（所有分支）
-git clone <repo-url>
-cd <repo>
-
-# 切换到目标版本分支
-git checkout n_2.51    # 例如：2.51 神经网络版
-```
-
-### 普通构建（开发与调试）
+使用 PowerShell 7 在仓库根目录运行：
 
 ```powershell
-dotnet build .\IntlThrdPerfSchd.sln -c Release
+dotnet build .\recovered_src_2.81\IntlThrdPerfSchd.sln -c Release
 ```
 
-### 高保真审计构建（仅 s_1.26）
+当前验证结果：
+
+- `180 warnings`
+- `0 errors`
+
+这些警告主要来自反编译源码中保留下来的未使用字段、未使用局部变量和编译器重建痕迹。它们不是当前恢复树的构建错误，但也是后续源码精修时需要逐项用证据判断的区域。
+
+## 审计证据
+
+### Manifest resource
+
+报告：`recovery_artifacts/manifest_resource_compare_2.81.txt`
+
+- resource：`IntlThrdSchd.ProjectInstaller.resources`
+- original：`len=180 sha256=E13ED2C59366D0EEA74863FD71A81F0CB977CCE1EDFDE304FC538690A4F6AC89`
+- recovered：`len=180 sha256=E13ED2C59366D0EEA74863FD71A81F0CB977CCE1EDFDE304FC538690A4F6AC89`
+- `equal: True`
+
+### Entity list
+
+脚本：
 
 ```powershell
-pwsh -NoProfile -ExecutionPolicy Bypass -File .\build-highfidelity.ps1
+pwsh -NoProfile -ExecutionPolicy Bypass -File .\recovered_src_2.81\recovery_artifacts\generate_entity_lists_2.81.ps1
 ```
 
-该脚本执行 Release 构建后，使用 dnlib 将原始 EXE 中 8 个差异方法的 IL body 精确移植到 patched 产物，并进行全方法 IL hash、manifest resource、实体清单、元数据表面等多维对比验证。
+报告：
 
----
+- `recovery_artifacts/entities_original_2.81.txt`
+- `recovery_artifacts/entities_recovered_2.81.txt`
+- `recovery_artifacts/entities_diff_2.81.txt`
 
-## N 版关键模块
+当前实体数量均为 `194`。差异仅显示 `OnlineLearningManager` 的一个编译器生成 display class 编号从原始 `<>c__DisplayClass152_0` 漂移为恢复构建的 `<>c__DisplayClass153_0`。
 
-| 模块 | 文件 | 职责 |
-| --- | --- | --- |
-| 在线学习 | `OnlineLearning.cs` | 梯度计算与数学兼容层 |
-| 调度模型 | `SchedulerModel.cs` | CircularBuffer、DecisionRecord、SchedulerStatistics、TransformerScheduler |
-| 调度服务 | `SchedulerService.cs` | SchedulerService + SchedulerController |
-| Transformer 层 | `TransformerLayers.cs` | Multi-Head Attention、FeedForward、LayerNorm、各类 Encoder |
-| 线程追踪 | `ThreadPerformanceTracking.cs` | Tracker / Tracker4lat / ThreadPerformanceTracker |
-| 实时调度 | `RealtimeScheduler.cs` | 实时调度逻辑与 RandomExtensions |
-| 线程分类 | `ThreadClassifier.cs` | SOM 神经元聚类 |
-| OpenLibSys | `OpenLibSys.cs` | WinRing0 硬件接口封装 |
-| Windows 服务 | `Service1.cs` / `ProjectInstaller.cs` | 服务入口与安装器（含 Designer 文件） |
+### Method IL hash
 
----
+脚本：
 
-## N 版版本对比
+```powershell
+pwsh -NoProfile -ExecutionPolicy Bypass -File .\recovered_src_2.81\recovery_artifacts\compare_method_il_hashes_2.81.ps1
+```
 
-| 对比维度 | 2.35 | 2.36 | 2.51 |
-| --- | --- | --- | --- |
-| PDB 匹配 | ✅ GUID/Age 匹配 | ✅ GUID/Age 匹配 | ❌ 无 PDB |
-| PDB 源码根 | `IntlThrdPerfSchd3.29` | `IntlThrdPerfSchd4.6` | — |
-| Transformer 编码器 | 基础 | + CoreTransformerEncoder<br>+ ThreadTransformerEncoder | 同 2.36 |
-| 向量数学 | `MatrixOperations` / `VectorMath` | + `VectorMathNew` | 同 2.36 |
-| 权重文件 | 无 | 无 | `scheduler_model.bin.bak`（永久权重） |
-| 构建状态 | 179 W 0 E | 179 W 0 E | 0 W 0 E |
-| 文本级 checksum 命中 | 2/19 文件 | 3/20 文件 | 不适用 |
+报告：`recovery_artifacts/method_il_hash_diff_2.81.txt`
 
----
+- `stable_method_count_original: 1923`
+- `stable_method_count_recovered: 1923`
+- `stable_method_count_compared(intersection): 1923`
+- `stable_method_hash_match_count: 1902`
+- `stable_method_hash_match_percent: 98.908`
+- `missing_in_recovered_count: 0`
+- `extra_in_recovered_count: 0`
+- `il_mismatch_count: 21`
 
-## 恢复原则
+### Metadata surface
 
-1. **贴近原工程结构**：以 shipped PDB / DIA / named stream / InjectedSource 等二进制证据链驱动的文件边界恢复，不是简单堆叠反编译 dump。
-2. **可编译可维护**：每棵树均可在 `dotnet build` 下零错误通过，是正常的二次开发起点。
-3. **证据分离**：已证实的恢复与推断性恢复分开记录（`PDB_RECOVERY_NOTES.md` / `PROJECT_METADATA_RECOVERY.md`）。
-4. **编译器噪音收敛**：显式设置 `LangVersion = 8.0`，将反编译器引入的现代语法还原为原作者工程语言级别。
+脚本：
 
----
+```powershell
+pwsh -NoProfile -ExecutionPolicy Bypass -File .\recovered_src_2.81\recovery_artifacts\compare_metadata_surface_2.81.ps1
+```
 
-## 版本演进
+报告：`recovery_artifacts/metadata_surface_diff_2.81.txt`
 
-| 系列 | 版本 | 核心特性 |
-| --- | --- | --- |
-| **N 版** | **2.51** | 修复内存泄漏，清理旧变量减少启动内存；增加线程/核心活跃度信息；启用 EcoQoS |
-| | **2.5** | 修复反向传播不完整问题；去除大小核硬编码，神经网络自行学习高性能核心规则；增加核心位置信息；点对点训练；三阶段训练 |
-| | **2.42** | 非对称三阶段训练（时间递增、学习率递减）；额外识别推测瓶颈与后端瓶颈；能效目标改为缓存一致性冲突目标；负载均衡改为 CPU 队列长度计量 |
-| | **2.41** | 换用更精确的特征事件；按瓶颈类型（前端/后端）针对性优化 |
-| | **2.39** | 训练时间调整至 20 分钟精细微调；三阶段训练目标权重调整 |
-| | **2.4 混合版** | 人工调度 override 决定 30% 决策，神经网络负责 70%；最终解决方案 |
-| | **2.37** | 实时滑动窗口 minmax 归一化 + 异常值裁剪；全局目标增加能效和缓存一致性指标 |
-| | **2.36** | 首个完整 Transformer 调度器：2 头 Thread Encoder + 4 头 Core Encoder + 8 头 Cross Attention；零 GC + SIMD 优化 |
-| | **2.35** | 修复 Wk/Wv 与 CoreEmbedding 梯度；SIMD 批量运算（BatchMatrixVectorMultiply 等）；ArrayPool 内存优化 |
-| | **2.33** | 显著增加大核对小核的性能优势信息；TAT 加入优先级加权 |
-| | **2.31** | 密集计算向量化（延迟降至 1/3）；全局平均 TAT 奖励信号；软性亲和性；实时+批量学习（存储 10000 次经验） |
-| | **2.3** | AI 半自动设计 Transformer 调度器；每核心丰富 features；AVX256 加速训练 |
-| | **2.0** | 部分 Transformer 特性，全局视野，线程时序因果分析 |
-| | **1.4** | 因果关系分析；IPC 影响因素作为动态调度依据；缓存和分支预测优先 |
-| | **1.3** | 综合学习：超标量利用率、缓存需求、线程重要性、负载大小 |
-| | **1.2** | 双原则策略（不应/不必调度至大核）；进程范围内综合分析分支预测、缓存和 IPC |
-| | **1.15** | 每进程专属线程分类器；多类别跟踪；缓存友好调度 |
-| | **1.13** | 精简网络，动态特征标准化 |
-| | **1.12** | 扩大 SOM 网络规模；优化收敛性和鲁棒性；增加线程档案容量 |
-| | **1.1** | LSTM→增量 SOM 网络；调度跟随策略；SSE 向量化加速 |
-| | **1.0** | LSTM 神经网络；参数保存与重启加载（30 分钟保存至 system32） |
-| **神经网络版** | **5.1** | 全速模式：超阈值负载线程进入优先大核模式；新增 CPU 指令容量使用率指标 |
-| | **5.0** | 调度与调频整合；完全自主 core parking；动态 EPP；队列执行时间指标 |
-| | **4.0** | 以进程为单位，CPU 资源利用效率最大化 |
-| | **3.5** | 数据延迟和需求量预测训练；内存密集型应用绿色通道 |
-| | **3.4** | 预训练区分 IO/CPU 密集型线程；优化内存占用 |
-| | **3.2** | 小核执行时间盯住大核执行时间策略 |
-| | **3.1** | 动态启停神经网络（正确率 <80% 退回经典模式）；动态低负载阈值 |
-| **S 版** | **2.15** | 利用系统特殊指令揭示 spin-lock 线程类型 |
-| | **2.14** | 访存行为两个维度分类；小核缓存预取 |
-| | **2.13** | 全面综合进程与线程信息决策；节制器防过度调度；正确性 95%+ |
-| | **2.11** | 进程分组 + 小核分组调度；访存争用优化 |
-| | **1.29** | 任务密度替代任务颗粒度；结合系统级线程优先级 |
-| | **1.28** | 进程内线程排序系统；任务颗粒差异度决定调度模式 |
-| | **1.26** | 跟踪线程数提升至 500 万；多层次参数全动态自适应 |
-| | **1.24** | 平衡大小核线程运行质量差距 |
-| | **1.23** | 注册表更新，控制面板可修改频率性能释放 |
-| | **1.22** | CPU 执行端口分析技术（ILP、密集计算、高数据吞吐分类） |
-| | **1.20** | Win10/Win11 通用 + 核心全开 + 停用硬件调度器 |
-| | **1.18** | 混合性调度策略改进；调度顺序优化 |
-| | **1.17** | 统一"标准核心"策略度量线程质量 |
-| | **1.16** | 小核 8 核以上和以下分别优化 |
-| | **1.15** | 小核线程执行效率和任务量同时控制 |
-| | **1.14** | 复用指标提供更多调度信息 |
-| | **1.13** | 适用于 12 代及以上全大小核架构；引入大核 uops cache 利用率指标 |
-| | **1.12** | 消除前端瓶颈，结构简单线程才允许使用小核 |
-| | **1.11** | 完善日常负载前后台调度 |
-| | **1.10** | 专为游戏优化，间接实现后台任务卸载 |
-| | **1.09** | 综合性提升和性能 bug 修复 |
-| | **1.08** | 大大提高小核有效负载 |
-| | **1.06a** | 用户体验导向调度；时变延迟阈值 |
-| | **1.06** | CPU 频度指标评估延迟要求 |
-| | **1.05** | 删除冗余代码；新增线程调用 CPU 频度指标 |
-| | **1.04** | 实验性 Intel TMA 微架构分析 |
-| | **1.03** | 小核 PMU 访存事件剔除低效线程 |
-| | **1.02** | CPU LSD 精确定位循环代码 |
-| | **1.01** | 关键路径代码检测；良性访存行为检测 |
-| | **1.0** | 线程历史相关性分析；重点/普通线程差异化跟踪；可关闭超线程 |
-| **Z 版** | **收官之作** | 调度策略最终稳定，调度参数调整完成 |
-| | **1.11** | 参数调整 |
-| | **1.9** | 优化线程排序机制 |
-| | **1.7** | 优化线程排序机制 |
-| | **1.5** | 为调度给小核的线程进行难度排序 |
-| | **1.3** | 在 1.2 版本上的优化 |
-| | **1.2** | 提高游戏与日常场景区分度 |
-| | **12.21** | 参数优化；提高线程质量指数 |
-| | **12.20** | 全局线程 IPC 排序队列；IPC 横向比较 |
-| | **12.16** | 修复频率不正常问题 |
-| | **12.15** | 简化调度流程，减少大小核间频繁来回调度 |
-| | **12.10** | 改善重负载下性能 |
-| | **12.09** | 修复超线程无法复原 bug；调低小核负载阈值 |
-| | **12.06** | 偏省电版本，按线程特性尽可能使用所有核心 |
-| | **12.04** | 均衡版本，按线程特性尽可能使用所有核心 |
-| | **11.30** | 极大简化冗余代码，修复可能丢失调度数据的问题 |
-| | **11.28** | "慢线程"和"快线程"全新线程分类策略 |
-| | **11.25** | Per-thread-per-core 完整调度策略，取代全部系统调度机制 |
-| | **11.23** | 在大核上直接预测小核执行时间和队列等待时间 |
-| | **11.20** | 新增游戏模式切换器，实时切换全局大核优先模式 |
-| | **11.18** | 白名单→令牌机制；短期负载与长期行为结合 |
-| | **11.13** | 跟踪 500 个活动线程，调度命中率 99%；大核常驻白名单 |
-| | **11.12** | 日常优化版 |
-| | **11.11** | 起始位置从大核开始；实时大小核 IPC 比较 |
-| | **11.10** | 起始位置从大核开始，小核作为调度保留站 |
-| | **11.7** | 线程行为分析器；优先队列 + 普通队列 |
-| | **11.5** | 线程行为分析器，大幅降低跟踪开销 |
-| | **11.1** | 基于线程的调度和性能调整服务（实验版本） |
-| | **10.22** | 平衡电源模式；停用 Windows core parking engine |
-| | **10.21** | 性能-能效综合指标；2-bit 分支预测器；投机加速 |
-| | **10.12** | 可自行配置选项（IntlThrdSchedConfig.txt，0-4 五档） |
-| | **10.8** | 修复小核错误限制大核频率问题；改善超线程与小核相对效率指标 |
-| | **10.1** | 性能统计文件（统计数据.txt，每 10 秒更新） |
-| | **9.27** | 修复频率无法复原 bug |
-| **X 版** | **9.15** | 动态启停硬件调度器 |
-| | **9.9** | 修复大核无法维持在线 bug |
-| | **9.4** | 少/多线程区分：少线程优先大核频率，多线程优先小核频率 |
-| | **9.2** | 指令负载分布指数分布比较，动态确定 favored core |
-| | **8.23** | 动态最佳核心；基于负载与活动核心数的核心性能优先级 |
-| | **8.17** | 基于全局负载分布的频率调整机制 |
-| | **8.12** | 单/双线程大核动态提频；多线程下优先保障小核频率 |
-| | **X 版** | 负载归类为简单/复杂任务，性能和调度综合调整 |
-| **早期** | **6.5** | 考虑小核弱势项目（访存和复杂分支），调度规则调整 |
-| | **6.4** | 调整参数使大核对延迟敏感负载更灵敏 |
-| | **6.3** | 平衡和最佳性能为同一模式；实时监测大小核频率并动态平衡功耗 |
+- `metadata_surface_count_original: 11909`
+- `metadata_surface_count_recovered: 11909`
+- `metadata_surface_missing_in_recovered_count: 44`
+- `metadata_surface_extra_in_recovered_count: 44`
 
----
+这些差异主要是编译器生成成员和 lambda/local-function 编号漂移，例如 `Service1::<OnStart>b__743_*` 与恢复构建中的 `Service1::<OnStart>b__744_*`，以及部分 `<>c` 缓存字段编号差异。公开源码结构和实体数量已经对齐。
 
-## 注意事项
+## 已知剩余差距
 
-- 本仓库仅用于存档与分析目的（安全研究、兼容性分析、逆向工程技术参考）。
-- 运行时依赖 WinRing0 驱动，且涉及 CPU MSR 操作——在物理机运行前请充分理解其行为。
-- 构建和恢复笔记保存在各自版本分支中，请切换到对应分支查阅。
-- 生成的二进制文件与恢复过程中的中间产物保持原始提交状态。
-- 所有 PowerShell 脚本需要使用 **PowerShell 7 (`pwsh`)**，不要使用 Windows PowerShell 5.1。
+- 21 个稳定方法的 IL hash 仍未对齐，集中在：
+  - `Service1.OnStart`
+  - `Service1.UpdateNode*`
+  - `Service1.ProcessCompare*`
+  - `OnlineLearningManager`
+  - `TransformerScheduler`
+  - `Service1.CrossAttentionScheduler`
+  - `Service1.SchedulerDataset` / `ThreadClassifier`
+  - `Tracker` / `Tracker4lat`
+- 2026-07-02 的剩余差异复查已把 21 个 mismatch 归类：主要是旧编译器 `callvirt` 与当前编译器 `call`、ValueTuple 取字段降级、`beq` 与 `ceq/brtrue` 分支降级、lambda/display-class 缓存字段编号、局部变量槽位顺序、以及原始 IL 中的 discard-only `pop`。这些点目前没有保留强行凑 IL 的源码改动。
+- `Service1.cs` 仍然保留大量反编译字段和局部变量警告，需要后续按方法证据精修，不能为了消警告直接删除。
+- 当前没有 2.81 匹配 PDB，因此无法用 PDB sequence points 或原始源码路径进一步证明作者文件边界。
 
----
+## 后续冲刺 100% 的方向
 
-## 相关资源
-
-- [ILSpy](https://github.com/icsharpcode/ILSpy) — 反编译器
-- [dnSpy](https://github.com/dnSpy/dnSpy) — .NET 调试与反编译工具
-- [dnlib](https://github.com/0xd4d/dnlib) — .NET 程序集读写库
-- [WinRing0](https://openlibsys.org/) — 硬件访问库
+1. 对 `method_il_hash_diff_2.81.txt` 中剩余 21 个方法继续寻找新的外部证据，例如匹配 PDB、作者源码片段、或能改变编译器降级策略且不污染源码的项目级证据。
+2. 继续拆分 `Service1` 的 designer/主逻辑边界，参考 1.26 与 2.51，但只在 2.81 证据支持时落地。
+3. 对 lambda/local-function 造成的 compiler-generated 编号漂移做针对性源码调整，减少 metadata surface 差异。
+4. 如需要二进制审计产物，可另建 patched EXE 路径，把剩余 mismatch 方法的 IL body 从原始 EXE 移植到恢复构建中；该路径只能作为审计工具，不能作为源码主线完成证明。
+5. 只有在源码结构、方法行为、metadata surface、资源、构建输出和可解释的作者式文件边界都能被证据支撑时，才能把进度从阶段性百分比提升到 `100%`。
